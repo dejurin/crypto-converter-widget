@@ -49,7 +49,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
    href="https://cr.today/" 
    rel="noopener">converter</a></crypto-converter-widget>
 <a href="https://co-w.io/">co-w.io</a>
-<script src="https://cdn.jsdelivr.net/gh/dejurin/cryptocurrency-converter-widget/latest.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/js/latest.js" async></script>
 ```
 
 <b><a href="https://jsfiddle.net/cxwdhfup/" rel="noopener" target="_blank">Example JSFiddle</a></b>
