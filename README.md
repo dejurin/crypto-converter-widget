@@ -1,7 +1,7 @@
 <h1 align="center">Crypto Converter ⚡ Widget</h1>
 
 * Version: 1.0.0;
-* Size: 83.6 kBytes;
+* Size: ≈69.1 kBytes;
 * Dependencies: Vanilla JS.
 
 The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies. Customers can choose from available ≈170 fiat currencies and ≈1,650 crypto. For FREE.
@@ -20,7 +20,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 ### Features 🤩 ###
 
 - [x] No Cryptojacking!
-- [x] Pure JavaScript ≈83.6 kBytes (gzip), no dependencies;
+- [x] Pure JavaScript ≈69.1 kBytes (gzip), no dependencies;
 - [x] Flexible settings and customizable design;
 - [x] Real-time ⚡streaming price update;
 - [x] Processed on a third-party server;
@@ -49,7 +49,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
    href="https://cr.today/" 
    rel="noopener">converter</a></crypto-converter-widget>
 <a href="https://co-w.io/">co-w.io</a>
-<script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/js/latest.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.js" async></script>
 ```
 
 <b><a href="https://jsfiddle.net/cxwdhfup/" rel="noopener" target="_blank">Example JSFiddle</a></b>
