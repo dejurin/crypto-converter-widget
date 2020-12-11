@@ -8,21 +8,24 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
     <a href="https://co-w.io"><img src="./anim.gif" alt="Coin Converter Widget"></a>
 </h2>
 
+
+<h3>Examples 💡</h3>
+<h4>With attributes</h4>
+
 ```
-<a href="https://cr.today/">
-    <coin-converter-widget
-        live
-        shadow
-        fiat="united-states-dollar"
-        crypto="bitcoin"
-        amount="1"
-        border-radius="0.60rem"
-        background-color="#383a59"
-        decimal-places="2">
-    </coin-converter-widget>
-</a>
-<a href="https://cr.today/">CurrencyRate</a>
-<script src="http://localhost:8000/app.ddbe0080.js" async></script>
+<coin-converter-widget
+    live
+    shadow
+    fiat="united-states-dollar"
+    crypto="bitcoin"
+    amount="1"
+    border-radius="0.60rem"
+    background-color="#383a59"
+    decimal-places="2"
+    font-family="inherit"><a href="https://cr.today/">cr.today</a>
+</coin-converter-widget>
+<a href="https://co-w.io/">co-w.io</a>
+<script src="https://cdn.jsdelivr.net/gh/dejurin/coin-converter-widget/latest.js" async></script>
 ```
 
 <h3>For Developers 🧑‍💻</h3>
