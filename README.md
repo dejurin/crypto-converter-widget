@@ -22,7 +22,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
     border-radius="0.60rem"
     background-color="#383a59"
     decimal-places="2"
-    font-family="inherit"><a href="https://cr.today/">cr.today</a>
+    font-family="inherit"><a href="https://cr.today/" rel="noopener">converter</a>
 </coin-converter-widget>
 <a href="https://co-w.io/">co-w.io</a>
 <script src="https://cdn.jsdelivr.net/gh/dejurin/coin-converter-widget/latest.js" async></script>
