@@ -9,22 +9,22 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 </h2>
 
 
-<h3>Examples 💡</h3>
-<a href="https://jsfiddle.net/fgh30yon/">Example JSFiddle</a>
-
+<h3>Example 💡</h3>
+<a href="https://jsfiddle.net/o6e201k4/">Example JSFiddle</a>
 
 ```
 <coin-converter-widget
-    live
-    shadow
-    fiat="united-states-dollar"
-    crypto="bitcoin"
-    amount="1"
-    border-radius="0.60rem"
-    background-color="#383a59"
-    decimal-places="2"
-    font-family="inherit"><a href="https://cr.today/" rel="noopener">converter</a>
-</coin-converter-widget>
+   live
+   shadow
+   fiat="united-states-dollar"
+   crypto="bitcoin"
+   amount="1"
+   border-radius="0.60rem"
+   background-color="#383a59"
+   decimal-places="2"
+   font-family="inherit"><a 
+   href="https://cr.today/" 
+   rel="noopener">converter</a></coin-converter-widget>
 <a href="https://co-w.io/">co-w.io</a>
 <script src="https://cdn.jsdelivr.net/gh/dejurin/coin-converter-widget/latest.js" async></script>
 ```
