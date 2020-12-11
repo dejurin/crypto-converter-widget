@@ -36,7 +36,7 @@ The __[Cryptocurrency Converter Widget](https://co-w.io)__ — is a powerful and
 ### Example 💡 ###
 
 ```
-<coin-converter-widget
+<crypto-converter-widget
    live
    shadow
    fiat="united-states-dollar"
@@ -47,9 +47,9 @@ The __[Cryptocurrency Converter Widget](https://co-w.io)__ — is a powerful and
    decimal-places="2"
    font-family="inherit"><a 
    href="https://cr.today/" 
-   rel="noopener">converter</a></coin-converter-widget>
+   rel="noopener">converter</a></crypto-converter-widget>
 <a href="https://co-w.io/">co-w.io</a>
-<script src="https://cdn.jsdelivr.net/gh/dejurin/coin-converter-widget/latest.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/dejurin/cryptocurrency-converter-widget/latest.js" async></script>
 ```
 
 <b><a href="https://jsfiddle.net/cxwdhfup/" rel="noopener" target="_blank">Example JSFiddle</a></b>
