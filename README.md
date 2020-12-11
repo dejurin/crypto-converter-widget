@@ -13,11 +13,9 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 * Size: 83.6 kBytes;
 * Dependencies: Vanilla JS.
 
-<h2 align="center"><a href="https://co-w.io">DEMO</a></h2>
+## [https://co-w.io"](DEMO)
 
-<h2 align="center">
-    <a href="https://co-w.io"><img src="./anim.gif" alt="Coin Converter Widget"></a>
-</h2>
+<a href="https://co-w.io"><img src="./anim.gif" alt="Coin Converter Widget"></a>
 
 ### Features 🤩 ###
 
