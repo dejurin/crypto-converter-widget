@@ -24,7 +24,6 @@ No
 - [x] SEO-friendly.
 
 <h3>Example 💡</h3>
-<a href="https://jsfiddle.net/o6e201k4/">Example JSFiddle</a>
 
 ```
 <coin-converter-widget
@@ -42,6 +41,8 @@ No
 <a href="https://co-w.io/">co-w.io</a>
 <script src="https://cdn.jsdelivr.net/gh/dejurin/coin-converter-widget/latest.js" async></script>
 ```
+
+<b><a href="https://jsfiddle.net/o6e201k4/">Example JSFiddle</a></b>
 
 <h3>For Developers 🧑‍💻</h3>
 
