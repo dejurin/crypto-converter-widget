@@ -52,7 +52,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 <script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.js" async></script>
 ```
 
-<b><a href="https://jsfiddle.net/cxwdhfup/" rel="noopener" target="_blank">Example JSFiddle</a></b>
+<b><a href="https://jsfiddle.net/Lxgof1sv/" rel="noopener" target="_blank">Example JSFiddle</a></b>
 
 ### For Developers 🧑‍💻 ###
 
