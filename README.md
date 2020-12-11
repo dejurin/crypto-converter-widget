@@ -7,6 +7,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 - [For Developers](#for-developers)
 - [Cryptocurrencies id list](#cryptocurrencies-id-list)
 - [Currencies id list](#currencies-id-list)
+- [Copyright and license](#copyright-and-license)
 
 * Version: 1.0.0;
 * Size: 83.6 kBytes;
@@ -1727,7 +1728,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 
 ### Currencies id list ###
 
-|Currency ID|ISO-3|Symbol|Type|
+|Currency ID|ISO 4217|Symbol|Type|
 |--- |--- |--- |--- |
 |surinamese-dollar|SRD|$|fiat|
 |bolivian-boliviano|BOB|$b|fiat|
@@ -1911,3 +1912,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 |tether|USDT||crypto|
 |georgian-lari|GEL||fiat|
 |pakistani-rupee|PKR|₨|fiat|
+
+## Copyright and license ![Github](https://img.shields.io/github/license/dejurin/coin-converter-widget?logo=Github)
+
+Code copyright 2020 CR.Today. Code released under [the MIT license](https://github.com/dejurin/coin-converter-widget/blob/master/LICENSE).
