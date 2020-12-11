@@ -4,9 +4,9 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 
 - [Features](#features)
 - [Example](#example)
-- [For Developers](#For Developers)
-- [Currencies list](#Currencies list)
-- [Cryptocurrencies ID list](#Cryptocurrencies ID list)
+- [For Developers](#for-developers)
+- [Currencies list](#currencies-list)
+- [Cryptocurrencies ID list](#cryptocurrencies-id-list)
 
 * Version: 1.0.0;
 * Size: 83.6 kBytes;
