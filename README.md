@@ -4,10 +4,28 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 
 <h2 align="center"><a href="https://co-w.io">DEMO</a></h2>
 
-<h3 align="center">
+<h2 align="center">
     <a href="https://co-w.io"><img src="./anim.gif" alt="Coin Converter Widget"></a>
-</h3>
+</h2>
 
+```
+<a href="https://cr.today/">
+    <coin-converter-widget
+        live
+        shadow
+        fiat="united-states-dollar"
+        crypto="bitcoin"
+        amount="1"
+        border-radius="0.60rem"
+        background-color="#383a59"
+        decimal-places="2">
+    </coin-converter-widget>
+</a>
+<a href="https://cr.today/">CurrencyRate</a>
+<script src="http://localhost:8000/app.ddbe0080.js" async></script>
+```
+
+<h3>For Developers 🧑‍💻</h3>
 
 |Attribute|Type|Default|Reactive|Description|
 |--- |--- |--- |--- |--- |
