@@ -10,7 +10,8 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 
 
 <h3>Examples 💡</h3>
-<h4>With attributes</h4>
+<a href="https://jsfiddle.net/fgh30yon/">Example JSFiddle</a>
+
 
 ```
 <coin-converter-widget
