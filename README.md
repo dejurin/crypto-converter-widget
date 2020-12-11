@@ -5,8 +5,8 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 - [Features](#features)
 - [Example](#example)
 - [For Developers](#for-developers)
-- [Currencies list](#currencies-list)
-- [Cryptocurrencies ID list](#cryptocurrencies-id-list)
+- [Cryptocurrencies id list](#cryptocurrencies-id-list)
+- [Currencies id list](#currencies-id-list)
 
 * Version: 1.0.0;
 * Size: 83.6 kBytes;
@@ -1725,9 +1725,9 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 |zozocoin|ZZC|ZoZoCoin|
 |zper|ZPR|ZPER|
 
-### Currencies list ###
+### Currencies id list ###
 
-|id|symbol|currencySymbol|type|
+|Currency ID|ISO-3|Symbol|Type|
 |--- |--- |--- |--- |
 |surinamese-dollar|SRD|$|fiat|
 |bolivian-boliviano|BOB|$b|fiat|
