@@ -1913,7 +1913,6 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 |pakistani-rupee|PKR|₨|fiat|
 
 
-### Copyright and license ###
-![Github](https://img.shields.io/github/license/dejurin/coin-converter-widget?logo=Github)
+<h3>Copyright and license</h3> ![Github](https://img.shields.io/github/license/dejurin/coin-converter-widget?logo=Github)
 
 Code copyright 2020 CR.Today. Code released under [the MIT license](https://github.com/dejurin/coin-converter-widget/blob/master/LICENSE).
