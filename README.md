@@ -2,9 +2,9 @@
 
 The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies. Customers can choose from available ≈170 fiat currencies and ≈1,650 crypto.
 
-Version: 1.0.0
-Size:
-No
+* Version: 1.0.0;
+* Size: 83.6 kBytes;
+* Dependencies: Vanilla JS.
 
 <h2 align="center"><a href="https://co-w.io">DEMO</a></h2>
 
@@ -15,7 +15,7 @@ No
 <h3>Features 🤩</h3>
 
 - [x] No Cryptojacking!
-- [x] Pure JavaScript ~ 83.6 kBytes (gzip), no dependencies;
+- [x] Pure JavaScript ≈83.6 kBytes (gzip), no dependencies;
 - [x] Flexible settings and customizable design;
 - [x] Real-time ⚡streaming price update;
 - [x] Processed on a third-party server;
