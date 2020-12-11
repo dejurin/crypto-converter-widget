@@ -1727,8 +1727,8 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 
 ### Currencies list ###
 
-|--- |--- |--- |--- |
 |id|symbol|currencySymbol|type|
+|--- |--- |--- |--- |
 |surinamese-dollar|SRD|$|fiat|
 |bolivian-boliviano|BOB|$b|fiat|
 |polish-zloty|PLN|zł|fiat|
