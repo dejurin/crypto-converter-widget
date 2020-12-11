@@ -2,6 +2,12 @@
 
 The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies. Customers can choose from available ≈170 fiat currencies and ≈1,650 crypto.
 
+- [Features](#features)
+- [Example](#example)
+- [For Developers](#For Developers)
+- [Currencies list](#Currencies list)
+- [Cryptocurrencies ID list](#Cryptocurrencies ID list)
+
 * Version: 1.0.0;
 * Size: 83.6 kBytes;
 * Dependencies: Vanilla JS.
@@ -12,7 +18,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
     <a href="https://co-w.io"><img src="./anim.gif" alt="Coin Converter Widget"></a>
 </h2>
 
-<h3>Features 🤩</h3>
+### Features 🤩 ###
 
 - [x] No Cryptojacking!
 - [x] Pure JavaScript ≈83.6 kBytes (gzip), no dependencies;
@@ -23,7 +29,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 - [x] SSL support;
 - [x] SEO-friendly.
 
-<h3>Example 💡</h3>
+### Example 💡 ###
 
 ```
 <coin-converter-widget
@@ -44,7 +50,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 
 <b><a href="https://jsfiddle.net/cxwdhfup/" rel="noopener" target="_blank">Example JSFiddle</a></b>
 
-<h3>For Developers 🧑‍💻</h3>
+### For Developers 🧑‍💻 ###
 
 |Attribute|Type|Default|Reactive|Description|
 |--- |--- |--- |--- |--- |
@@ -58,7 +64,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 |live|boolean|false|+|Prices are updated real-time.|
 |shadow|boolean|false|+|Shadow of widget.|
 
-<h3>Cryptocurrencies ID list</h3>
+### Cryptocurrencies ID list ###
 
 |Cryptocurrency ID|Symbol|Name|
 |--- |--- |--- |
@@ -1719,3 +1725,189 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 |zozocoin|ZZC|ZoZoCoin|
 |zper|ZPR|ZPER|
 
+### Currencies list ###
+
+|--- |--- |--- |--- |
+|id|symbol|currencySymbol|type|
+|surinamese-dollar|SRD|$|fiat|
+|bolivian-boliviano|BOB|$b|fiat|
+|polish-zloty|PLN|zł|fiat|
+|jamaican-dollar|JMD|J$|fiat|
+|hungarian-forint|HUF|Ft|fiat|
+|barbadian-dollar|BBD|$|fiat|
+|nigerian-naira|NGN|₦|fiat|
+|united-arab-emirates-dirham|AED|فلس|fiat|
+|honduran-lempira|HNL|L|fiat|
+|egyptian-pound|EGP|£|fiat|
+|norwegian-krone|NOK|kr|fiat|
+|chinese-yuan-renminbi|CNY|¥|fiat|
+|thai-baht|THB|฿|fiat|
+|costa-rican-colón|CRC|₡|fiat|
+|venezuelan-bolívar-fuerte|VEF|Bs|fiat|
+|chinese-yuan-(offshore)|CNH||fiat|
+|tajikistani-somoni|TJS||fiat|
+|fijian-dollar|FJD|$|fiat|
+|salvadoran-colón|SVC|$|fiat|
+|congolese-franc|CDF||fiat|
+|czech-republic-koruna|CZK|Kč|fiat|
+|silver-ounce|XAG||fiat|
+|binance-coin|BNB||crypto|
+|azerbaijani-manat|AZN|₼|fiat|
+|swiss-franc|CHF|CHF|fiat|
+|turkmenistani-manat|TMT||fiat|
+|cuban-convertible-peso|CUC|$|fiat|
+|swedish-krona|SEK|kr|fiat|
+|turkish-lira|TRY|Kr|fiat|
+|samoan-tala|WST|$|fiat|
+|jersey-pound|JEP|£|fiat|
+|cambodian-riel|KHR|៛|fiat|
+|moldovan-leu|MDL||fiat|
+|dominican-peso|DOP|RD$|fiat|
+|cape-verdean-escudo|CVE|$|fiat|
+|usd-coin|USDC||crypto|
+|euro|EUR|€|fiat|
+|iraqi-dinar|IQD|د.ع|fiat|
+|israeli-new-sheqel|ILS|₪|fiat|
+|são-tomé-and-príncipe-dobra-(pre-2018)|STD||fiat|
+|cfp-franc|XPF||fiat|
+|dogecoin|DOGE||crypto|
+|bitcoin|BTC|₿|crypto|
+|zimbabwean-dollar|ZWL|$|fiat|
+|zambian-kwacha|ZMW|ZK|fiat|
+|paraguayan-guarani|PYG|Gs|fiat|
+|multi-collateral-dai|DAI||crypto|
+|jordanian-dinar|JOD||fiat|
+|kuwaiti-dinar|KWD|ك|fiat|
+|sudanese-pound|SDG||fiat|
+|falkland-islands-pound|FKP|£|fiat|
+|bulgarian-lev|BGN|лв|fiat|
+|swazi-lilangeni|SZL||fiat|
+|bahraini-dinar|BHD|BD|fiat|
+|burundian-franc|BIF||fiat|
+|east-caribbean-dollar|XCD|$|fiat|
+|serbian-dinar|RSD|Дин.|fiat|
+|mauritanian-ouguiya|MRU||fiat|
+|lesotho-loti|LSL||fiat|
+|malawian-kwacha|MWK|MK|fiat|
+|peruvian-nuevo-sol|PEN|S/.|fiat|
+|litecoin|LTC||crypto|
+|lebanese-pound|LBP|£|fiat|
+|ethiopian-birr|ETB|Br|fiat|
+|iranian-rial|IRR|﷼|fiat|
+|new-zealand-dollar|NZD|$|fiat|
+|botswanan-pula|BWP|P|fiat|
+|south-african-rand|ZAR|R|fiat|
+|namibian-dollar|NAD|$|fiat|
+|haitian-gourde|HTG|G|fiat|
+|romanian-leu|RON|lei|fiat|
+|uzbekistan-som|UZS|лв|fiat|
+|sierra-leonean-leone|SLL|Le|fiat|
+|vietnamese-dong|VND|₫|fiat|
+|canadian-dollar|CAD|$|fiat|
+|myanma-kyat|MMK|K|fiat|
+|cayman-islands-dollar|KYD|$|fiat|
+|gold-ounce|XAU||fiat|
+|tunisian-dinar|TND||fiat|
+|nepalese-rupee|NPR|₨|fiat|
+|eos|EOS||crypto|
+|cfa-franc-bceao|XOF||fiat|
+|maldivian-rufiyaa|MVR||fiat|
+|macedonian-denar|MKD|ден|fiat|
+|solomon-islands-dollar|SBD|$|fiat|
+|gambian-dalasi|GMD||fiat|
+|bitcoin-cash|BCH||crypto|
+|philippine-peso|PHP|₱|fiat|
+|netherlands-antillean-guilder|ANG|ƒ|fiat|
+|trinidad-and-tobago-dollar|TTD|TT$|fiat|
+|kenyan-shilling|KES|KSh|fiat|
+|syrian-pound|SYP|£|fiat|
+|cuban-peso|CUP|₱|fiat|
+|brazilian-real|BRL|R$|fiat|
+|croatian-kuna|HRK|kn|fiat|
+|waves|WAVES||crypto|
+|bangladeshi-taka|BDT|Tk|fiat|
+|laotian-kip|LAK|₭|fiat|
+|colombian-peso|COP|$|fiat|
+|saint-helena-pound|SHP|£|fiat|
+|mexican-peso|MXN|$|fiat|
+|ghanaian-cedi|GHS|¢|fiat|
+|liberian-dollar|LRD|$|fiat|
+|bosnia-herzegovina-convertible-mark|BAM|KM|fiat|
+|dash|DASH||crypto|
+|comorian-franc|KMF||fiat|
+|bhutanese-ngultrum|BTN||fiat|
+|australian-dollar|AUD|$|fiat|
+|algerian-dinar|DZD||fiat|
+|kazakhstani-tenge|KZT|лв|fiat|
+|sri-lankan-rupee|LKR|₨|fiat|
+|cfa-franc-beac|XAF||fiat|
+|indian-rupee|INR|₹|fiat|
+|saudi-riyal|SAR|﷼|fiat|
+|russian-ruble|RUB|₽|fiat|
+|singapore-dollar|SGD|$|fiat|
+|brunei-dollar|BND|$|fiat|
+|libyan-dinar|LYD|LD|fiat|
+|rwandan-franc|RWF||fiat|
+|qatari-rial|QAR|﷼|fiat|
+|argentine-peso|ARS|$|fiat|
+|hong-kong-dollar|HKD|$|fiat|
+|malagasy-ariary|MGA|Ar|fiat|
+|guyanaese-dollar|GYD|$|fiat|
+|qtum|QTUM||crypto|
+|platinum-ounce|XPT||fiat|
+|mauritian-rupee|MUR|₨|fiat|
+|indonesian-rupiah|IDR|Rp|fiat|
+|papua-new-guinean-kina|PGK|K|fiat|
+|panamanian-balboa|PAB|B/.|fiat|
+|mozambican-metical|MZN|MT|fiat|
+|gibraltar-pound|GIP|£|fiat|
+|manx-pound|IMP|£|fiat|
+|belarusian-ruble|BYN|Br|fiat|
+|kyrgystani-som|KGS|лв|fiat|
+|armenian-dram|AMD|֏|fiat|
+|guinean-franc|GNF||fiat|
+|special-drawing-rights|XDR||fiat|
+|ugandan-shilling|UGX|UGX|fiat|
+|ukrainian-hryvnia|UAH|₴|fiat|
+|djiboutian-franc|DJF|$|fiat|
+|seychellois-rupee|SCR|₨|fiat|
+|husd|HUSD||crypto|
+|bermudan-dollar|BMD|$|fiat|
+|omani-rial|OMR|﷼|fiat|
+|palladium-ounce|XPD||fiat|
+|nicaraguan-córdoba|NIO|C$|fiat|
+|new-taiwan-dollar|TWD|NT$|fiat|
+|united-states-dollar|USD|$|fiat|
+|venezuelan-bolívar-soberano|VES||fiat|
+|macanese-pataca|MOP|MOP$|fiat|
+|moroccan-dirham|MAD||fiat|
+|chilean-peso|CLP|$|fiat|
+|mongolian-tugrik|MNT|₮|fiat|
+|angolan-kwanza|AOA|Kz|fiat|
+|icelandic-króna|ISK|kr|fiat|
+|mauritanian-ouguiya-(pre-2018)|MRO||fiat|
+|chilean-unit-of-account-(uf)|CLF||fiat|
+|são-tomé-and-príncipe-dobra|STN||fiat|
+|aruban-florin|AWG|ƒ|fiat|
+|zcash|ZEC||crypto|
+|eritrean-nakfa|ERN||fiat|
+|yemeni-rial|YER|﷼|fiat|
+|uruguayan-peso|UYU|$U|fiat|
+|vanuatu-vatu|VUV|VT|fiat|
+|malaysian-ringgit|MYR|RM|fiat|
+|afghan-afghani|AFN|؋|fiat|
+|tanzanian-shilling|TZS||fiat|
+|danish-krone|DKK|kr|fiat|
+|somali-shilling|SOS|S|fiat|
+|south-sudanese-pound|SSP||fiat|
+|guernsey-pound|GGP|£|fiat|
+|south-korean-won|KRW||fiat|
+|ethereum|ETH||crypto|
+|belize-dollar|BZD|BZ$|fiat|
+|japanese-yen|JPY|¥|fiat|
+|north-korean-won|KPW|₩|fiat|
+|british-pound-sterling|GBP|£|fiat|
+|guatemalan-quetzal|GTQ|Q|fiat|
+|tether|USDT||crypto|
+|georgian-lari|GEL||fiat|
+|pakistani-rupee|PKR|₨|fiat|
