@@ -42,7 +42,7 @@ The __[Coin Converter Widget](https://co-w.io)__ — is a free and easy-to-use w
 <script src="https://cdn.jsdelivr.net/gh/dejurin/coin-converter-widget/latest.js" async></script>
 ```
 
-<b><a href="https://jsfiddle.net/o6e201k4/">Example JSFiddle</a></b>
+<b><a href="https://jsfiddle.net/cxwdhfup/" rel="noopener" target="_blank">Example JSFiddle</a></b>
 
 <h3>For Developers 🧑‍💻</h3>
 
