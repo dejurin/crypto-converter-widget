@@ -14,14 +14,14 @@ No
 
 <h3>Features 🤩</h3>
 
-* No Cryptojacking!
-* Pure JavaScript ~ 83.6 kBytes (gzip), no dependencies;
-* Flexible settings and customizable design;
-* Real-time ⚡streaming price update;
-* Processed on a third-party server;
-* ≈1,650 cryptocurrencies and ≈170 fiat currencies;
-* SSL support;
-* SEO-friendly.
+- [x] No Cryptojacking!
+- [x] Pure JavaScript ~ 83.6 kBytes (gzip), no dependencies;
+- [x] Flexible settings and customizable design;
+- [x] Real-time ⚡streaming price update;
+- [x] Processed on a third-party server;
+- [x] ≈1,650 cryptocurrencies and ≈170 fiat currencies;
+- [x] SSL support;
+- [x] SEO-friendly.
 
 <h3>Example 💡</h3>
 <a href="https://jsfiddle.net/o6e201k4/">Example JSFiddle</a>
