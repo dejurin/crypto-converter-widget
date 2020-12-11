@@ -47,7 +47,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
    decimal-places="2"
    font-family="inherit"><a 
    href="https://cr.today/" 
-   rel="noopener">converter</a></crypto-converter-widget>
+   rel="noopener">Converter Widget</a></crypto-converter-widget>
 <a href="https://co-w.io/">co-w.io</a>
 <script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.js" async></script>
 ```
