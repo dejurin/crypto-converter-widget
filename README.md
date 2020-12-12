@@ -6,7 +6,7 @@
 * Size: ≈68.0 kBytes;
 * Dependencies: Vanilla JS.
 
-The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies. Customers can choose from available ≈170 fiat currencies and ≈1,650 crypto. For FREE.
+The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈1,650 crypto. For FREE.
 
 - [Features](#features-)
 - [Install](#install-%EF%B8%8F)
