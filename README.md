@@ -11,7 +11,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [Features](#features-)
 - [Install](#install-%EF%B8%8F)
 - [Example](#example-)
-- [Changelog](#changelog-)
+- [Changelog](#changelog-%EF%B8%8F)
 - [For Developers](#for-developers-)
 - [Cryptocurrencies id list](#cryptocurrencies-id-list)
 - [Currencies id list](#currencies-id-list)
