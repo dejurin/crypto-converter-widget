@@ -20,7 +20,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 
 <a href="https://co-w.io"><img src="./anim.gif" alt="Cryptocurrency Converter Widget"></a>
 
-### Features 🤩 ###
+### Features 🤩
 
 - [x] No Cryptojacking!
 - [x] Pure JavaScript ≈69.1 kBytes (gzip), no dependencies;
