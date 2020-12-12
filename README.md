@@ -3,6 +3,7 @@
 * Stable version: 1.0.4;
 * Size: ≈69.1 kBytes;
 * Dependencies: Vanilla JS.
+[![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
 The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies. Customers can choose from available ≈170 fiat currencies and ≈1,650 crypto. For FREE.
 
