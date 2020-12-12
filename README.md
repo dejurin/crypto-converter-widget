@@ -20,8 +20,6 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 
 <a href="https://co-w.io"><img src="./anim.gif" alt="Cryptocurrency Converter Widget"></a>
 
----
-
 ### Features 🤩 ###
 
 - [x] No Cryptojacking!
@@ -33,10 +31,14 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [x] SSL support;
 - [x] SEO-friendly.
 
+---
+
 ### Install 🖥️ ###
 
 0. Copy [example](#example) below and set your attributes customize.
 1. Enjoy.
+
+---
 
 ### Example 💡 ###
 
@@ -58,6 +60,8 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 ```
 Examples: <b><a href="https://jsfiddle.net/wmL9bxgu/" rel="noopener" target="_blank">JSFiddle</a></b> | <b><a href="https://codepen.io/dejurin/pen/ExgNJBg" rel="noopener" target="_blank">CodePen</a></b>
 
+---
+
 ### Changelog ✳️ ###
 
 #### [1.0.4] - 2020-12-11
@@ -68,6 +72,8 @@ Examples: <b><a href="https://jsfiddle.net/wmL9bxgu/" rel="noopener" target="_bl
 
 #### [1.0.0] - 2020-12-11
 - First release
+
+---
 
 ### For Developers 🧑‍💻 ###
 
@@ -82,6 +88,8 @@ Examples: <b><a href="https://jsfiddle.net/wmL9bxgu/" rel="noopener" target="_bl
 |font-family|string|inherit|+|Font of widget.|
 |live|boolean|false|+|Prices are updated real-time.|
 |shadow|boolean|false|+|Shadow of widget.|
+
+---
 
 ### Cryptocurrencies ID list ###
 
@@ -1744,6 +1752,8 @@ Examples: <b><a href="https://jsfiddle.net/wmL9bxgu/" rel="noopener" target="_bl
 |zozocoin|ZZC|ZoZoCoin|
 |zper|ZPR|ZPER|
 
+---
+
 ### Currencies id list ###
 
 |Currency ID|ISO 4217|Symbol|Type|
@@ -1931,6 +1941,7 @@ Examples: <b><a href="https://jsfiddle.net/wmL9bxgu/" rel="noopener" target="_bl
 |georgian-lari|GEL||fiat|
 |pakistani-rupee|PKR|₨|fiat|
 
+---
 
 ### Copyright and license ![Github](https://img.shields.io/github/license/dejurin/coin-converter-widget?logo=Github)
 Code copyright 2020 CR.Today. Code released under [the MIT license](https://github.com/dejurin/coin-converter-widget/blob/master/LICENSE).
