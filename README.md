@@ -43,7 +43,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 
 ### Example 💡 ###
 
-```
+```html
 <crypto-converter-widget
    live
    shadow
