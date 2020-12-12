@@ -64,7 +64,7 @@ Examples: <b><a href="https://jsfiddle.net/yu5rch2a/" rel="noopener" target="_bl
 
 ### Changelog ✳️ ###
 
-#### [1.0.4] - 2020-12-11
+#### [1.0.4] - 2020-12-12
 ##### Fixed
 - Select form [await load]
 - Background image
