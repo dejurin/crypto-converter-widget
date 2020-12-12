@@ -1,6 +1,6 @@
 <h1 align="center">Crypto Converter ⚡ Widget</h1>
 
-* Version: 1.0.0;
+* Stable version: 1.0.4;
 * Size: ≈69.1 kBytes;
 * Dependencies: Vanilla JS.
 
@@ -9,6 +9,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [Features](#features-)
 - [Install](#install-%EF%B8%8F)
 - [Example](#example-)
+- [Changelog](#changelog)
 - [For Developers](#for-developers-)
 - [Cryptocurrencies id list](#cryptocurrencies-id-list)
 - [Currencies id list](#currencies-id-list)
@@ -49,9 +50,20 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
    href="https://cr.today/" 
    rel="noopener">Converter Widget</a></crypto-converter-widget>
 <a href="https://co-w.io/">co-w.io</a>
-<script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js" async></script>
 ```
 Examples: <b><a href="https://jsfiddle.net/Lxgof1sv/" rel="noopener" target="_blank">JSFiddle</a></b> | <b><a href="https://codepen.io/dejurin/pen/ExgNJBg" rel="noopener" target="_blank">CodePen</a></b>
+
+### Changelog ✳️ ###
+
+#### [1.0.4] - 2020-12-11
+##### Fixed
+- Select form [await load]
+- Background image
+- WebSocket stop/start
+
+#### [1.0.0] - 2020-12-11
+- First release
 
 ### For Developers 🧑‍💻 ###
 
