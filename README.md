@@ -36,7 +36,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 
 ### Install 🖥️ ###
 
-0. Copy [example](#example) below and set your attributes customize.
+0. Copy [example](#example-) below and set your attributes customize.
 1. Enjoy.
 
 ---
