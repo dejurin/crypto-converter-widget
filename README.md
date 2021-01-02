@@ -2,8 +2,8 @@
 
 [![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
-* Stable version: 1.0.4;
-* Size: ≈68.0 kBytes;
+* Stable version: 1.1.6;
+* Size: ≈67.9 kBytes;
 * Dependencies: Vanilla JS.
 * License: MIT
 
@@ -64,6 +64,13 @@ Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a h
 ---
 
 ### Changelog ✳️ ###
+
+#### [1.1.6] - 2021-01-03
+##### Fixed
+- Currency symbol
+- Minor fixes
+##### Add
+- Currency symbol attribut
 
 #### [1.0.4] - 2020-12-12
 ##### Fixed
