@@ -95,8 +95,9 @@ Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a h
 |decimal-places|int|2|+|Decimal places.|
 |fiat|string|united-states-dollar|+|Fiat money symbol.|
 |font-family|string|inherit|+|Font of widget.|
-|live|boolean|false|+|Prices are updated real-time.|
 |shadow|boolean|false|+|Shadow of widget.|
+|symbol|boolean|false|+|Currency symbol ($).|
+|live|boolean|false|+|Prices are updated real-time.|
 
 ---
 
