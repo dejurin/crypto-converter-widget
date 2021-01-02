@@ -47,6 +47,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 <crypto-converter-widget
    live
    shadow
+   symbol
    fiat="united-states-dollar"
    crypto="bitcoin"
    amount="1"
