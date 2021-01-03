@@ -66,6 +66,22 @@ Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a h
 
 ---
 
+### jsdelivr
+
+##### Latest
+
+```html
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js
+```
+
+##### Latest legacy
+
+```html
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.min.js
+```
+
+---
+
 ### Changelog ✳️ ###
 
 #### [1.1.7] - 2021-01-04
