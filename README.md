@@ -2,7 +2,7 @@
 
 [![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
-* Stable version: 1.1.6;
+* Latest version: 1.1.7;
 * Size: ≈67.9 kBytes;
 * Dependencies: Vanilla JS.
 * License: MIT
@@ -28,7 +28,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [x] Flexible settings and customizable design;
 - [x] Real-time ⚡streaming price update;
 - [x] Processed on a third-party server;
-- [x] ≈1,650 cryptocurrencies and ≈170 fiat currencies;
+- [x] ≈1,656 cryptocurrencies and ≈170 fiat currencies;
 - [x] SSL support;
 - [x] SEO-friendly.
 
@@ -66,7 +66,28 @@ Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a h
 
 ---
 
+### jsDelivr CDN
+
+##### Latest
+
+```html
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js
+```
+
+##### Latest legacy
+
+```html
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.min.js
+```
+
+---
+
 ### Changelog ✳️ ###
+
+#### [1.1.7] - 2021-01-04
+##### Fixed
+- Select fiat [live]
+- Minor fixes
 
 #### [1.1.6] - 2021-01-03
 ##### Fixed
