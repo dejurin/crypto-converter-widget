@@ -2,7 +2,7 @@
 
 [![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
-* Latest version: 1.1.7;
+* Latest version: 1.3.5;
 * Size: ≈67.9 kBytes;
 * Dependencies: Vanilla JS.
 * License: MIT
@@ -83,6 +83,12 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.m
 ---
 
 ### Changelog ✳️ ###
+
+#### [1.3.5] - 2021-01-05
+##### Fixed
+- Minor fixes
+##### Add
+- Sound beep when price changed
 
 #### [1.1.7] - 2021-01-04
 ##### Fixed
