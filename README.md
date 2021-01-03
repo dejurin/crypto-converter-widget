@@ -3,7 +3,7 @@
 [![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
 * Latest version: 1.3.5;
-* Size: ≈67.9 kBytes;
+* Size: ≈71.3 kBytes;
 * Dependencies: Vanilla JS.
 * License: MIT
 
