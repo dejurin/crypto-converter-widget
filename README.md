@@ -26,8 +26,9 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [x] No Cryptojacking!
 - [x] Pure JavaScript ≈68.0 kBytes (gzip), no dependencies;
 - [x] Flexible settings and customizable design;
-- [x] Real-time ⚡streaming price update;
+- [x] Real-time ⚡ streaming price update;
 - [x] Processed on a third-party server;
+- [x] Sound beep when price changed
 - [x] ≈1,656 cryptocurrencies and ≈170 fiat currencies;
 - [x] SSL support;
 - [x] SEO-friendly.
