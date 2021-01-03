@@ -66,7 +66,7 @@ Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a h
 
 ---
 
-### jsdelivr
+### jsDelivr CDN
 
 ##### Latest
 
