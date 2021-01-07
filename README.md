@@ -2,8 +2,8 @@
 
 [![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
-* Latest version: 1.4.1;
-* Size: ≈75.5 kBytes;
+* Latest version: 1.5.0;
+* Size: ≈75.8 kBytes;
 * License: MIT
 
 The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈1,656 crypto. For FREE.
@@ -23,7 +23,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 ### Features 🤩 ###
 
 - [x] No Cryptojacking!
-- [x] Pure JavaScript ≈75.5 kBytes (gzip), no dependencies;
+- [x] Pure JavaScript ≈75.8 kBytes (gzip), no dependencies;
 - [x] Flexible settings and customizable design;
 - [x] Real-time ⚡ streaming price update;
 - [x] Processed on a third-party server;
@@ -81,9 +81,31 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.m
 
 All versions here: <a href="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/">https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/</a>
 
+### StackPath CDN
+
+##### Latest
+
+```html
+https://s.fx-w.io/ccw/latest.min.js
+```
+
+##### Latest legacy
+
+```html
+https://s.fx-w.io/ccw/latest-legacy.min.js
+```
+
 ---
 
 ### Changelog ✳️ ###
+
+#### [1.5.0] - 2021-01-09
+##### Fixed
+- Major fixes
+
+#### [1.4.2] - 2021-01-08
+##### Fixed
+- Minor fixes
 
 #### [1.4.1] - 2021-01-08
 ##### Fixed
