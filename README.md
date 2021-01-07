@@ -2,7 +2,7 @@
 
 [![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
-* Latest version: 1.4.0;
+* Latest version: 1.4.1;
 * Size: ≈74.8 kBytes;
 * License: MIT
 
@@ -82,6 +82,12 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.m
 ---
 
 ### Changelog ✳️ ###
+
+#### [1.4.1] - 2021-01-08
+##### Fixed
+- Minor fixes
+##### Add
+- Loading anim
 
 #### [1.4.0] - 2021-01-07
 ##### Fixed
