@@ -81,6 +81,8 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.m
 
 All versions here: <a href="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/">https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/</a>
 
+---
+
 ### StackPath CDN
 
 ##### Latest
