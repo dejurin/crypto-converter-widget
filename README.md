@@ -79,6 +79,8 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js
 https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.min.js
 ```
 
+All versions here: <a href="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/">https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/</a>
+
 ---
 
 ### Changelog ✳️ ###
