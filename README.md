@@ -61,6 +61,8 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 ```
 Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a href="https://codepen.io/dejurin/pen/ExgNJBg">CodePen</a></b> | <b><a href="https://codepen.io/dejurin/pen/MWjpwGa">CodePen (multi color example)</a></b> | <b><a href="https://co-w.io/coins.html">A lot widget on one page</a></b>
 
+You can find many uses for this widget, not just on the website. See how I did a live stream with cryptocurrencies: <a href="https://www.youtube.com/watch?v=LmGsJkVNp7Q">https://www.youtube.com/watch?v=LmGsJkVNp7Q</a>
+
 ---
 
 ### jsDelivr CDN
