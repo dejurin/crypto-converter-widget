@@ -2,7 +2,7 @@
 
 [![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
 
-* Latest version: 1.5.0;
+* Latest version: 1.5.1;
 * Size: ≈71.5 kBytes;
 * License: MIT
 
@@ -102,6 +102,10 @@ https://s.fx-w.io/ccw/latest-legacy.min.js
 ---
 
 ### Changelog ✳️ ###
+
+#### [1.5.1] - 2021-01-10
+##### Fixed
+- Major fixes
 
 #### [1.5.0] - 2021-01-09
 ##### Fixed
