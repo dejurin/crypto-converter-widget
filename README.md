@@ -1,7 +1,5 @@
 <h1 align="center">Crypto Converter ⚡ Widget</h1>
 
-[![](https://data.jsdelivr.com/v1/package/gh/dejurin/crypto-converter-widget/badge)](https://www.jsdelivr.com/package/gh/dejurin/crypto-converter-widget)
-
 * Latest version: 1.5.1;
 * Size: ≈71.5 kBytes;
 * License: MIT
