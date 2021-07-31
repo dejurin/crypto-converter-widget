@@ -70,13 +70,13 @@ You can find many uses for this widget, not just on the website. See how I did a
 ##### Latest
 
 ```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.1/dist/latest.min.js
 ```
 
 ##### Latest legacy
 
 ```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest-legacy.min.js
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.1/dist/latest-legacy.min.js
 ```
 
 All versions here: <a href="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/">https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/</a>
