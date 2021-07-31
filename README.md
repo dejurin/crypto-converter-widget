@@ -56,7 +56,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
    background-color="#383a59"
    decimal-places="2"
    font-family="inherit"></crypto-converter-widget>
-<script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.1/dist/latest.min.js"></script>
 <!-- /Crypto Converter ⚡ Widget -->
 ```
 Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a href="https://codepen.io/dejurin/pen/ExgNJBg">CodePen</a></b> | <b><a href="https://codepen.io/dejurin/pen/MWjpwGa">CodePen (multi color example)</a></b> | <b><a href="https://co-w.io/coins.html">A lot widget on one page</a></b>
