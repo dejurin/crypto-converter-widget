@@ -1,6 +1,6 @@
 <h1 align="center">Crypto Converter ⚡ Widget</h1>
 
-* Latest version: 1.5.1;
+* Latest version: 1.5.2;
 * Size: ≈71.5 kBytes;
 * License: MIT
 
@@ -56,7 +56,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
    background-color="#383a59"
    decimal-places="2"
    font-family="inherit"></crypto-converter-widget>
-<script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.1/dist/latest.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"></script>
 <!-- /Crypto Converter ⚡ Widget -->
 ```
 Examples: <b><a href="https://jsfiddle.net/5w6zs8x0/">JSFiddle</a></b> | <b><a href="https://codepen.io/dejurin/pen/ExgNJBg">CodePen</a></b> | <b><a href="https://codepen.io/dejurin/pen/MWjpwGa">CodePen (multi color example)</a></b> | <b><a href="https://co-w.io/coins.html">A lot widget on one page</a></b>
@@ -70,13 +70,13 @@ You can find many uses for this widget, not just on the website. See how I did a
 ##### Latest
 
 ```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.1/dist/latest.min.js
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js
 ```
 
 ##### Latest legacy
 
 ```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.1/dist/latest-legacy.min.js
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest-legacy.min.js
 ```
 
 All versions here: <a href="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/">https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/</a>
@@ -100,6 +100,10 @@ https://s.fx-w.io/ccw/latest-legacy.min.js
 ---
 
 ### Changelog ✳️ ###
+
+#### [1.5.2] - 2021-01-10
+##### Fixed
+- Major fixes
 
 #### [1.5.1] - 2021-01-10
 ##### Fixed
