@@ -46,21 +46,9 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 ### Example 💡 ###
 
 ```html
-<!-- Crypto Converter ⚡ Widget -->
-<crypto-converter-widget
-   live
-   shadow
-   symbol
-   fiat="united-states-dollar"
-   crypto="bitcoin"
-   amount="1"
-   border-radius="0.60rem"
-   background-color="#383a59"
-   decimal-places="2"
-   font-family="inherit"></crypto-converter-widget>
-<script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"></script>
-<!-- /Crypto Converter ⚡ Widget -->
+<!-- Crypto Converter ⚡ Widget --><crypto-converter-widget shadow symbol live background-color="#383a59" border-radius="0.60rem" fiat="united-states-dollar" crypto="bitcoin" amount="1" decimal-places="2"></crypto-converter-widget><a href="https://currencyrate.today/" target="_blank" rel="noopener">CurrencyRate.Today</a><script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"></script><!-- /Crypto Converter ⚡ Widget -->
 ```
+
 Examples: <b><a href="https://jsfiddle.net/yuridarwin/n0jday68/">JSFiddle</a></b> | <b><a href="https://codepen.io/currencyrate_today/pen/eYWxGGX">CodePen</a></b> | <b><a href="https://codepen.io/currencyrate_today/pen/GRmzMOm">CodePen (multi color example)</a></b> | <b><a href="https://co-w.io/coins.html">A lot widget on one page</a></b>
 
 You can find many uses for this widget, not just on the website. See how I did a live stream with cryptocurrencies: <a href="https://www.youtube.com/watch?v=LQIsk5wIAzw">https://www.youtube.com/watch?v=LQIsk5wIAzw</a>
