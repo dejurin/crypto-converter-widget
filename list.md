@@ -312,7 +312,7 @@
 | 308  	| uquid-coin                               	| Uquid Coin                               	|
 | 309  	| sentinel                                 	| Sentinel                                 	|
 | 310  	| safepal                                  	| SafePal                                  	|
-| 311  	| api3                                     	| API3                                     	|
+| 311   | api3                                     	| API3                                     	|
 | 312  	| clover                                   	| Clover Finance                           	|
 | 313  	| standard-tokenization-protocol           	| Standard Tokenization Protocol           	|
 | 314  	| dkargo                                   	| dKargo                                   	|
@@ -2290,3 +2290,4 @@
 | 2286 	| zmine                    	| ZMINE                         	|
 | 2287 	| zozocoin                 	| ZoZoCoin                      	|
 | 2288 	| zper                     	| ZPER                          	|
+| 2289 	| ACC                     	| AmazonCryptoCoin 
