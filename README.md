@@ -17,9 +17,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [For Developers](#for-developers-)
 - [Cryptocurrencies id list](https://github.com/dejurin/crypto-converter-widget/blob/master/list.md)
 
-**[DEMO 1 👀](https://co-w.io)**
-
-**[DEMO 2 👀](https://bitcoin-pulse.pages.dev/)**
+## DEMO 👀 **[Example 1](https://bitcoin-pulse.pages.dev/)** | **[Example 2](https://co-w.io/)**
 
 <a href="https://co-w.io"><img src="./anim.gif" alt="Cryptocurrency Converter Widget"></a>
 
