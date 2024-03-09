@@ -40,6 +40,7 @@
   var SelectControl = components.SelectControl;
   var ToggleControl = components.ToggleControl;
   var Divider = components.__experimentalDivider;
+  var source = "currencyrate.today";
 
   blocks.registerBlockType("crypto-converter-widget/widget-block", {
     title: i18n["title"] || "Crypto Converter Widget",
@@ -278,9 +279,64 @@
             ]
           )
         ),
-        el("crypto-converter-widget", {
+        el(
+          "div",
+          {
+            className: props.className,
+            style: { ...props.style, ...{ pointerEvents: "none" } },
+          },
+          el("crypto-converter-widget", {
+            ...(amount && amount !== "" ? { amount } : {}),
+            ...(symbol && { symbol: "true" }),
+            ...(live && { live: "true" }),
+            ...(shadow && { shadow: "true" }),
+            ...(fontFamily && fontFamily !== ""
+              ? { "font-family": fontFamily }
+              : {}),
+            ...(backgroundColor && backgroundColor !== ""
+              ? { "background-color": backgroundColor }
+              : {}),
+            ...(decimalPlaces && decimalPlaces !== ""
+              ? { "decimal-places": decimalPlaces }
+              : {}),
+            ...(borderRadius && borderRadius !== ""
+              ? { "border-radius": borderRadius }
+              : {}),
+          }),
+          el(
+            "div",
+            {},
+            "",
+            el(
+              "a",
+              {
+                href: `https://${source}/`,
+                target: "_blank",
+                rel: "noopener noreferrer",
+              },
+              "CurrencyRate"
+            )
+          )
+        ),
+      ];
+    },
+    save: function (props) {
+      var amount = props.attributes.amount;
+      var symbol = props.attributes.symbol;
+      var borderRadius = props.attributes.borderRadius;
+      var backgroundColor = props.attributes.backgroundColor;
+      var decimalPlaces = props.attributes.decimalPlaces;
+      var live = props.attributes.live;
+      var fontFamily = props.attributes.fontFamily;
+      var shadow = props.attributes.shadow;
+
+      return el(
+        "div",
+        {
           className: props.className,
-          style: { ...props.style, ...{ pointerEvents: "none" } },
+          style: { ...props.style },
+        },
+        el("crypto-converter-widget", {
           ...(amount && amount !== "" ? { amount } : {}),
           ...(symbol && { symbol: "true" }),
           ...(live && { live: "true" }),
@@ -298,38 +354,21 @@
             ? { "border-radius": borderRadius }
             : {}),
         }),
-      ];
-    },
-    save: function (props) {
-      var amount = props.attributes.amount;
-      var symbol = props.attributes.symbol;
-      var borderRadius = props.attributes.borderRadius;
-      var backgroundColor = props.attributes.backgroundColor;
-      var decimalPlaces = props.attributes.decimalPlaces;
-      var live = props.attributes.live;
-      var fontFamily = props.attributes.fontFamily;
-      var shadow = props.attributes.shadow;
-
-      return el("crypto-converter-widget", {
-        className: props.className,
-        style: props.style,
-        ...(symbol && { symbol: "true" }),
-        ...(live && { live: "true" }),
-        ...(shadow && { shadow: "true" }),
-        ...(amount && amount !== "" ? { amount } : {}),
-        ...(fontFamily && fontFamily !== ""
-          ? { "font-family": fontFamily }
-          : {}),
-        ...(backgroundColor && backgroundColor !== ""
-          ? { "background-color": backgroundColor }
-          : {}),
-        ...(decimalPlaces && decimalPlaces !== ""
-          ? { "decimal-places": decimalPlaces }
-          : {}),
-        ...(borderRadius && borderRadius !== ""
-          ? { "border-radius": borderRadius }
-          : {}),
-      });
+        el(
+          "div",
+          {},
+          "",
+          el(
+            "a",
+            {
+              href: `https://${source}/`,
+              target: "_blank",
+              rel: "noopener noreferrer",
+            },
+            "CurrencyRate"
+          )
+        )
+      );
     },
   });
 })(window.wp.blocks, window.wp.editor, window.wp.element, window.wp.components);
