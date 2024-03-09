@@ -9,7 +9,7 @@ Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Is a magic and easy-to-use with beautiful UI widget. 🔄 Calc for converting crypto with live price update and flash effect. Try, You will ❤️‍ it!
+Try magical widget for easy crypto conversions with live updates and a captivating flash effect. You'll love it! ❤️‍
 
 == 📌 Description ==
 The Crypto Converter Widget is a magical, easy-to-use web tool with a beautiful UI, providing real-time cryptocurrency conversion for any website, free of charge. Users can choose from approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies.
@@ -30,6 +30,7 @@ You can get more just go to official website: [CO-W.io](https://co-w.io/) | [Git
 * Real-time ⚡ streaming price update;
 * Processed on a third-party server;
 * Best ≈2,200 cryptocurrencies and ≈170 fiat currencies;
+* Gutenberg block;
 * SSL support;
 * Mobile-friendly;
 * SEO-friendly.
