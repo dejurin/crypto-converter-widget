@@ -302,21 +302,7 @@
             ...(borderRadius && borderRadius !== ""
               ? { "border-radius": borderRadius }
               : {}),
-          }),
-          el(
-            "div",
-            {},
-            "",
-            el(
-              "a",
-              {
-                href: `https://${source}/`,
-                target: "_blank",
-                rel: "noopener noreferrer",
-              },
-              "CurrencyRate"
-            )
-          )
+          })
         ),
       ];
     },
