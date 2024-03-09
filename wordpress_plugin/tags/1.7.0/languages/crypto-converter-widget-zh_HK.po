@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto Converter ⚡ Widget\n"
+"POT-Creation-Date: 2021-01-08 21:11+0200\n"
+"PO-Revision-Date: 2021-01-08 21:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget_init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/ccw-admin-notices.php:65
+msgid "Please rate our free"
+msgstr "請給我們免費"
+
+#: includes/ccw-admin-notices.php:68
+msgid "Your valuable feedback will help us improve."
+msgstr "您的寶貴意見將幫助我們改進。"
+
+#: includes/ccw-admin-notices.php:68
+msgid "It will only take a few minutes"
+msgstr "只需幾分鐘"
+
+#: includes/ccw-admin-notices.php:68
+msgid "Rate it now"
+msgstr "給我們打分"
+
+#: includes/ccw-admin-notices.php:69
+msgid "Rating"
+msgstr "評分"
+
+#: includes/ccw-admin-settings.php:5 widget_init.php:82
+msgid "Settings"
+msgstr "設定"
+
+#: includes/ccw-admin-settings.php:11
+msgid "Crypto"
+msgstr "加密貨幣"
+
+#: includes/ccw-admin-settings.php:20
+msgid "Fiat"
+msgstr "菲亚特"
+
+#: includes/ccw-admin-settings.php:28
+msgid "Amount"
+msgstr "金額"
+
+#: includes/ccw-admin-settings.php:36
+msgid "Decimal places"
+msgstr "小數位數"
+
+#: includes/ccw-admin-settings.php:44
+msgid "Font"
+msgstr "字體"
+
+#: includes/ccw-admin-settings.php:59
+msgid "Color"
+msgstr "顏色"
+
+#: includes/ccw-admin-settings.php:68
+msgid "Border radius"
+msgstr "邊框半徑"
+
+#: includes/ccw-admin-settings.php:82
+msgid "Shadow"
+msgstr "陰影"
+
+#: includes/ccw-admin-settings.php:83
+msgid "Fiat symbol"
+msgstr "菲亞特符號"
+
+#: includes/ccw-admin-settings.php:84
+msgid "Live"
+msgstr "線上"
+
+#: includes/ccw-admin-settings.php:84
+msgid "price updates in real-time"
+msgstr "實時價格更新"
+
+#: includes/ccw-admin-settings.php:85
+msgid "Signature"
+msgstr "簽名"
+
+#: includes/ccw-admin-settings.php:93
+msgid "Preview"
+msgstr "預覽"
+
+#: includes/ccw-admin-settings.php:103
+msgid "Shortcode"
+msgstr "短代碼"
+
+#: includes/ccw-admin-settings.php:118
+msgid "Help"
+msgstr "說明"
+
+#: includes/ccw-admin-settings.php:120
+msgid "Official website"
+msgstr "官方網站"
+
+#: includes/ccw-admin-settings.php:121
+msgid "Feel free, write if you will have any questions"
+msgstr "隨意，如果有任何疑問，請寫信"
+
+#: includes/ccw-admin-settings.php:121
+msgid "Online support"
+msgstr "在線支持"
+
+#: includes/ccw-admin-settings.php:122
+msgid "Your might like it"
+msgstr "你可能會喜歡"
+
+#: includes/ccw-admin-settings.php:123
+msgid "Supported by"
+msgstr "支持者"
+
+#. Plugin Name of the plugin/theme
+msgid "Crypto Converter ⚡ Widget"
+msgstr "⚡ 貨幣換算小工具"
+
+#. Plugin URI of the plugin/theme
+msgid "https://co-w.io/"
+msgstr "https://co-w.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"The Crypto Converter Widget — is a powerful and easy-to-use with beauty UI "
+"real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. "
+"Customers can choose from available ≈170 fiat currencies and ≈1,656 crypto. "
+"For FREE."
+msgstr ""
+"⚡ 貨幣換算小工具 — 是一個功能強大且易於使用的Beauty UI實時Web工具，可以為任"
+"何網站轉換加密貨幣。客戶可以從可用的約170法定貨幣和約1,656加密貨幣中進行選"
+"擇。免費。"
+
+#. Author of the plugin/theme
+msgid "CurrencyRate.today"
+msgstr "CurrencyRate.today"
+
+#. Author URI of the plugin/theme
+msgid "https://currencyrate.today/"
+msgstr "https://currencyrate.today/"

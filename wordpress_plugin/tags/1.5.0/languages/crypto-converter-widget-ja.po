@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto Converter ⚡ Widget\n"
+"POT-Creation-Date: 2021-01-08 21:09+0200\n"
+"PO-Revision-Date: 2021-01-08 21:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget_init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/ccw-admin-notices.php:65
+msgid "Please rate our free"
+msgstr "無料の評価をお願いします"
+
+#: includes/ccw-admin-notices.php:68
+msgid "Your valuable feedback will help us improve."
+msgstr "あなたの貴重なご意見は、私たちの改善に役立ちます。"
+
+#: includes/ccw-admin-notices.php:68
+msgid "It will only take a few minutes"
+msgstr "ほんの数分で済む"
+
+#: includes/ccw-admin-notices.php:68
+msgid "Rate it now"
+msgstr "今すぐ評価する"
+
+#: includes/ccw-admin-notices.php:69
+msgid "Rating"
+msgstr "評価"
+
+#: includes/ccw-admin-settings.php:5 widget_init.php:82
+msgid "Settings"
+msgstr "設定"
+
+#: includes/ccw-admin-settings.php:11
+msgid "Crypto"
+msgstr "暗号"
+
+#: includes/ccw-admin-settings.php:20
+msgid "Fiat"
+msgstr "フィアット"
+
+#: includes/ccw-admin-settings.php:28
+msgid "Amount"
+msgstr "金額"
+
+#: includes/ccw-admin-settings.php:36
+msgid "Decimal places"
+msgstr "小数点以下"
+
+#: includes/ccw-admin-settings.php:44
+msgid "Font"
+msgstr "フォント"
+
+#: includes/ccw-admin-settings.php:59
+msgid "Color"
+msgstr "色"
+
+#: includes/ccw-admin-settings.php:68
+msgid "Border radius"
+msgstr "ボーダーの半径"
+
+#: includes/ccw-admin-settings.php:82
+msgid "Shadow"
+msgstr "影"
+
+#: includes/ccw-admin-settings.php:83
+msgid "Fiat symbol"
+msgstr "フィアットマーク"
+
+#: includes/ccw-admin-settings.php:84
+msgid "Live"
+msgstr "ライブ"
+
+#: includes/ccw-admin-settings.php:84
+msgid "price updates in real-time"
+msgstr "リアルタイムの価格更新"
+
+#: includes/ccw-admin-settings.php:85
+msgid "Signature"
+msgstr "署名"
+
+#: includes/ccw-admin-settings.php:93
+msgid "Preview"
+msgstr "プレビュー"
+
+#: includes/ccw-admin-settings.php:103
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: includes/ccw-admin-settings.php:118
+msgid "Help"
+msgstr "ヘルプ"
+
+#: includes/ccw-admin-settings.php:120
+msgid "Official website"
+msgstr "公式サイト"
+
+#: includes/ccw-admin-settings.php:121
+msgid "Feel free, write if you will have any questions"
+msgstr "自由に感じて下さい、質問があれば書いて下さい"
+
+#: includes/ccw-admin-settings.php:121
+msgid "Online support"
+msgstr "オンラインサポート"
+
+#: includes/ccw-admin-settings.php:122
+msgid "Your might like it"
+msgstr "気に入るかもしれない"
+
+#: includes/ccw-admin-settings.php:123
+msgid "Supported by"
+msgstr "サポートされているのは"
+
+#. Plugin Name of the plugin/theme
+msgid "Crypto Converter ⚡ Widget"
+msgstr "⚡ コインコンバータウィジェット"
+
+#. Plugin URI of the plugin/theme
+msgid "https://co-w.io/"
+msgstr "https://co-w.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"The Crypto Converter Widget — is a powerful and easy-to-use with beauty UI "
+"real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. "
+"Customers can choose from available ≈170 fiat currencies and ≈1,656 crypto. "
+"For FREE."
+msgstr ""
+"⚡ コインコンバータウィジェット- は、どのようなウェブサイトでもクリプト通貨を"
+"変換するための強力で使いやすいリアルタイムのWebツールです。お客様は利用可能"
+"な≈170種類の不換通貨と≈1,656種類の暗号通貨から選択することができます。無料で"
+"ご利用いただけます。"
+
+#. Author of the plugin/theme
+msgid "CurrencyRate.today"
+msgstr "CurrencyRate.today"
+
+#. Author URI of the plugin/theme
+msgid "https://currencyrate.today/"
+msgstr "https://currencyrate.today/"

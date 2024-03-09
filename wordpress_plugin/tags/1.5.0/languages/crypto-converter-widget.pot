@@ -1,0 +1,150 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Crypto Converter ⚡ Widget\n"
+"POT-Creation-Date: 2021-01-08 21:05+0200\n"
+"PO-Revision-Date: 2021-01-08 21:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget_init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/ccw-admin-notices.php:65
+msgid "Please rate our free"
+msgstr ""
+
+#: includes/ccw-admin-notices.php:68
+msgid "Your valuable feedback will help us improve."
+msgstr ""
+
+#: includes/ccw-admin-notices.php:68
+msgid "It will only take a few minutes"
+msgstr ""
+
+#: includes/ccw-admin-notices.php:68
+msgid "Rate it now"
+msgstr ""
+
+#: includes/ccw-admin-notices.php:69
+msgid "Rating"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:5 widget_init.php:82
+msgid "Settings"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:11
+msgid "Crypto"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:20
+msgid "Fiat"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:28
+msgid "Amount"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:36
+msgid "Decimal places"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:44
+msgid "Font"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:59
+msgid "Color"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:68
+msgid "Border radius"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:82
+msgid "Shadow"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:83
+msgid "Fiat symbol"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:84
+msgid "Live"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:84
+msgid "price updates in real-time"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:85
+msgid "Signature"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:93
+msgid "Preview"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:103
+msgid "Shortcode"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:118
+msgid "Help"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:120
+msgid "Official website"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:121
+msgid "Feel free, write if you will have any questions"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:121
+msgid "Online support"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:122
+msgid "Your might like it"
+msgstr ""
+
+#: includes/ccw-admin-settings.php:123
+msgid "Supported by"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Crypto Converter ⚡ Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://co-w.io/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The Crypto Converter Widget — is a powerful and easy-to-use with beauty UI "
+"real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. "
+"Customers can choose from available ≈170 fiat currencies and ≈1,656 crypto. "
+"For FREE."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CurrencyRate.today"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://currencyrate.today/"
+msgstr ""

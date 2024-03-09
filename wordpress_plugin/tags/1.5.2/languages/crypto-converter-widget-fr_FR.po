@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto Converter ⚡ Widget\n"
+"POT-Creation-Date: 2021-01-08 21:05+0200\n"
+"PO-Revision-Date: 2021-01-08 21:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget_init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/ccw-admin-notices.php:65
+msgid "Please rate our free"
+msgstr "Veuillez évaluer notre"
+
+#: includes/ccw-admin-notices.php:68
+msgid "Your valuable feedback will help us improve."
+msgstr "Vos précieux commentaires nous aideront à nous améliorer."
+
+#: includes/ccw-admin-notices.php:68
+msgid "It will only take a few minutes"
+msgstr "Cela ne prendra que quelques minutes"
+
+#: includes/ccw-admin-notices.php:68
+msgid "Rate it now"
+msgstr "Notez le maintenant"
+
+#: includes/ccw-admin-notices.php:69
+msgid "Rating"
+msgstr "Évaluation"
+
+#: includes/ccw-admin-settings.php:5 widget_init.php:82
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/ccw-admin-settings.php:11
+msgid "Crypto"
+msgstr "Crypto"
+
+#: includes/ccw-admin-settings.php:20
+msgid "Fiat"
+msgstr "Fiat"
+
+#: includes/ccw-admin-settings.php:28
+msgid "Amount"
+msgstr "Montant"
+
+#: includes/ccw-admin-settings.php:36
+msgid "Decimal places"
+msgstr "Nbre de décimales"
+
+#: includes/ccw-admin-settings.php:44
+msgid "Font"
+msgstr "Police"
+
+#: includes/ccw-admin-settings.php:59
+msgid "Color"
+msgstr "Couleur"
+
+#: includes/ccw-admin-settings.php:68
+msgid "Border radius"
+msgstr "Rayon de la bordure"
+
+#: includes/ccw-admin-settings.php:82
+msgid "Shadow"
+msgstr "Ombre"
+
+#: includes/ccw-admin-settings.php:83
+msgid "Fiat symbol"
+msgstr "Le symbole Fiat"
+
+#: includes/ccw-admin-settings.php:84
+msgid "Live"
+msgstr "Live"
+
+#: includes/ccw-admin-settings.php:84
+msgid "price updates in real-time"
+msgstr "mise à jour des prix en temps réel"
+
+#: includes/ccw-admin-settings.php:85
+msgid "Signature"
+msgstr "Signature"
+
+#: includes/ccw-admin-settings.php:93
+msgid "Preview"
+msgstr "Aperçu"
+
+#: includes/ccw-admin-settings.php:103
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/ccw-admin-settings.php:118
+msgid "Help"
+msgstr "Aide"
+
+#: includes/ccw-admin-settings.php:120
+msgid "Official website"
+msgstr "Site Officiel"
+
+#: includes/ccw-admin-settings.php:121
+msgid "Feel free, write if you will have any questions"
+msgstr "N'hésitez pas à nous écrire si vous avez des questions"
+
+#: includes/ccw-admin-settings.php:121
+msgid "Online support"
+msgstr "Soutien en ligne"
+
+#: includes/ccw-admin-settings.php:122
+msgid "Your might like it"
+msgstr "Vous pourriez l'aimer"
+
+#: includes/ccw-admin-settings.php:123
+msgid "Supported by"
+msgstr "Soutenu par"
+
+#. Plugin Name of the plugin/theme
+msgid "Crypto Converter ⚡ Widget"
+msgstr "Crypto Converter ⚡ Widget"
+
+#. Plugin URI of the plugin/theme
+msgid "https://co-w.io/"
+msgstr "https://co-w.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"The Crypto Converter Widget — is a powerful and easy-to-use with beauty UI "
+"real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. "
+"Customers can choose from available ≈170 fiat currencies and ≈1,656 crypto. "
+"For FREE."
+msgstr ""
+"Le Crypto Converter Widget - est un outil web en temps réel puissant et "
+"facile à utiliser avec une interface utilisateur de beauté pour convertir "
+"les cryptocurrences POUR TOUS LES SITES WEB. Les clients peuvent choisir "
+"parmi les devises disponibles sur ≈170 fiat currencies et ≈1,656 crypto. "
+"GRATUITEMENT."
+
+#. Author of the plugin/theme
+msgid "CurrencyRate.today"
+msgstr "CurrencyRate.today"
+
+#. Author URI of the plugin/theme
+msgid "https://currencyrate.today/"
+msgstr "https://currencyrate.today/"
