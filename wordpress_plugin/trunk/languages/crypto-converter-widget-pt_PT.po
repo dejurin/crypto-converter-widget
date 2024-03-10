@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Crypto Converter ⚡ Widget\n"
-"POT-Creation-Date: 2024-03-09 23:24+0200\n"
-"PO-Revision-Date: 2024-03-09 23:30+0200\n"
+"POT-Creation-Date: 2024-03-10 14:03+0200\n"
+"PO-Revision-Date: 2024-03-10 14:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_PT\n"
@@ -45,7 +45,7 @@ msgstr "Avaliação"
 msgid "Settings"
 msgstr "Configurações"
 
-#: includes/ccw-admin-settings.php:21 widget_init.php:181
+#: includes/ccw-admin-settings.php:21 widget_init.php:185
 msgid "Crypto"
 msgstr "Crypto"
 
@@ -69,7 +69,7 @@ msgstr "Lugares decimais"
 msgid "Font"
 msgstr "Fonte"
 
-#: includes/ccw-admin-settings.php:69 widget_init.php:171
+#: includes/ccw-admin-settings.php:69 widget_init.php:172
 msgid "Color"
 msgstr "Cor"
 
@@ -81,7 +81,7 @@ msgstr "Cor aleatória"
 msgid "Border radius"
 msgstr "Raio da Borda"
 
-#: includes/ccw-admin-settings.php:89 widget_init.php:172
+#: includes/ccw-admin-settings.php:89 widget_init.php:174
 msgid "Options"
 msgstr "Opções"
 
@@ -89,11 +89,11 @@ msgstr "Opções"
 msgid "Shadow"
 msgstr "Sombra"
 
-#: includes/ccw-admin-settings.php:93
+#: includes/ccw-admin-settings.php:93 widget_init.php:177
 msgid "Fiat symbol"
 msgstr "Símbolo do Fiat"
 
-#: includes/ccw-admin-settings.php:94
+#: includes/ccw-admin-settings.php:94 widget_init.php:186
 msgid "Live"
 msgstr "Live"
 
@@ -137,7 +137,7 @@ msgstr "Você pode gostar"
 msgid "Supported by"
 msgstr "Apoiado por"
 
-#: includes/ccw-admin-settings.php:133
+#: includes/ccw-admin-settings.php:133 widget_init.php:176
 msgid "Fiat money"
 msgstr "Símbolo do Fiat"
 
@@ -159,42 +159,50 @@ msgid "Container"
 msgstr "Contêiner"
 
 #: widget_init.php:170
+msgid "Decimal Places"
+msgstr "Lugares decimais"
+
+#: widget_init.php:171
 msgid "Background Color"
 msgstr "Cor de Fundo"
 
 #: widget_init.php:173
+msgid "Border Radius"
+msgstr "Raio da Borda"
+
+#: widget_init.php:175
 msgid "Display"
 msgstr "Exibição"
 
-#: widget_init.php:174
+#: widget_init.php:178
 msgid "Font Family"
 msgstr "Família de Fontes"
 
-#: widget_init.php:175
+#: widget_init.php:179
 msgid "About"
 msgstr "Sobre"
 
-#: widget_init.php:176
+#: widget_init.php:180
 msgid "❤️ Rate plugin ★★★★★"
 msgstr "❤️ Avalie o plugin ★★★★★"
 
-#: widget_init.php:177
+#: widget_init.php:181
 msgid "Widget"
 msgstr "Widget"
 
-#: widget_init.php:178
+#: widget_init.php:182
 msgid "DEMO 👀"
 msgstr "DEMO 👀"
 
-#: widget_init.php:179
+#: widget_init.php:183
 msgid "None"
 msgstr "Nenhum"
 
-#: widget_init.php:180
+#: widget_init.php:184
 msgid "Converter"
 msgstr "Conversor"
 
-#: widget_init.php:182
+#: widget_init.php:187
 msgid "Clear Colors"
 msgstr "Limpar Cores"
 
@@ -204,9 +212,10 @@ msgstr "https://co-w.io/"
 
 #. Description of the plugin/theme
 msgid ""
-"The Crypto Converter Widget — is a magic and easy-to-use with beautiful UI "
-"real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES FREE. "
-"Users can choose from available ≈170 fiat money and ≈2,200 cryptocurrencies."
+"The Crypto Converter Widget is a magical and easy-to-use web tool with a "
+"beautiful UI, providing real-time cryptocurrency conversion for any website, "
+"and it's free with Gutenberg block support. Users can choose from "
+"approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies."
 msgstr ""
 "O Crypto Converter Widget - é um widget mágico e fácil de usar com a bela "
 "ferramenta web em tempo real UI para conversão de moedas criptográficas PARA "

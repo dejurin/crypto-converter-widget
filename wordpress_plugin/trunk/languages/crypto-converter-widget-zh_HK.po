@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Crypto Converter ⚡ Widget\n"
-"POT-Creation-Date: 2024-03-09 23:18+0200\n"
-"PO-Revision-Date: 2024-03-09 23:36+0200\n"
+"POT-Creation-Date: 2024-03-10 14:02+0200\n"
+"PO-Revision-Date: 2024-03-10 14:02+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_HK\n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Poedit-WPHeader: widget_init.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
@@ -45,7 +45,7 @@ msgstr "評分"
 msgid "Settings"
 msgstr "設定"
 
-#: includes/ccw-admin-settings.php:21 widget_init.php:181
+#: includes/ccw-admin-settings.php:21 widget_init.php:185
 msgid "Crypto"
 msgstr "加密貨幣"
 
@@ -69,7 +69,7 @@ msgstr "小數位數"
 msgid "Font"
 msgstr "字體"
 
-#: includes/ccw-admin-settings.php:69 widget_init.php:171
+#: includes/ccw-admin-settings.php:69 widget_init.php:172
 msgid "Color"
 msgstr "顏色"
 
@@ -81,7 +81,7 @@ msgstr "隨機顏色"
 msgid "Border radius"
 msgstr "邊框半徑"
 
-#: includes/ccw-admin-settings.php:89 widget_init.php:172
+#: includes/ccw-admin-settings.php:89 widget_init.php:174
 msgid "Options"
 msgstr "選項"
 
@@ -89,11 +89,11 @@ msgstr "選項"
 msgid "Shadow"
 msgstr "陰影"
 
-#: includes/ccw-admin-settings.php:93
+#: includes/ccw-admin-settings.php:93 widget_init.php:177
 msgid "Fiat symbol"
 msgstr "菲亞特符號"
 
-#: includes/ccw-admin-settings.php:94
+#: includes/ccw-admin-settings.php:94 widget_init.php:186
 msgid "Live"
 msgstr "線上"
 
@@ -137,7 +137,7 @@ msgstr "你可能會喜歡"
 msgid "Supported by"
 msgstr "支持者"
 
-#: includes/ccw-admin-settings.php:133
+#: includes/ccw-admin-settings.php:133 widget_init.php:176
 msgid "Fiat money"
 msgstr "菲亞特符號"
 
@@ -159,42 +159,50 @@ msgid "Container"
 msgstr "容器"
 
 #: widget_init.php:170
+msgid "Decimal Places"
+msgstr "小數位數"
+
+#: widget_init.php:171
 msgid "Background Color"
 msgstr "背景顏色"
 
 #: widget_init.php:173
+msgid "Border Radius"
+msgstr "邊框半徑"
+
+#: widget_init.php:175
 msgid "Display"
 msgstr "顯示"
 
-#: widget_init.php:174
+#: widget_init.php:178
 msgid "Font Family"
 msgstr "字型系列"
 
-#: widget_init.php:175
+#: widget_init.php:179
 msgid "About"
 msgstr "關於"
 
-#: widget_init.php:176
+#: widget_init.php:180
 msgid "❤️ Rate plugin ★★★★★"
 msgstr "❤️ 為插件評分 ★★★★★"
 
-#: widget_init.php:177
+#: widget_init.php:181
 msgid "Widget"
 msgstr "小部件"
 
-#: widget_init.php:178
+#: widget_init.php:182
 msgid "DEMO 👀"
 msgstr "演示 👀"
 
-#: widget_init.php:179
+#: widget_init.php:183
 msgid "None"
 msgstr "无"
 
-#: widget_init.php:180
+#: widget_init.php:184
 msgid "Converter"
 msgstr "转换器"
 
-#: widget_init.php:182
+#: widget_init.php:187
 msgid "Clear Colors"
 msgstr "清除颜色"
 
@@ -204,9 +212,10 @@ msgstr "https://co-w.io/"
 
 #. Description of the plugin/theme
 msgid ""
-"The Crypto Converter Widget — is a magic and easy-to-use with beautiful UI "
-"real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES FREE. "
-"Users can choose from available ≈170 fiat money and ≈2,200 cryptocurrencies."
+"The Crypto Converter Widget is a magical and easy-to-use web tool with a "
+"beautiful UI, providing real-time cryptocurrency conversion for any website, "
+"and it's free with Gutenberg block support. Users can choose from "
+"approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies."
 msgstr ""
 "Crypto Converter Widget — 是一個神奇且易於使用的漂亮 UI 實時網絡工具，可以免"
 "費為任何網站轉換加密貨幣。用戶可以從可用的 ≈170 法定貨幣和 ≈2,200 加密貨幣中"

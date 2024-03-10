@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Crypto Converter ⚡ Widget 2.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/crypto-converter-widget\n"
+"Project-Id-Version: Crypto Converter ⚡ Widget 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-03-09T21:06:02+00:00\n"
+"POT-Creation-Date: 2024-03-10T12:01:25+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: crypto-converter-widget\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #. Description of the plugin
 #: widget_init.php
-msgid "The Crypto Converter Widget — is a magic and easy-to-use with beautiful UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES FREE. Users can choose from available ≈170 fiat money and ≈2,200 cryptocurrencies."
+msgid "The Crypto Converter Widget is a magical and easy-to-use web tool with a beautiful UI, providing real-time cryptocurrency conversion for any website, and it's free with Gutenberg block support. Users can choose from approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies."
 msgstr ""
 
 #. Author of the plugin
@@ -66,7 +66,7 @@ msgid "Settings"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:21
-#: widget_init.php:181
+#: widget_init.php:185
 msgid "Crypto"
 msgstr ""
 
@@ -91,7 +91,7 @@ msgid "Font"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:69
-#: widget_init.php:171
+#: widget_init.php:172
 msgid "Color"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgid "Border radius"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:89
-#: widget_init.php:172
+#: widget_init.php:174
 msgid "Options"
 msgstr ""
 
@@ -114,10 +114,12 @@ msgid "Shadow"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:93
+#: widget_init.php:177
 msgid "Fiat symbol"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:94
+#: widget_init.php:186
 msgid "Live"
 msgstr ""
 
@@ -162,6 +164,7 @@ msgid "Supported by"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:133
+#: widget_init.php:176
 msgid "Fiat money"
 msgstr ""
 
@@ -178,41 +181,49 @@ msgid "Container"
 msgstr ""
 
 #: widget_init.php:170
+msgid "Decimal Places"
+msgstr ""
+
+#: widget_init.php:171
 msgid "Background Color"
 msgstr ""
 
 #: widget_init.php:173
-msgid "Display"
-msgstr ""
-
-#: widget_init.php:174
-msgid "Font Family"
+msgid "Border Radius"
 msgstr ""
 
 #: widget_init.php:175
-msgid "About"
-msgstr ""
-
-#: widget_init.php:176
-msgid "❤️ Rate plugin ★★★★★"
-msgstr ""
-
-#: widget_init.php:177
-msgid "Widget"
+msgid "Display"
 msgstr ""
 
 #: widget_init.php:178
-msgid "DEMO 👀"
+msgid "Font Family"
 msgstr ""
 
 #: widget_init.php:179
-msgid "None"
+msgid "About"
 msgstr ""
 
 #: widget_init.php:180
-msgid "Converter"
+msgid "❤️ Rate plugin ★★★★★"
+msgstr ""
+
+#: widget_init.php:181
+msgid "Widget"
 msgstr ""
 
 #: widget_init.php:182
+msgid "DEMO 👀"
+msgstr ""
+
+#: widget_init.php:183
+msgid "None"
+msgstr ""
+
+#: widget_init.php:184
+msgid "Converter"
+msgstr ""
+
+#: widget_init.php:187
 msgid "Clear Colors"
 msgstr ""

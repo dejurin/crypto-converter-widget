@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @version 2.1.0
+ * @version 2.1.1
  */
 
 /*
 Plugin Name: Crypto Converter ⚡ Widget
 Plugin URI: https://co-w.io/
 Description: The Crypto Converter Widget is a magical and easy-to-use web tool with a beautiful UI, providing real-time cryptocurrency conversion for any website, and it's free with Gutenberg block support. Users can choose from approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies.
-Version: 2.1.0
+Version: 2.1.1
 Author: CurrencyRate.today
 Author URI: https://currencyrate.today/
 License: GPLv2 or later
@@ -163,14 +163,19 @@ function CCW_block_register_block()
     wp_localize_script('crypto-converter-widget-block-editor-script', 'blockData', [
         'locale' => get_locale(),
         'i18n' => [
+            'amount' => esc_html__('Amount', 'crypto-converter-widget'),
             'title' => esc_html__('Crypto Converter ⚡ Widget', 'crypto-converter-widget'),
             'description' => esc_html__('A simple block for displaying Crypto Converter ⚡ Widget.', 'crypto-converter-widget'),
             'container' => esc_html__('Container', 'crypto-converter-widget'),
             'shadow' => esc_html__('Shadow', 'crypto-converter-widget'),
+            'decimalPlaces' => esc_html__('Decimal Places', 'crypto-converter-widget'),
             'backgroundColor' => esc_html__('Background Color', 'crypto-converter-widget'),
             'color' => esc_html__('Color', 'crypto-converter-widget'),
+            'borderRadius' => esc_html__('Border Radius', 'crypto-converter-widget'),
             'options' => esc_html__('Options', 'crypto-converter-widget'),
             'display' => esc_html__('Display', 'crypto-converter-widget'),
+            'fiat' => esc_html__('Fiat money', 'crypto-converter-widget'),
+            'symbol' => esc_html__('Fiat symbol', 'crypto-converter-widget'),
             'fontFamily' => esc_html__('Font Family', 'crypto-converter-widget'),
             'about' => esc_html__('About', 'crypto-converter-widget'),
             'ratePlugin' => esc_html__('❤️ Rate plugin ★★★★★', 'crypto-converter-widget'),
@@ -179,6 +184,7 @@ function CCW_block_register_block()
             'none' => esc_html__('None', 'crypto-converter-widget'),
             'converter' => esc_html__('Converter', 'crypto-converter-widget'),
             'crypto' => esc_html__('Crypto', 'crypto-converter-widget'),
+            'live' => esc_html__('Live', 'crypto-converter-widget'),
             'clearColors' => esc_html__('Clear Colors', 'crypto-converter-widget'),
         ],
     ]);

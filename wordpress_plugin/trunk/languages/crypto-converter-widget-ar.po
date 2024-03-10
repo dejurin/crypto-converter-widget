@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Crypto Converter ⚡ Widget\n"
-"POT-Creation-Date: 2024-03-09 23:06+0200\n"
-"PO-Revision-Date: 2024-03-09 23:39+0200\n"
+"POT-Creation-Date: 2024-03-10 14:10+0200\n"
+"PO-Revision-Date: 2024-03-10 14:10+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -46,7 +46,7 @@ msgstr "تقييم"
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: includes/ccw-admin-settings.php:21 widget_init.php:181
+#: includes/ccw-admin-settings.php:21 widget_init.php:186
 msgid "Crypto"
 msgstr "التشفير"
 
@@ -58,7 +58,7 @@ msgstr "قائمة معرف العملة المشفرة"
 msgid "Fiat"
 msgstr "فيات"
 
-#: includes/ccw-admin-settings.php:38
+#: includes/ccw-admin-settings.php:38 widget_init.php:166
 msgid "Amount"
 msgstr "الكمية"
 
@@ -70,7 +70,7 @@ msgstr "منازل عشرية"
 msgid "Font"
 msgstr "الخط"
 
-#: includes/ccw-admin-settings.php:69 widget_init.php:171
+#: includes/ccw-admin-settings.php:69 widget_init.php:173
 msgid "Color"
 msgstr "اللون"
 
@@ -82,19 +82,19 @@ msgstr "لون عشوائي"
 msgid "Border radius"
 msgstr "تدوير حواف الحدود"
 
-#: includes/ccw-admin-settings.php:89 widget_init.php:172
+#: includes/ccw-admin-settings.php:89 widget_init.php:175
 msgid "Options"
 msgstr "خيارات"
 
-#: includes/ccw-admin-settings.php:92 widget_init.php:169
+#: includes/ccw-admin-settings.php:92 widget_init.php:170
 msgid "Shadow"
 msgstr "ظل"
 
-#: includes/ccw-admin-settings.php:93
+#: includes/ccw-admin-settings.php:93 widget_init.php:178
 msgid "Fiat symbol"
 msgstr "رمز فيات"
 
-#: includes/ccw-admin-settings.php:94
+#: includes/ccw-admin-settings.php:94 widget_init.php:187
 msgid "Live"
 msgstr "مباشر"
 
@@ -138,7 +138,7 @@ msgstr "قد يعجبك"
 msgid "Supported by"
 msgstr "مدعوم من"
 
-#: includes/ccw-admin-settings.php:133
+#: includes/ccw-admin-settings.php:133 widget_init.php:177
 msgid "Fiat money"
 msgstr "رمز فيات"
 
@@ -147,55 +147,63 @@ msgid "Source:"
 msgstr "المصدر:"
 
 #. Plugin Name of the plugin/theme
-#: widget_init.php:166
+#: widget_init.php:167
 msgid "Crypto Converter ⚡ Widget"
 msgstr "محول التشفير ⚡ القطعة"
 
-#: widget_init.php:167
+#: widget_init.php:168
 msgid "A simple block for displaying Crypto Converter ⚡ Widget."
 msgstr "كتلة بسيطة لعرض ويدجت محول العملات الرقمية ⚡."
 
-#: widget_init.php:168
+#: widget_init.php:169
 msgid "Container"
 msgstr "حاوية"
 
-#: widget_init.php:170
+#: widget_init.php:171
+msgid "Decimal Places"
+msgstr "منازل عشرية"
+
+#: widget_init.php:172
 msgid "Background Color"
 msgstr "لون الخلفية"
 
-#: widget_init.php:173
+#: widget_init.php:174
+msgid "Border Radius"
+msgstr "تدوير حواف الحدود"
+
+#: widget_init.php:176
 msgid "Display"
 msgstr "عرض"
 
-#: widget_init.php:174
+#: widget_init.php:179
 msgid "Font Family"
 msgstr "عائلة الخط"
 
-#: widget_init.php:175
+#: widget_init.php:180
 msgid "About"
 msgstr "حول"
 
-#: widget_init.php:176
+#: widget_init.php:181
 msgid "❤️ Rate plugin ★★★★★"
 msgstr "❤️ قيم الإضافة ★★★★★"
 
-#: widget_init.php:177
+#: widget_init.php:182
 msgid "Widget"
 msgstr "ويدجات"
 
-#: widget_init.php:178
+#: widget_init.php:183
 msgid "DEMO 👀"
 msgstr "ديمو 👀"
 
-#: widget_init.php:179
+#: widget_init.php:184
 msgid "None"
 msgstr "لا شيء"
 
-#: widget_init.php:180
+#: widget_init.php:185
 msgid "Converter"
 msgstr "المحول"
 
-#: widget_init.php:182
+#: widget_init.php:188
 msgid "Clear Colors"
 msgstr "ألوان واضحة"
 
@@ -205,9 +213,10 @@ msgstr "‫https://co-w.io"
 
 #. Description of the plugin/theme
 msgid ""
-"The Crypto Converter Widget — is a magic and easy-to-use with beautiful UI "
-"real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES FREE. "
-"Users can choose from available ≈170 fiat money and ≈2,200 cryptocurrencies."
+"The Crypto Converter Widget is a magical and easy-to-use web tool with a "
+"beautiful UI, providing real-time cryptocurrency conversion for any website, "
+"and it's free with Gutenberg block support. Users can choose from "
+"approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies."
 msgstr ""
 "أداة تحويل العملات المشفرة - هي أداة سحرية وسهلة الاستخدام مع أداة ويب في "
 "الوقت الحقيقي لواجهة مستخدم جميلة لتحويل العملات المشفرة لأي مواقع ويب "
