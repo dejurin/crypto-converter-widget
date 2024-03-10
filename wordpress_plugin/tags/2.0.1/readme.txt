@@ -5,7 +5,7 @@ Donate link: http://currencyrate.today/
 Tested up to: 6.4
 Requires at least: 3.1
 Requires PHP: 5.3
-Stable tag: 2.1.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,9 +63,6 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 5. screenshot-5.png - Gutenberg Block
 
 == Changelog ==
-= 2.1.0 =
-* Minor fixed
-* Gutenberg fixed
 = 2.0.1 =
 * Minor fixed
 = 2.0.0 =

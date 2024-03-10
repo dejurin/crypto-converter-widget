@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @version 2.1.0
+ * @version 2.0.1
  */
 
 /*
 Plugin Name: Crypto Converter ⚡ Widget
 Plugin URI: https://co-w.io/
 Description: The Crypto Converter Widget is a magical and easy-to-use web tool with a beautiful UI, providing real-time cryptocurrency conversion for any website, and it's free with Gutenberg block support. Users can choose from approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies.
-Version: 2.1.0
+Version: 2.0.1
 Author: CurrencyRate.today
 Author URI: https://currencyrate.today/
 License: GPLv2 or later
