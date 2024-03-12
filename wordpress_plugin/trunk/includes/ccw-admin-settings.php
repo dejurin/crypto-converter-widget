@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 2.1.3
+ * @version 2.1.4
  */
 
 // Exit if accessed directly.
@@ -9,7 +9,7 @@ if (!defined('ABSPATH')) {
 } // Exit if accessed directly
 ?>
 <div class="wrap">
-   <h1 class="wp-heading-inline">⚡ <?php echo CCW_NAME; ?></h1>
+    <h1 class="wp-heading-inline"><?php esc_html_e(CCW_NAME); ?></h1>
    <div class="ccw-row">
       <div class="col-12 col-lg-6">
          <h2><?php esc_html_e('Settings', 'crypto-converter-widget');?></h2>

@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 2.1.3
+ * @version 2.1.4
  */
 
 // Exit if accessed directly.
@@ -77,7 +77,7 @@ if (!class_exists('CCW_Admin_Notices')) {
                                 </div>
                                 <div>
                                     <h2>🥰 <?php esc_html_e('Please rate our free', 'crypto-converter-widget');?>
-                                    &laquo;<?php esc_html(CCW_NAME);?>&raquo;</h2>
+                                    &laquo;<?php esc_html_e(CCW_NAME); ?>&raquo;</h2>
                                     <hr>
                                     <p><?php esc_html_e('Your valuable feedback will help us improve.', 'crypto-converter-widget');?><br><?php esc_html_e('It will only take a few minutes', 'crypto-converter-widget');?>: <a href="https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post" rel="noopener" target="_blank"><?php esc_html_e('Rate it now', 'crypto-converter-widget');?></a> 👍</p>
                                     <p><a href="https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post" rel="noopener" target="_blank"><img src="<?php echo esc_attr(CCW_URL . 'assets/admin/img/stars.png'); ?>" alt="<?php esc_attr_e('Rating', 'crypto-converter-widget');?>"></a></p>
