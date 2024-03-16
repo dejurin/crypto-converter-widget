@@ -171,7 +171,7 @@ function CCW_block_register_block()
         plugins_url('block.js', __FILE__),
         ['wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor'],
         filemtime(plugin_dir_path(__FILE__) . 'block.js'),
-        true,
+        true
     );
     wp_localize_script('crypto-converter-widget-block-editor-script', 'blockData', [
         'locale' => get_locale(),
