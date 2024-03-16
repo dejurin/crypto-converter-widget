@@ -60,8 +60,12 @@ class CCW_crypto_converter_widget
     }
 
     function CCW_admin_notify_scripts() {
-        wp_enqueue_script('crypto-converter-widget-script', plugin_dir_url(__FILE__) . 'assets/admin/js/ccw-notify.js', array('jquery'), null, true);
-        wp_localize_script('crypto-converter-widget-script', 'cryptoConverterWidgetAjax', array('ajaxurl' => admin_url('admin-ajax.php'), 'nonce' => wp_create_nonce('crypto-converter-widget-nonce')));
+        $script_path = plugin_dir_path(__FILE__) . 'assets/admin/js/ccw-notify.js';
+        wp_enqueue_script('crypto-converter-widget-script', plugin_dir_url(__FILE__) . 'assets/admin/js/ccw-notify.js', array('jquery'), filemtime($script_path), true);
+        wp_localize_script('crypto-converter-widget-script', 'cryptoConverterWidgetAjax', array(
+            'ajaxurl' => admin_url('admin-ajax.php'),
+            'nonce' => wp_create_nonce('crypto-converter-widget-nonce')
+        ));
     }
 
     public function CCW_shortcode($attr)
@@ -166,7 +170,8 @@ function CCW_block_register_block()
         'crypto-converter-widget-block-editor-script',
         plugins_url('block.js', __FILE__),
         ['wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor'],
-        filemtime(plugin_dir_path(__FILE__) . 'block.js')
+        filemtime(plugin_dir_path(__FILE__) . 'block.js'),
+        true,
     );
     wp_localize_script('crypto-converter-widget-block-editor-script', 'blockData', [
         'locale' => get_locale(),
