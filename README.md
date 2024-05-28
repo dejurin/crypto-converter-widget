@@ -35,6 +35,10 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 
 ---
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/deyurii)
+
+---
+
 ### Install 🖥️ ###
 
 0. Copy [example](#example-) below and set your attributes customize.
