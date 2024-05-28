@@ -10,6 +10,12 @@
 
 The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈2,288 crypto. For FREE.
 
+---
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/deyurii)
+
+---
+
 - [Features](#features-)
 - [Install](#install-%EF%B8%8F)
 - [Example](#example-)
@@ -32,10 +38,6 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [x] ≈2,288 cryptocurrencies and ≈170 fiat currencies;
 - [x] SSL support;
 - [x] SEO-friendly.
-
----
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/deyurii)
 
 ---
 
