@@ -25,3 +25,15 @@ jobs:
 
       - name: Run asset parser
         run: python scripts/assets.py
+
+      - name: Commit and push updated assets.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Set Git config with your GitHub login
+          git config --global user.email "dejurin@users.noreply.github.com"
+          git config --global user.name "dejurin"
+          # Add and commit the updated file
+          git add public/assets.json
+          git commit -m "Update assets.json"
+          git push

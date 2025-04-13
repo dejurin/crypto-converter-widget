@@ -44,7 +44,8 @@ def fetch_assets_page(page, max_retries=MAX_RETRIES):
             response.raise_for_status()
             data = response.json()
             asset_list = data.get("Data", {}).get("LIST", [])
-            # Extract required fields for each asset
+            # Extract required fields for each asset,
+            # remove specified prefix from LOGO_URL
             return [
                 {
                     "SYMBOL": asset.get("SYMBOL"),
