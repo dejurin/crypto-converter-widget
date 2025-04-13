@@ -1,0 +1,6 @@
+{
+	"recommendations": [
+		"openai.openai-chatgpt-adhoc",
+		"stateful.runme"
+	]
+}
