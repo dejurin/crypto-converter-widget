@@ -140,22 +140,27 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min
 ### Dark Theme
 <a href="https://co-w.io"><img src="./dark.png" alt="Cryptocurrency Converter Widget Dark"></a>
 
+### Custom Theme
+<a href="https://co-w.io"><img src="./custom.png" alt="Cryptocurrency Converter Widget Custom"></a>
+
 ---
 
 ### For Developers 🧑‍💻 ###
 
-|Attribute|Type|Default|Reactive|Description|
-|--- |--- |--- |--- |--- |
-|Amount|float|1|+|Amount of cryptocurrency.|
-|background-color|string|#383a59|+|Background color of widget.|
-|border-radius|string|0.60rem|+|Border radius of widget.|
-|crypto|string|bitcoin|+|Cryptocurrency ID.|
-|decimal-places|int|2|+|Decimal places.|
-|fiat|string|united-states-dollar|+|Fiat money symbol.|
-|font-family|string|inherit|+|Font of widget.|
-|shadow|boolean|false|+|Shadow of widget.|
-|symbol|boolean|false|+|Currency symbol ($).|
-|live|boolean|false|+|Prices are updated real-time.|
+| Attribute         | Type    | Default | Reactive | Description                              |
+|-------------------|---------|---------|----------|------------------------------------------|
+| base              | string  | BTC     | ☑️       | Base currency of widget (From).          |
+| quote             | string  | USD     | ☑️       | Quote currency of widget (To).           |
+| symbol            | boolean | false   | ☑️       | Display currency symbol ($).             |
+| shadow            | boolean | false   | ☑️       | Display shadow for widget.               |
+| rounded           | boolean | true    | ☑️       | Rounded corners for widget.              |
+| background-color  | string  |         | ☑️       | Background color of widget (supports gradients). |
+| stat              | boolean | false   | ☑️       | Display fiat currency.                   |
+| tax               | float   | 0       | ☑️       | Additional tax/fee for quote.            |
+| decimal           | int     | 2       | ☑️       | Number of decimal places.                |
+| amount            | float   | 1       | ☑️       | Amount of currency.                      |
+| locale            | string  | auto    | ☑️       | Locale setting for widget.               |
+| theme             | string  | auto    | ☑️       | Theme of widget.                         |
 
 ---
 
