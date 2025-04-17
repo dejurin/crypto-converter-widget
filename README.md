@@ -10,8 +10,7 @@ Fortunately, we found an even better alternative, so the widget will live on!
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
 
-The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈3,313 crypto. For FREE.
-
+The __[Crypto Converter Widget](https://co-w.io)__ is a secure, fast, and fully customizable JavaScript widget for real-time cryptocurrency and fiat currency conversion. Lightweight (≈79.96 kB), dependency-free, and hosted via CDN, it ensures reliable performance on any website without cryptojacking risks or the need for API keys. Supporting ≈3,313 cryptocurrencies, ≈170 fiat currencies, tokens, blockchains, and commodities, it features real-time ⚡ streaming price updates, SSL security, and flexible design customization. Completely free and ready for instant integration as an Exchange Rate tool or Currency Converter.
 ---
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/deyurii)
@@ -33,7 +32,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 
 - [x] No Cryptojacking!
 - [x] No API key needed;
-- [x] Pure JavaScript ≈71.5 kBytes (gzip), no dependencies;
+- [x] Pure JavaScript ≈79.96 kB, no dependencies;
 - [x] Flexible settings and customizable design;
 - [x] Real-time ⚡ streaming price update;
 - [x] Processed on a third-party server;
