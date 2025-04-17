@@ -76,6 +76,17 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min
 
 ---
 
+### Light Theme
+<a href="https://co-w.io"><img src="./light.png" width="380" alt="Cryptocurrency Converter Widget Light"></a>
+
+### Dark Theme
+<a href="https://co-w.io"><img src="./dark.png" width="380" alt="Cryptocurrency Converter Widget Dark"></a>
+
+### Custom Theme
+<a href="https://co-w.io"><img src="./custom.png" width="380" alt="Cryptocurrency Converter Widget Custom"></a>
+
+---
+
 ### Changelog ✳️ ###
 
 #### [3.0.0] - 2025-04-18
@@ -151,16 +162,6 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min
 
 ---
 
-### Light Theme
-<a href="https://co-w.io"><img src="./light.png" alt="Cryptocurrency Converter Widget Light"></a>
-
-### Dark Theme
-<a href="https://co-w.io"><img src="./dark.png" alt="Cryptocurrency Converter Widget Dark"></a>
-
-### Custom Theme
-<a href="https://co-w.io"><img src="./custom.png" alt="Cryptocurrency Converter Widget Custom"></a>
-
----
 
 ### For Developers 🧑‍💻 ###
 
