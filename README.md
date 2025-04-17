@@ -1,4 +1,4 @@
-<h1 align="center">Crypto Converter ⚡ Widget</h1>
+![ccw3](https://github.com/user-attachments/assets/1ed886bc-ea57-4e8e-857e-840fca0aa131)<h1 align="center">Crypto Converter ⚡ Widget</h1>
 
 * Latest version: 1.5.2;
 * Size: ≈71.5 kBytes;
@@ -27,7 +27,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 
 ## DEMO 👀 **[Example 1](https://bitcoin-pulse.pages.dev/)** | **[Example 2](https://co-w.io/)**
 
-<a href="https://co-w.io"><img src="./anim.gif" alt="Cryptocurrency Converter Widget"></a>
+<a href="https://co-w.io"><img src="./ccw3.gif" alt="Cryptocurrency Converter Widget"></a>
 
 ### Features 🤩 ###
 
