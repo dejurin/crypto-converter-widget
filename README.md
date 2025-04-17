@@ -39,6 +39,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 - [x] Processed on a third-party server;
 - [x] Fiat, Tokens, Blockchains, Commodity;
 - [x] ≈3,313 cryptocurrencies and ≈170 fiat currencies;
+- [x] Can be used as Exchange Rates or Currency Converter;
 - [x] SSL support;
 - [x] SEO-friendly;
 - [x] Free.
