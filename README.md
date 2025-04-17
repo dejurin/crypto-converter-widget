@@ -67,31 +67,7 @@ You can find many uses for this widget, not just on the website. See how I did a
 ##### Latest
 
 ```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js
-```
-
-##### Latest legacy
-
-```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest-legacy.min.js
-```
-
-All versions here: <a href="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/">https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/</a>
-
----
-
-### StackPath CDN
-
-##### Latest
-
-```html
-https://s.fx-w.io/ccw/latest.min.js
-```
-
-##### Latest legacy
-
-```html
-https://s.fx-w.io/ccw/latest-legacy.min.js
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min.js
 ```
 
 ---
@@ -155,6 +131,14 @@ https://s.fx-w.io/ccw/latest-legacy.min.js
 
 #### [1.0.0] - 2020-12-11
 - First release
+
+---
+
+### Light Theme
+<a href="https://co-w.io"><img src="./light.png" alt="Cryptocurrency Converter Widget Light"></a>
+
+### Dark Theme
+<a href="https://co-w.io"><img src="./dark.png" alt="Cryptocurrency Converter Widget Dark"></a>
 
 ---
 
