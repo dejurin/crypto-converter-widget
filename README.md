@@ -1,6 +1,6 @@
 ![ccw3](https://github.com/user-attachments/assets/1ed886bc-ea57-4e8e-857e-840fca0aa131)<h1 align="center">Crypto Converter ⚡ Widget</h1>
 
-* Latest version: 1.5.2;
+* Latest version: 3.0.0;
 * Size: ≈71.5 kBytes;
 * License: MIT
 
@@ -10,7 +10,7 @@ Fortunately, we found an even better alternative, so the widget will live on!
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
 
-The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈2,288 crypto. For FREE.
+The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈3,313 crypto. For FREE.
 
 ---
 
@@ -32,14 +32,16 @@ The __[Crypto Converter Widget](https://co-w.io)__ — is a powerful and easy-to
 ### Features 🤩 ###
 
 - [x] No Cryptojacking!
+- [x] No API key needed;
 - [x] Pure JavaScript ≈71.5 kBytes (gzip), no dependencies;
 - [x] Flexible settings and customizable design;
 - [x] Real-time ⚡ streaming price update;
 - [x] Processed on a third-party server;
-- [x] Sound beep when price changed
-- [x] ≈2,288 cryptocurrencies and ≈170 fiat currencies;
+- [x] Fiat, Tokens, Blockchains, Commodity;
+- [x] ≈3,313 cryptocurrencies and ≈170 fiat currencies;
 - [x] SSL support;
-- [x] SEO-friendly.
+- [x] SEO-friendly;
+- [x] Free.
 
 ---
 
