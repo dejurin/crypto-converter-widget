@@ -1,7 +1,7 @@
 ![ccw3](https://github.com/user-attachments/assets/1ed886bc-ea57-4e8e-857e-840fca0aa131)<h1 align="center">Crypto Converter ⚡ Widget</h1>
 
 * Latest version: 3.0.0;
-* Size: ≈71.5 kBytes;
+* Size: ≈79.96 kB;
 * License: MIT
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
