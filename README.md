@@ -86,6 +86,8 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min
 - Blockchains 🔗
 - Tokens 🔑
 - Commodity 🛢️
+- Exchange Rates
+- Currency Converter
 
 
 #### [1.5.2] - 2021-01-10
