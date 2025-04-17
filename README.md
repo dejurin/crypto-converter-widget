@@ -54,7 +54,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, fast, and fully 
 
 ---
 
-### Example 💡 ###
+### Example HTML-code 💡 ###
 
 ```html
 <!-- Crypto Converter ⚡ Widget --><crypto-converter-widget amount="1" shadow="true" locale="auto" rounded="true" quote="USD" base="BTC" theme="auto" decimal="2" stat="false"></crypto-converter-widget><a href="https://currencyrate.today/" target="_blank" rel="noopener">CurrencyRate.Today</a><script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@master/dist/latest.min.js"></script><!-- /Crypto Converter ⚡ Widget -->
