@@ -90,7 +90,7 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min
 ### Changelog ✳️ ###
 
 #### [3.0.0] - 2025-04-18
-##### Fixed
+##### Features and Fixed
 - New engine
 - New API
 - Major fixed
