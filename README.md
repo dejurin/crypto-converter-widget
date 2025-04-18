@@ -31,19 +31,20 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, fast, and fully 
 
 ### Features 🤩
 
-- [x] No Cryptojacking!
-- [x] No API key needed;
-- [x] Pure JavaScript ≈79.96 kB, no dependencies;
-- [x] Flexible settings and customizable design;
-- [x] Real-time ⚡ streaming price update;
-- [x] Processed on a third-party server;
-- [x] Fiat, Tokens, Blockchains, Commodity;
-- [x] ≈3,313 cryptocurrencies and ≈170 fiat currencies;
-- [x] Can be used as Exchange Rates or Currency Converter;
-- [x] CDN;
-- [x] SSL support;
-- [x] SEO-friendly;
-- [x] Free.
+- [x] 🦠 No Cryptojacking!
+- [x] 🔑 No API key needed;
+- [x] 🥞 4 Layers of API data providers;
+- [x] 🪶 Pure JavaScript ≈80kB, no dependencies;
+- [x] ⚙️ Flexible settings and customizable design;
+- [x] ⚡ Real-time price update;
+- [x] 🌐 Processed on a third-party server;
+- [x] 💵 Fiat, Tokens, Blockchains, Commodity;
+- [x] ₿ ≈3,313 cryptocurrencies and ≈170 fiat currencies;
+- [x] 💱 Can be used as Exchange Rates or Currency Converter;
+- [x] ☁️ CDN Assets;
+- [x] 🔐 SSL support;
+- [x] 🩷 SEO-friendly;
+- [x] 🆓 Free.
 
 ---
 
@@ -87,6 +88,80 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min
 ### Custom Theme
 
 <a href="https://co-w.io"><img src="./custom.png" width="380" alt="Cryptocurrency Converter Widget Custom"></a>
+
+---
+
+### Layers
+
+The price widget automatically cycles through multiple public data sources in priority order, so if one API fails or changes its response format it simply falls back to the next provider without missing a beat. Built‑in caching minimizes network requests and keeps your page fast and responsive. There’s no need for API keys or server‑side setup—just drop the HTML snippet into your page and you’re good to go. This lightweight, self‑configuring design delivers rock‑solid reliability and extreme flexibility with zero maintenance.
+
+#### How it works
+
+```plaintext
+┌─────────────────────────────────────┐
+│ 1. Provider 1 (Coindesk – full data) │
+└─────────────────────────────────────┘
+              ↓
+   [1.1] Is detailed price in cache?
+         ├─ Yes → return full price → END
+         └─ No  →  
+              ↓
+   [1.2] Fetch from Provider 1  
+         ├─ Success & status OK →  
+         │     • parse detailed data  
+         │     • cache full price  
+         │     • return full price → END  
+         └─ Failure → proceed to Provider 2  
+
+┌─────────────────────────────────────┐
+│ 2. Provider 2 (CryptoCompare – price) │
+└─────────────────────────────────────┘
+              ↓
+   [2.1] Is simple price in cache?
+         ├─ Yes → return price → END
+         └─ No  →  
+              ↓
+   [2.2] Fetch from Provider 2  
+         ├─ Success →  
+         │     • parse numeric price  
+         │     • cache price  
+         │     • return price → END  
+         └─ Failure → proceed to Provider 3  
+
+┌─────────────────────────────────────┐
+│ 3. Provider 3 (Coinbase – price)     │
+└─────────────────────────────────────┘
+              ↓
+   [3.1] Is simple price in cache?
+         ├─ Yes → return price → END
+         └─ No  →  
+              ↓
+   [3.2] Fetch from Provider 3  
+         ├─ Success →  
+         │     • parse numeric price  
+         │     • cache price  
+         │     • return price → END  
+         └─ Failure → proceed to Provider 4  
+
+┌─────────────────────────────────────┐
+│ 4. Provider 4 (OKX – price)          │
+└─────────────────────────────────────┘
+              ↓
+   [4.1] Is simple price in cache?
+         ├─ Yes → return price → END
+         └─ No  →  
+              ↓
+   [4.2] Fetch from Provider 4  
+         ├─ Success →  
+         │     • parse numeric price  
+         │     • cache price  
+         │     • return price → END  
+         └─ Failure →  
+              ↓
+┌─────────────────────────────────────┐
+│ All providers failed → show error  │
+└─────────────────────────────────────┘
+```
 
 ---
 
