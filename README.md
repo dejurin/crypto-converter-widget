@@ -170,7 +170,14 @@ The price widget automatically cycles through multiple public data sources in pr
 
 ### Changelog ✳️
 
-#### [3.0.0] - 2025-04-18
+#### [3.0.1] - 2025-04-18
+
+##### Features and Fixed
+
+- 4 Layers of API data providers;
+- Minor fixed
+
+#### [3.0.0] - 2025-04-17
 
 ##### Features and Fixed
 
