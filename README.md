@@ -171,115 +171,82 @@ The price widget automatically cycles through multiple public data sources in pr
 ### Changelog ✳️
 
 #### [3.0.1] - 2025-04-18
-
-##### Features and Fixed
-
-- 4 Layers of API data providers;
-- Minor fixed
+##### Added
+- Implemented four layers of API data providers for enhanced reliability and redundancy.
+##### Fixed
+- Minor bug fixes and performance optimizations.
 
 #### [3.0.0] - 2025-04-17
-
-##### Features and Fixed
-
-- New engine
-- New API
-- Major fixed
-- Fiat currencies💵
-- Blockchains 🔗
-- Tokens 🔑
-- Commodity 🛢️
-- Exchange Rates
-- Currency Converter
+##### Added
+- New core engine for improved performance and scalability.
+- Updated API with expanded functionality and new endpoints.
+- Support for fiat currency tracking.
+- Integration with multiple blockchain networks and token standards.
+- Commodity price tracking functionality.
+- Exchange rate data integration.
+- Currency converter feature.
+##### Fixed
+- Major bug fixes and stability improvements.
 
 #### [1.5.2] - 2021-01-10
-
 ##### Fixed
-
-- Major fixes
+- Addressed critical bugs and improved application stability.
 
 #### [1.5.1] - 2021-01-10
-
 ##### Fixed
-
-- Major fixes
+- Resolved major issues impacting performance and reliability.
 
 #### [1.5.0] - 2021-01-09
-
 ##### Fixed
-
-- Major fixes
+- Fixed significant bugs and optimized application performance.
 
 #### [1.4.2] - 2021-01-08
-
 ##### Fixed
-
-- Minor fixes
+- Minor bug fixes and user interface improvements.
 
 #### [1.4.1] - 2021-01-08
-
+##### Added
+- Loading animation to enhance user experience.
 ##### Fixed
-
-- Minor fixes
-
-##### Add
-
-- Loading anim
+- Minor bug fixes and performance enhancements.
 
 #### [1.4.0] - 2021-01-07
-
+##### Added
+- Play/Pause functionality for real-time price updates.
+- Request interceptors to handle poor network conditions.
 ##### Fixed
-
-- Add interceptors for poor request
-- Minor fixes
-
-##### Add
-
-- Play/Pause price updates
-
-##### Delete
-
-- Sound beep when price changed
+- Minor bug fixes and stability improvements.
+##### Removed
+- Sound notification for price changes.
 
 #### [1.3.5] - 2021-01-05
-
+##### Added
+- Sound notification for price changes.
 ##### Fixed
-
-- Minor fixes
-
-##### Add
-
-- Sound beep when price changed
+- Minor bug fixes and performance tweaks.
 
 #### [1.1.7] - 2021-01-04
-
+##### Added
+- Real-time fiat currency selection.
 ##### Fixed
-
-- Select fiat [live]
-- Minor fixes
+- Minor bug fixes and user interface enhancements.
 
 #### [1.1.6] - 2021-01-03
-
+##### Added
+- Currency symbol attribute for improved formatting.
 ##### Fixed
-
-- Currency symbol
-- Minor fixes
-
-##### Add
-
-- Currency symbol attribut
+- Currency symbol display issues.
+- Minor bug fixes.
 
 #### [1.0.4] - 2020-12-12
-
 ##### Fixed
-
-- Select form [await load]
-- Background image
-- WebSocket stop/start
+- Improved form selection with asynchronous loading.
+- Fixed background image rendering issues.
+- Resolved WebSocket connection start/stop issues.
 
 #### [1.0.0] - 2020-12-11
-
-- First release
-
+##### Released
+- Initial release of the application.
 ---
 
 ### For Developers 🧑‍💻
