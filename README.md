@@ -32,7 +32,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, fast, and fully 
 ### Features 🤩
 
 - [x] 🔑 No API key needed;
-- [x] 🥞 4 Layers of API data providers;
+- [x] 🥞 Four layers of API data providers;
 - [x] 🪶 Pure JavaScript ≈80kB, no dependencies;
 - [x] ⚙️ Flexible settings;
 - [x] ⚡ Real-time price update;
