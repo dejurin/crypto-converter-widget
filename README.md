@@ -34,9 +34,12 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, fast, and fully 
 - [x] 🔑 No API key needed;
 - [x] 🥞 4 Layers of API data providers;
 - [x] 🪶 Pure JavaScript ≈80kB, no dependencies;
-- [x] ⚙️ Flexible settings and customizable design;
-- [x] ⚡ Real-time price update;
-- [x] 🌐 Processed on a third-party server;
+- [x] ⚙️ Flexible Settings;
+- [x] ⚡ Real-time Price Update;
+- [x] 🌐 Processed on a Third-party Server;
+- [x] 💅 Beautiful design;
+- [x] 🌈 Supports Background Gradient;
+- [x] 🌑 Supports Dark theme
 - [x] 💵 Fiat, Tokens, Blockchains, Commodity;
 - [x] ₿ ≈3,313 cryptocurrencies and ≈170 fiat currencies;
 - [x] 💱 Can be used as Exchange Rates or Currency Converter;
