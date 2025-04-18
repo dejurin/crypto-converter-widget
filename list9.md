@@ -1,3 +1,5 @@
+[← Prev](./list8.md) | [Next →](./list10.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/8666/1698779247532.png" width="32" height="32"> | 8666 | HITBTC | HitBTC Token |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/9677/1698780056025.png" width="32" height="32"> | 9677 | CHRONOS | Chronos Group Inc |
 
 ---
+
 [← Prev](./list8.md) | [Next →](./list10.md)

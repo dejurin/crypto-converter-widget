@@ -1,3 +1,5 @@
+[← Prev](./list6.md) | [Next →](./list8.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/6499/1698776049580.png" width="32" height="32"> | 6499 | CUR | Cura Network |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/7631/1698777999390.png" width="32" height="32"> | 7631 | OZP | OZAPHYRE |
 
 ---
+
 [← Prev](./list6.md) | [Next →](./list8.md)

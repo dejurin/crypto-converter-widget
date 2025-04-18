@@ -1,3 +1,5 @@
+[← Prev](./list7.md) | [Next →](./list9.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/7632/1698778000012.png" width="32" height="32"> | 7632 | SAC1 | Sable Coin |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/8665/1698779246967.png" width="32" height="32"> | 8665 | KEYFI | KeyFi |
 
 ---
+
 [← Prev](./list7.md) | [Next →](./list9.md)

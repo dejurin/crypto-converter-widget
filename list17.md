@@ -1,3 +1,5 @@
+[← Prev](./list16.md) | [Next →](./list18.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/16852/1726225253831.png" width="32" height="32"> | 16852 | CBBTC | Coinbase Wrapped BTC |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/17855/1731666192947.png" width="32" height="32"> | 17855 | HND | Hundred Finance |
 
 ---
+
 [← Prev](./list16.md) | [Next →](./list18.md)

@@ -15,32 +15,43 @@ def fetch_assets(url):
     resp.raise_for_status()
     return resp.json().get("Data", {}).get("LIST", [])
 
+def make_nav_links(page_num, total_pages):
+    """Generate markdown links for previous and next pages."""
+    parts = []
+    # previous
+    if page_num > 1:
+        prev_name = f"list{page_num-1 if page_num-1 > 1 else ''}.md"
+        parts.append(f"[← Prev](./{prev_name})")
+    # next
+    if page_num < total_pages:
+        next_name = f"list{page_num+1}.md"
+        parts.append(f"[Next →](./{next_name})")
+    return " | ".join(parts)
+
 def write_page(assets_slice, page_num, total_pages):
-    """Write one markdown page with table and pagination."""
-    # determine filename: first page → list.md, далее list2.md, list3.md...
+    """Write one markdown page with table and top/bottom pagination."""
+    # filename: first page → list.md, далее list2.md, list3.md...
     name = f"../list{page_num if page_num > 1 else ''}.md"
     path = Path(name)
-    header = "| Logo | ID | Symbol | Name |\n|:----:|:--:|:------:|:-----|\n"
+
+    header_tbl = "| Logo | ID | Symbol | Name |\n|:----:|:--:|:------:|:-----|\n"
+    nav = make_nav_links(page_num, total_pages)
 
     with path.open("w", encoding="utf-8") as f:
-        f.write(header)
+        # top navigation
+        if nav:
+            f.write(nav + "\n\n")
+
+        # table header
+        f.write(header_tbl)
         for a in assets_slice:
             logo = a.get("LOGO_URL", "")
             img = f'<img src="{logo}" width="32" height="32">' if logo else ""
             f.write(f"| {img} | {a.get('ID','')} | {a.get('SYMBOL','')} | {a.get('NAME','')} |\n")
 
-        # pagination
-        f.write("\n---\n")
-        parts = []
-        # previous
-        if page_num > 1:
-            prev_name = f"list{page_num-1 if page_num-1 > 1 else ''}.md"
-            parts.append(f"[← Prev](./{prev_name})")
-        # next
-        if page_num < total_pages:
-            next_name = f"list{page_num+1}.md"
-            parts.append(f"[Next →](./{next_name})")
-        f.write(" | ".join(parts) + "\n")
+        # bottom navigation
+        if nav:
+            f.write("\n---\n\n" + nav + "\n")
 
     print(f"Created {path}")
 

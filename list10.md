@@ -1,3 +1,5 @@
+[← Prev](./list9.md) | [Next →](./list11.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/9678/1698780056556.png" width="32" height="32"> | 9678 | GRAYSCALE | Grayscale Bitcoin Trust |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/10740/1706605983552.png" width="32" height="32"> | 10740 | VEUR | VNX Euro |
 
 ---
+
 [← Prev](./list9.md) | [Next →](./list11.md)

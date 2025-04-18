@@ -1,3 +1,5 @@
+[← Prev](./list17.md) | [Next →](./list19.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/17856/1731666398157.png" width="32" height="32"> | 17856 | NCTR | Nectar |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/18885/1741090971912.png" width="32" height="32"> | 18885 | VECTOR | VectorChat.ai |
 
 ---
+
 [← Prev](./list17.md) | [Next →](./list19.md)

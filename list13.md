@@ -1,3 +1,5 @@
+[← Prev](./list12.md) | [Next →](./list14.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/12785/1710339434582.png" width="32" height="32"> | 12785 | VNY | Vanity |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/13795/1713270020602.png" width="32" height="32"> | 13795 | SGROK | Super Grok |
 
 ---
+
 [← Prev](./list12.md) | [Next →](./list14.md)

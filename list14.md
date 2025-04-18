@@ -1,3 +1,5 @@
+[← Prev](./list13.md) | [Next →](./list15.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/13796/1713270195054.png" width="32" height="32"> | 13796 | YUGE | YUGE COIN |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/14815/1716197056812.png" width="32" height="32"> | 14815 | YAI | Ÿ |
 
 ---
+
 [← Prev](./list13.md) | [Next →](./list15.md)

@@ -1,3 +1,5 @@
+[← Prev](./list11.md) | [Next →](./list13.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/11767/1708446684843.png" width="32" height="32"> | 11767 | DD | DuckDAO |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/12784/1710339232036.png" width="32" height="32"> | 12784 | CHINAZILLA | ChinaZilla |
 
 ---
+
 [← Prev](./list11.md) | [Next →](./list13.md)

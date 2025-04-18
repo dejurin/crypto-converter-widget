@@ -1,3 +1,5 @@
+[← Prev](./list.md) | [Next →](./list3.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/1026/1671808311932.png" width="32" height="32"> | 1026 | PHNX | PhoenixDAO |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/2054/1675350920632.png" width="32" height="32"> | 2054 | STEP | Step Finance |
 
 ---
+
 [← Prev](./list.md) | [Next →](./list3.md)

@@ -1,3 +1,5 @@
+[Next →](./list2.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/13557/1712654891266.png" width="32" height="32"> | 13557 | 7 | Lucky7 |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/1024/1671807898951.png" width="32" height="32"> | 1024 | GOG | Guild of Guardians |
 
 ---
+
 [Next →](./list2.md)

@@ -1,3 +1,5 @@
+[← Prev](./list2.md) | [Next →](./list4.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/2055/1675351022423.png" width="32" height="32"> | 2055 | VISION | VisionGame |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/3241/1692956808498.png" width="32" height="32"> | 3241 | BZR | Bazaars |
 
 ---
+
 [← Prev](./list2.md) | [Next →](./list4.md)

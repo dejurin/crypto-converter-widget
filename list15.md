@@ -1,3 +1,5 @@
+[← Prev](./list14.md) | [Next →](./list16.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/14816/1716197294432.png" width="32" height="32"> | 14816 | CGV | Cogito Finance |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/15827/1721228449489.png" width="32" height="32"> | 15827 | NEV | NEVER SURRENDER |
 
 ---
+
 [← Prev](./list14.md) | [Next →](./list16.md)

@@ -1,3 +1,5 @@
+[← Prev](./list15.md) | [Next →](./list17.md)
+
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
 | <img src="https://resources.cryptocompare.com/asset-management/15828/1721228748571.png" width="32" height="32"> | 15828 | MAGAP | MAGA PEPE ETH (magapepe.vip) |
@@ -1002,4 +1004,5 @@
 | <img src="https://resources.cryptocompare.com/asset-management/16851/1726224547944.png" width="32" height="32"> | 16851 | INFI | Infinet |
 
 ---
+
 [← Prev](./list15.md) | [Next →](./list17.md)
