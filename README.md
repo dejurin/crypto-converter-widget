@@ -31,7 +31,6 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, fast, and fully 
 
 ### Features 🤩
 
-- [x] 🦠 No Cryptojacking!
 - [x] 🔑 No API key needed;
 - [x] 🥞 4 Layers of API data providers;
 - [x] 🪶 Pure JavaScript ≈80kB, no dependencies;
@@ -41,6 +40,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, fast, and fully 
 - [x] 💵 Fiat, Tokens, Blockchains, Commodity;
 - [x] ₿ ≈3,313 cryptocurrencies and ≈170 fiat currencies;
 - [x] 💱 Can be used as Exchange Rates or Currency Converter;
+- [x] 🦠 No Cryptojacking!
 - [x] ☁️ CDN Assets;
 - [x] 🔐 SSL support;
 - [x] 🩷 SEO-friendly;
