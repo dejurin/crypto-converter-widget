@@ -1,6 +1,4 @@
-# Cryptocurrency list
-
-### page: 1
+# Cryptocurrency list \#1
 
 [Next →](./list/list2.md)
 

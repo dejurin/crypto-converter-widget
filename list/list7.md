@@ -1,6 +1,4 @@
-# Cryptocurrency list
-
-### page: 7
+# Cryptocurrency list \#7
 
 [← Prev](./list6.md) | [Next →](./list8.md)
 
