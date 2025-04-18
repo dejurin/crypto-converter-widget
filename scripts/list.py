@@ -18,7 +18,7 @@ def fetch_assets(url):
 def write_page(assets_slice, page_num, total_pages):
     """Write one markdown page with table and pagination."""
     # determine filename: first page → list.md, далее list2.md, list3.md...
-    name = f"list{page_num if page_num > 1 else ''}.md"
+    name = f"../list{page_num if page_num > 1 else ''}.md"
     path = Path(name)
     header = "| Logo | ID | Symbol | Name |\n|:----:|:--:|:------:|:-----|\n"
 
