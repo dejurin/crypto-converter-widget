@@ -1,3 +1,5 @@
+# Cryptocurrency list (page: 8)
+
 [← Prev](./list7.md) | [Next →](./list9.md)
 
 | Logo | ID | Symbol | Name |
