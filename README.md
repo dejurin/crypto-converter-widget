@@ -101,9 +101,9 @@ The price widget automatically cycles through multiple public data sources in pr
 #### How it works
 
 ```plaintext
-┌─────────────────────────────────────┐
+┌──────────────────────────────────────┐
 │ 1. Provider 1 (Coindesk – full data) │
-└─────────────────────────────────────┘
+└──────────────────────────────────────┘
               ↓
    [1.1] Is detailed price in cache?
          ├─ Yes → return full price → END
@@ -116,9 +116,9 @@ The price widget automatically cycles through multiple public data sources in pr
          │     • return full price → END  
          └─ Failure → proceed to Provider 2  
 
-┌─────────────────────────────────────┐
+┌───────────────────────────────────────┐
 │ 2. Provider 2 (CryptoCompare – price) │
-└─────────────────────────────────────┘
+└───────────────────────────────────────┘
               ↓
    [2.1] Is simple price in cache?
          ├─ Yes → return price → END
@@ -131,9 +131,9 @@ The price widget automatically cycles through multiple public data sources in pr
          │     • return price → END  
          └─ Failure → proceed to Provider 3  
 
-┌─────────────────────────────────────┐
+┌──────────────────────────────────────┐
 │ 3. Provider 3 (Coinbase – price)     │
-└─────────────────────────────────────┘
+└──────────────────────────────────────┘
               ↓
    [3.1] Is simple price in cache?
          ├─ Yes → return price → END
@@ -146,9 +146,9 @@ The price widget automatically cycles through multiple public data sources in pr
          │     • return price → END  
          └─ Failure → proceed to Provider 4  
 
-┌─────────────────────────────────────┐
+┌──────────────────────────────────────┐
 │ 4. Provider 4 (OKX – price)          │
-└─────────────────────────────────────┘
+└──────────────────────────────────────┘
               ↓
    [4.1] Is simple price in cache?
          ├─ Yes → return price → END
@@ -161,9 +161,9 @@ The price widget automatically cycles through multiple public data sources in pr
          │     • return price → END  
          └─ Failure →  
               ↓
-┌─────────────────────────────────────┐
+┌────────────────────────────────────┐
 │ All providers failed → show error  │
-└─────────────────────────────────────┘
+└────────────────────────────────────┘
 ```
 
 ---
