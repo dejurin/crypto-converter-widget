@@ -62,7 +62,9 @@ def write_page(assets_slice, page_num, total_pages):
     with path.open("w", encoding="utf-8") as f:
         # top navigation
         if nav:
-            f.write(f"# Cryptocurrency list (page: {page_num})\n")
+            f.write(f"# Cryptocurrency list\n")
+            f.write("\n")
+            f.write(f"### page: {page_num}\n")
             f.write("\n")
             f.write(nav + "\n\n")
 

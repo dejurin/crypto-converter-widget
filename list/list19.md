@@ -1,4 +1,6 @@
-# Cryptocurrency list (page: 19)
+# Cryptocurrency list
+
+### page: 19
 
 [← Prev](./list18.md)
 
