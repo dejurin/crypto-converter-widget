@@ -35,6 +35,15 @@ def make_nav_links(page_num, total_pages):
         links.append(f"[Next →]({next_target})")
     return " | ".join(links)
 
+def get_img_md(symbol, page_num):
+    prefix = "./" if page_num == 1 else "../"
+
+    img_path = f"{prefix}assets/{symbol}.png"
+
+    if Path("../" if page_num == 1 else "./" + img_path).exists():
+        return f'<img src="{img_path}" width="32" height="32">'
+    return ""
+
 def write_page(assets_slice, page_num, total_pages):
     """Write one markdown page with a 32×32 logo table and pagination."""
     # determine output path
@@ -59,7 +68,11 @@ def write_page(assets_slice, page_num, total_pages):
         f.write(header)
         for asset in assets_slice:
             logo = asset.get("LOGO_URL", "")
-            img_md = f'<img src="{logo}" width="32" height="32">' if logo else ""
+
+            sym = asset.get("SYMBOL", "")
+            img_md = get_img_md(sym, page_num)
+
+            
             f.write(f"| {img_md} | {asset.get('ID', '')} | {asset.get('SYMBOL', '')} | {asset.get('NAME', '')} |\n")
 
         # bottom navigation
