@@ -251,20 +251,20 @@ The price widget automatically cycles through multiple public data sources in pr
 
 ### For Developers 🧑‍💻
 
-| Attribute         | Type    | Default | Reactive | Description                              |
-|-------------------|---------|---------|----------|------------------------------------------|
-| base              | string  | BTC     | ☑️       | Base currency of widget (From).          |
-| quote             | string  | USD     | ☑️       | Quote currency of widget (To).           |
-| symbol            | boolean | false   | ☑️       | Display currency symbol ($).             |
-| shadow            | boolean | false   | ☑️       | Display shadow for widget.               |
-| rounded           | boolean | true    | ☑️       | Rounded corners for widget.              |
-| background-color  | string  |         | ☑️       | Background color of widget (supports gradients). |
-| stat              | boolean | false   | ☑️       | Display fiat currency.                   |
-| tax               | float   | 0       | ☑️       | Additional tax/fee for quote.            |
-| decimal           | int     | 2       | ☑️       | Number of decimal places.                |
-| amount            | float   | 1       | ☑️       | Amount of currency.                      |
-| locale            | string  | auto    | ☑️       | Locale setting for widget.               |
-| theme             | string  | auto    | ☑️       | Theme of widget.                         |
+| Attribute         | Type    | Default   | Reactive | Description                                     |
+|-------------------|---------|-----------|----------|-------------------------------------------------|
+| base              | string  | BTC       | ☑️       | Base currency of widget (From).                 |
+| quote             | string  | USD       | ☑️       | Quote currency of widget (To).                  |
+| symbol            | boolean | false     | ☑️       | Display currency symbol ($).                    |
+| shadow            | boolean | false     | ☑️       | Display shadow for widget.                      |
+| rounded           | boolean | true      | ☑️       | Rounded corners for widget.                     |
+| background-color  | string  | undefined | ☑️       | Background color of widget (supports gradients).|
+| stat              | boolean | false     | ☑️       | Display fiat currency.                          |
+| tax               | float   | 0         | ☑️       | Additional tax/fee for quote.                   |
+| decimal           | int     | 2         | ☑️       | Number of decimal places.                       |
+| amount            | float   | 1         | ☑️       | Amount of currency.                             |
+| locale            | string  | auto      | ☑️       | Locale setting for widget.                      |
+| theme             | string  | auto      | ☑️       | Theme of widget.                                |
 
 ---
 
