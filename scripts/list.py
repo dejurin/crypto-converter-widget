@@ -8,6 +8,7 @@ from pathlib import Path
 
 API_URL = "https://data-api.coindesk.com/asset/v1/summary/list?asset_lookup_priority=SYMBOL"
 PAGE_SIZE = 1000
+OUTPUT_DIR = Path("../list")
 
 def fetch_assets(url):
     """Fetch JSON data and return list of assets."""
@@ -16,25 +17,37 @@ def fetch_assets(url):
     return resp.json().get("Data", {}).get("LIST", [])
 
 def make_nav_links(page_num, total_pages):
-    """Generate markdown links for previous and next pages."""
-    parts = []
-    # previous
+    """Generate markdown navigation links appropriate to page location."""
+    links = []
+    # previous link
     if page_num > 1:
-        prev_name = f"list{page_num-1 if page_num-1 > 1 else ''}.md"
-        parts.append(f"[← Prev](./{prev_name})")
-    # next
+        if page_num == 2:
+            prev_target = "../list.md"
+        else:
+            prev_target = f"./list{page_num-1}.md"
+        links.append(f"[← Prev]({prev_target})")
+    # next link
     if page_num < total_pages:
-        next_name = f"list{page_num+1}.md"
-        parts.append(f"[Next →](./{next_name})")
-    return " | ".join(parts)
+        if page_num == 1:
+            next_target = "./list/list2.md"
+        else:
+            next_target = f"./list{page_num+1}.md"
+        links.append(f"[Next →]({next_target})")
+    return " | ".join(links)
 
 def write_page(assets_slice, page_num, total_pages):
-    """Write one markdown page with table and top/bottom pagination."""
-    # filename: first page → list.md, далее list2.md, list3.md...
-    name = f"../list{page_num if page_num > 1 else ''}.md"
-    path = Path(name)
+    """Write one markdown page with a 32×32 logo table and pagination."""
+    # determine output path
+    if page_num == 1:
+        path = Path("../list.md")
+    else:
+        path = OUTPUT_DIR / f"list{page_num}.md"
 
-    header_tbl = "| Logo | ID | Symbol | Name |\n|:----:|:--:|:------:|:-----|\n"
+    # ensure output directory exists for nested pages
+    if page_num == 2:
+        OUTPUT_DIR.mkdir(exist_ok=True)
+
+    header = "| Logo | ID | Symbol | Name |\n|:----:|:--:|:------:|:-----|\n"
     nav = make_nav_links(page_num, total_pages)
 
     with path.open("w", encoding="utf-8") as f:
@@ -43,11 +56,11 @@ def write_page(assets_slice, page_num, total_pages):
             f.write(nav + "\n\n")
 
         # table header
-        f.write(header_tbl)
-        for a in assets_slice:
-            logo = a.get("LOGO_URL", "")
-            img = f'<img src="{logo}" width="32" height="32">' if logo else ""
-            f.write(f"| {img} | {a.get('ID','')} | {a.get('SYMBOL','')} | {a.get('NAME','')} |\n")
+        f.write(header)
+        for asset in assets_slice:
+            logo = asset.get("LOGO_URL", "")
+            img_md = f'<img src="{logo}" width="32" height="32">' if logo else ""
+            f.write(f"| {img_md} | {asset.get('ID', '')} | {asset.get('SYMBOL', '')} | {asset.get('NAME', '')} |\n")
 
         # bottom navigation
         if nav:

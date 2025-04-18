@@ -1,4 +1,4 @@
-[← Prev](./list.md) | [Next →](./list3.md)
+[← Prev](../list.md) | [Next →](./list3.md)
 
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
@@ -1005,4 +1005,4 @@
 
 ---
 
-[← Prev](./list.md) | [Next →](./list3.md)
+[← Prev](../list.md) | [Next →](./list3.md)
