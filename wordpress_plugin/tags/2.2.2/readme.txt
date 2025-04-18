@@ -2,7 +2,7 @@
 Contributors: falselight
 Tags: bitcoin, converter, coin, cryptocurrency, widget
 Donate link: http://currencyrate.today/
-Tested up to: 6.4
+Tested up to: 6.8
 Requires at least: 3.1
 Requires PHP: 5.3
 Stable tag: 2.2.2
@@ -61,9 +61,11 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 3. screenshot-3.png - Widget UI
 4. screenshot-4.png - Gutenberg
 5. screenshot-5.png - Gutenberg Block
+6. screenshot-6.jpg - Preview Plugin
 
 == Changelog ==
 = 2.2.2 =
+* ✅ Plugin Check: 🎉 No errors found.
 * Update POT file
 * Minor fixed
 = 2.2.1 =
