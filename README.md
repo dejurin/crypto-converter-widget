@@ -6,7 +6,7 @@
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
 > Fortunately, we found an even better alternative, so the widget will live on!
-> **Tomorrow** is the launch 🚀 of the new updated widget. The third version.
+> **TODAY** is the launch 🚀 of the new updated widget. The third version.
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
 
