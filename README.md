@@ -27,7 +27,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, lightweight (≈
 
 ## DEMO 👀 **[Example 1](https://bitcoin-pulse.pages.dev/)** | **[Example 2](https://co-w.io/)**
 
-<a href="https://co-w.io"><img src="./ccw3.gif" alt="Cryptocurrency Converter Widget"></a>
+<a href="https://co-w.io"><img src="./images/ccw3.gif" alt="Cryptocurrency Converter Widget"></a>
 
 ### Features 🤩
 
