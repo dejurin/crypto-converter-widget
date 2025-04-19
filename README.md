@@ -1,4 +1,4 @@
-<h1 align="center">Crypto Converter ⚡ Widget</h1>
+<h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
 * Latest version: 3.0.3;
 * Size: ≈80.0 kB;
