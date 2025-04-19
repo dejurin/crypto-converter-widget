@@ -266,6 +266,7 @@ The price widget automatically cycles through multiple public data sources in pr
 | symbol            | boolean | false     | ☑️       | Display currency symbol ($).                    |
 | shadow            | boolean | false     | ☑️       | Display shadow for widget.                      |
 | rounded           | boolean | true      | ☑️       | Rounded corners for widget.                     |
+| border            | boolean | true      | ☑️       | Border of Widget.                               |
 | background-color  | string  | undefined | ☑️       | Background color of widget.                     |
 | background        | string  | undefined | ☑️       | Background of widget (supports gradients).      |
 | stat              | boolean | false     | ☑️       | Display fiat currency.                          |
