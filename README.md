@@ -5,13 +5,9 @@
 * License: MIT
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
-
-
-
-> Fortunately, we found an even better alternative, so the widget will live on!
-
-
-
+> 
+> 📟 Fortunately, we found an even better alternative, so the widget will live on!
+> 
 > 🚀 We have completely updated the widget, now it works even better and faster. For the new widget to work correctly, you need to update the HTML code of the widget. How to do it, see below.
 
 
