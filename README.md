@@ -82,15 +82,15 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min
 
 ### Light Theme
 
-<a href="https://co-w.io"><img src="./light.png" width="480" alt="Cryptocurrency Converter Widget Light"></a>
+<a href="https://co-w.io"><img src="./images/light.png" width="480" alt="Cryptocurrency Converter Widget Light"></a>
 
 ### Dark Theme
 
-<a href="https://co-w.io"><img src="./dark.png" width="480" alt="Cryptocurrency Converter Widget Dark"></a>
+<a href="https://co-w.io"><img src="./images/dark.png" width="480" alt="Cryptocurrency Converter Widget Dark"></a>
 
 ### Custom Theme
 
-<a href="https://co-w.io"><img src="./custom.png" width="480" alt="Cryptocurrency Converter Widget Custom"></a>
+<a href="https://co-w.io"><img src="./images/custom.png" width="480" alt="Cryptocurrency Converter Widget Custom"></a>
 
 ---
 
