@@ -1,4 +1,4 @@
-![ccw3](https://github.com/user-attachments/assets/1ed886bc-ea57-4e8e-857e-840fca0aa131)<h1 align="center">Crypto Converter ⚡ Widget</h1>
+<h1 align="center">Crypto Converter ⚡ Widget</h1>
 
 * Latest version: 3.0.3;
 * Size: ≈80.0 kB;
