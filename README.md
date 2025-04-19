@@ -94,6 +94,27 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest t/dist/latest
 
 ---
 
+### For Developers 🧑‍💻
+
+| Attribute         | Type    | Default   | Reactive | Description                                                    |
+|-------------------|---------|-----------|----------|----------------------------------------------------------------|
+| base              | string  | BTC       | ☑️       | Base currency of the widget (currency to convert from).        |
+| quote             | string  | USD       | ☑️       | Quote currency of the widget (currency to convert to).         |
+| symbol            | boolean | false     | ☑️       | Whether to display the currency symbol (e.g., “$”).            |
+| shadow            | boolean | false     | ☑️       | Whether to display a shadow around the widget.                 |
+| rounded           | boolean | true      | ☑️       | Whether to use rounded corners for the widget.                 |
+| border            | boolean | true      | ☑️       | Whether to display a border around the widget.                 |
+| background-color  | string  | undefined | ☑️       | Background color of the widget.                                |
+| background        | string  | undefined | ☑️       | Background of the widget (supports gradients).                 |
+| stat              | boolean | false     | ☑️       | Whether to display the stats of asset.                         |
+| tax               | float   | 0         | ☑️       | Additional tax or fee applied to the quote currency.           |
+| decimal           | int     | 2         | ☑️       | Number of decimal places to display.                           |
+| amount            | float   | 1         | ☑️       | Amount of currency to convert.                                 |
+| locale            | string  | auto      | ☑️       | Locale setting for the widget.                                 |
+| theme             | string  | auto      | ☑️       | Theme of the widget (e.g., “light”, “dark” or “auto”).         |
+
+---
+
 ### Layers
 
 The price widget automatically cycles through multiple public data sources in priority order, so if one API fails or changes its response format it simply falls back to the next provider without missing a beat. Built‑in caching minimizes network requests and keeps your page fast and responsive. There’s no need for API keys or server‑side setup—just drop the HTML snippet into your page and you’re good to go. This lightweight, self‑configuring design delivers rock‑solid reliability and extreme flexibility with zero maintenance.
@@ -255,27 +276,6 @@ The price widget automatically cycles through multiple public data sources in pr
 #### [1.0.0] - 2020-12-11
 ##### Released
 - Initial release of the application.
----
-
-### For Developers 🧑‍💻
-
-| Attribute         | Type    | Default   | Reactive | Description                                                    |
-|-------------------|---------|-----------|----------|----------------------------------------------------------------|
-| base              | string  | BTC       | ☑️       | Base currency of the widget (currency to convert from).        |
-| quote             | string  | USD       | ☑️       | Quote currency of the widget (currency to convert to).         |
-| symbol            | boolean | false     | ☑️       | Whether to display the currency symbol (e.g., “$”).            |
-| shadow            | boolean | false     | ☑️       | Whether to display a shadow around the widget.                 |
-| rounded           | boolean | true      | ☑️       | Whether to use rounded corners for the widget.                 |
-| border            | boolean | true      | ☑️       | Whether to display a border around the widget.                 |
-| background-color  | string  | undefined | ☑️       | Background color of the widget.                                |
-| background        | string  | undefined | ☑️       | Background of the widget (supports gradients).                 |
-| stat              | boolean | false     | ☑️       | Whether to display the stats of asset.                         |
-| tax               | float   | 0         | ☑️       | Additional tax or fee applied to the quote currency.           |
-| decimal           | int     | 2         | ☑️       | Number of decimal places to display.                           |
-| amount            | float   | 1         | ☑️       | Amount of currency to convert.                                 |
-| locale            | string  | auto      | ☑️       | Locale setting for the widget.                                 |
-| theme             | string  | auto      | ☑️       | Theme of the widget (e.g., “light”, “dark” or “auto”).         |
-
 ---
 
 The list of cryptocurrencies that can be selected in the widget:
