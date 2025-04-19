@@ -259,22 +259,22 @@ The price widget automatically cycles through multiple public data sources in pr
 
 ### For Developers 🧑‍💻
 
-| Attribute         | Type    | Default   | Reactive | Description                                     |
-|-------------------|---------|-----------|----------|-------------------------------------------------|
-| base              | string  | BTC       | ☑️       | Base currency of widget (From).                 |
-| quote             | string  | USD       | ☑️       | Quote currency of widget (To).                  |
-| symbol            | boolean | false     | ☑️       | Display currency symbol ($).                    |
-| shadow            | boolean | false     | ☑️       | Display shadow for widget.                      |
-| rounded           | boolean | true      | ☑️       | Rounded corners for widget.                     |
-| border            | boolean | true      | ☑️       | Border of Widget.                               |
-| background-color  | string  | undefined | ☑️       | Background color of widget.                     |
-| background        | string  | undefined | ☑️       | Background of widget (supports gradients).      |
-| stat              | boolean | false     | ☑️       | Display fiat currency.                          |
-| tax               | float   | 0         | ☑️       | Additional tax/fee for quote.                   |
-| decimal           | int     | 2         | ☑️       | Number of decimal places.                       |
-| amount            | float   | 1         | ☑️       | Amount of currency.                             |
-| locale            | string  | auto      | ☑️       | Locale setting for widget.                      |
-| theme             | string  | auto      | ☑️       | Theme of widget.                                |
+| Attribute         | Type    | Default   | Reactive | Description                                                    |
+|-------------------|---------|-----------|----------|----------------------------------------------------------------|
+| base              | string  | BTC       | ☑️       | Base currency of the widget (currency to convert from).        |
+| quote             | string  | USD       | ☑️       | Quote currency of the widget (currency to convert to).         |
+| symbol            | boolean | false     | ☑️       | Whether to display the currency symbol (e.g., “$”).            |
+| shadow            | boolean | false     | ☑️       | Whether to display a shadow around the widget.                 |
+| rounded           | boolean | true      | ☑️       | Whether to use rounded corners for the widget.                 |
+| border            | boolean | true      | ☑️       | Whether to display a border around the widget.                 |
+| background-color  | string  | undefined | ☑️       | Background color of the widget.                                |
+| background        | string  | undefined | ☑️       | Background of the widget (supports gradients).                 |
+| stat              | boolean | false     | ☑️       | Whether to display the stats of asset.                         |
+| tax               | float   | 0         | ☑️       | Additional tax or fee applied to the quote currency.           |
+| decimal           | int     | 2         | ☑️       | Number of decimal places to display.                           |
+| amount            | float   | 1         | ☑️       | Amount of currency to convert.                                 |
+| locale            | string  | auto      | ☑️       | Locale setting for the widget.                                 |
+| theme             | string  | auto      | ☑️       | Theme of the widget (e.g., “light”, “dark” or “auto”).         |
 
 ---
 
