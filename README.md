@@ -61,7 +61,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, lightweight (≈
 ### Example HTML-code 💡
 
 ```html
-<!-- Crypto Converter ⚡ Widget --><crypto-converter-widget amount="1" shadow="true" locale="auto" rounded="true" quote="USD" base="BTC" theme="auto" decimal="2" stat="false"></crypto-converter-widget><a href="https://currencyrate.today/" target="_blank" rel="noopener">CurrencyRate.Today</a><script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js"></script><!-- /Crypto Converter ⚡ Widget -->
+<!-- Crypto Converter ⚡ Widget --><crypto-converter-widget amount="1" shadow="true" symbol="false" locale="en" rounded="true" quote="USD" base="BTC" theme="auto" decimal="4" stat="false" tax="0" background-color="#8E2DE2" background="linear-gradient(45deg, #8E2DE2, #4A00E0)"></crypto-converter-widget><a href="https://currencyrate.today/" target="_blank" rel="noopener">CurrencyRate.Today</a><script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js"></script><!-- /Crypto Converter ⚡ Widget -->
 ```
 
 Examples: <b><a href="https://codepen.io/dejurin/pen/xbbbVBL">CodePen</a></b>
@@ -75,7 +75,7 @@ You can find many uses for this widget, not just on the website. See how I did a
 ##### Latest
 
 ```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@main/dist/latest.min.js
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest t/dist/latest.min.js
 ```
 
 ---
