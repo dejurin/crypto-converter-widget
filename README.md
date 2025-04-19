@@ -24,7 +24,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, lightweight (≈
 
 - [Features](#features-)
 - [Install](#install-%EF%B8%8F)
-- [Example](#example-)
+- [Example](#example-html-code-)
 - [Changelog](#changelog-%EF%B8%8F)
 - [For Developers](#for-developers-)
 - [Cryptocurrencies id list](https://github.com/dejurin/crypto-converter-widget/blob/master/list.md)
