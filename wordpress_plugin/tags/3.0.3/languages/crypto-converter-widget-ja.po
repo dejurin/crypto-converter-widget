@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto Converter ⚡ Widget\n"
+"POT-Creation-Date: 2024-03-16 13:21+0200\n"
+"PO-Revision-Date: 2024-03-16 13:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget_init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/ccw-admin-settings.php:15 widget_init.php:111
+msgid "Settings"
+msgstr "設定"
+
+#: includes/ccw-admin-settings.php:21 widget_init.php:199
+msgid "Crypto"
+msgstr "暗号"
+
+#: includes/ccw-admin-settings.php:21
+msgid "Crypto ID list"
+msgstr "暗号通貨のIDリスト"
+
+#: includes/ccw-admin-settings.php:30
+msgid "Fiat"
+msgstr "フィアット"
+
+#: includes/ccw-admin-settings.php:38 widget_init.php:179
+msgid "Amount"
+msgstr "金額"
+
+#: includes/ccw-admin-settings.php:46
+msgid "Decimal places"
+msgstr "小数点以下"
+
+#: includes/ccw-admin-settings.php:54
+msgid "Font"
+msgstr "フォント"
+
+#: includes/ccw-admin-settings.php:69 widget_init.php:186
+msgid "Color"
+msgstr "色"
+
+#: includes/ccw-admin-settings.php:73
+msgid "Random color"
+msgstr "ランダムカラー"
+
+#: includes/ccw-admin-settings.php:78
+msgid "Border radius"
+msgstr "ボーダーの半径"
+
+#: includes/ccw-admin-settings.php:89 widget_init.php:188
+msgid "Options"
+msgstr "オプション"
+
+#: includes/ccw-admin-settings.php:92 widget_init.php:183
+msgid "Shadow"
+msgstr "影"
+
+#: includes/ccw-admin-settings.php:93 widget_init.php:191
+msgid "Fiat symbol"
+msgstr "フィアットマーク"
+
+#: includes/ccw-admin-settings.php:94 widget_init.php:200
+msgid "Live"
+msgstr "ライブ"
+
+#: includes/ccw-admin-settings.php:94
+msgid "price updates in real-time"
+msgstr "リアルタイムの価格更新"
+
+#: includes/ccw-admin-settings.php:95
+msgid "Signature"
+msgstr "署名"
+
+#: includes/ccw-admin-settings.php:103
+msgid "Preview"
+msgstr "プレビュー"
+
+#: includes/ccw-admin-settings.php:112
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: includes/ccw-admin-settings.php:127
+msgid "Help"
+msgstr "ヘルプ"
+
+#: includes/ccw-admin-settings.php:129
+msgid "Official website"
+msgstr "公式サイト"
+
+#: includes/ccw-admin-settings.php:130
+msgid "Feel free, write if you will have any questions"
+msgstr "自由に感じて下さい、質問があれば書いて下さい"
+
+#: includes/ccw-admin-settings.php:130
+msgid "Online support"
+msgstr "オンラインサポート"
+
+#: includes/ccw-admin-settings.php:131
+msgid "Your might like it"
+msgstr "気に入るかもしれない"
+
+#: includes/ccw-admin-settings.php:132
+msgid "Supported by"
+msgstr "サポートされているのは"
+
+#: includes/ccw-admin-settings.php:133 widget_init.php:190
+msgid "Fiat money"
+msgstr "フィアットマーク"
+
+#: widget_init.php:33
+msgid "Rate"
+msgstr "評価"
+
+#: widget_init.php:79
+msgid "Source:"
+msgstr "ソース:"
+
+#. Plugin Name of the plugin/theme
+#: widget_init.php:180
+msgid "Crypto Converter ⚡ Widget"
+msgstr "⚡ コインコンバータウィジェット"
+
+#: widget_init.php:181
+msgid "A simple block for displaying Crypto Converter ⚡ Widget."
+msgstr "クリプトコンバーター⚡ウィジェットを表示するためのシンプルなブロック。"
+
+#: widget_init.php:182
+msgid "Container"
+msgstr "コンテナ"
+
+#: widget_init.php:184
+msgid "Decimal Places"
+msgstr "小数点以下"
+
+#: widget_init.php:185
+msgid "Background Color"
+msgstr "背景色"
+
+#: widget_init.php:187
+msgid "Border Radius"
+msgstr "ボーダーの半径"
+
+#: widget_init.php:189
+msgid "Display"
+msgstr "ディスプレイ"
+
+#: widget_init.php:192
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: widget_init.php:193
+msgid "About"
+msgstr "約"
+
+#: widget_init.php:194
+msgid "❤️ Rate plugin ★★★★★"
+msgstr "❤️ プラグインを評価 ★★★★★"
+
+#: widget_init.php:195
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: widget_init.php:196
+msgid "DEMO 👀"
+msgstr "デモ 👀"
+
+#: widget_init.php:197
+msgid "None"
+msgstr "なし"
+
+#: widget_init.php:198
+msgid "Converter"
+msgstr "コンバータ"
+
+#: widget_init.php:201
+msgid "Clear Colors"
+msgstr "クリアカラー"
+
+#. Plugin URI of the plugin/theme
+msgid "https://co-w.io/"
+msgstr "https://co-w.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"The Crypto Converter Widget is a magical and easy-to-use web tool with a "
+"beautiful UI, providing real-time cryptocurrency conversion for any website, "
+"and it's free with Gutenberg block support. Users can choose from "
+"approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies."
+msgstr ""
+"Crypto Converter Widget - は、あらゆるウェブサイトに暗号通貨を無料で変換す"
+"る、魔法のように使いやすい美しいUIのリアルタイムウェブツールです。ユーザー"
+"は、利用可能な約170の不換紙幣と約2,200の暗号通貨から選択することができます。"
+
+#. Author of the plugin/theme
+msgid "CurrencyRate.today"
+msgstr "CurrencyRate.today"
+
+#. Author URI of the plugin/theme
+msgid "https://currencyrate.today/"
+msgstr "https://currencyrate.today/"
+
+#~ msgid "Please rate our free"
+#~ msgstr "無料の評価をお願いします"
+
+#~ msgid "Your valuable feedback will help us improve."
+#~ msgstr "あなたの貴重なご意見は、私たちの改善に役立ちます。"
+
+#~ msgid "It will only take a few minutes"
+#~ msgstr "ほんの数分で済む"
+
+#~ msgid "Rate it now"
+#~ msgstr "今すぐ評価する"
+
+#~ msgid "Rating"
+#~ msgstr "評価"

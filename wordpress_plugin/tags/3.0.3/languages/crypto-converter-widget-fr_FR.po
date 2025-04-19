@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crypto Converter ⚡ Widget\n"
+"POT-Creation-Date: 2024-03-16 13:22+0200\n"
+"PO-Revision-Date: 2024-03-16 13:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget_init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/ccw-admin-settings.php:15 widget_init.php:111
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/ccw-admin-settings.php:21 widget_init.php:199
+msgid "Crypto"
+msgstr "Crypto"
+
+#: includes/ccw-admin-settings.php:21
+msgid "Crypto ID list"
+msgstr "Liste d'identification des crypto-monnaies"
+
+#: includes/ccw-admin-settings.php:30
+msgid "Fiat"
+msgstr "Fiat"
+
+#: includes/ccw-admin-settings.php:38 widget_init.php:179
+msgid "Amount"
+msgstr "Montant"
+
+#: includes/ccw-admin-settings.php:46
+msgid "Decimal places"
+msgstr "Nbre de décimales"
+
+#: includes/ccw-admin-settings.php:54
+msgid "Font"
+msgstr "Police"
+
+#: includes/ccw-admin-settings.php:69 widget_init.php:186
+msgid "Color"
+msgstr "Couleur"
+
+#: includes/ccw-admin-settings.php:73
+msgid "Random color"
+msgstr "Couleur"
+
+#: includes/ccw-admin-settings.php:78
+msgid "Border radius"
+msgstr "Rayon de la bordure"
+
+#: includes/ccw-admin-settings.php:89 widget_init.php:188
+msgid "Options"
+msgstr "Options"
+
+#: includes/ccw-admin-settings.php:92 widget_init.php:183
+msgid "Shadow"
+msgstr "Ombre"
+
+#: includes/ccw-admin-settings.php:93 widget_init.php:191
+msgid "Fiat symbol"
+msgstr "Le symbole Fiat"
+
+#: includes/ccw-admin-settings.php:94 widget_init.php:200
+msgid "Live"
+msgstr "Live"
+
+#: includes/ccw-admin-settings.php:94
+msgid "price updates in real-time"
+msgstr "mise à jour des prix en temps réel"
+
+#: includes/ccw-admin-settings.php:95
+msgid "Signature"
+msgstr "Signature"
+
+#: includes/ccw-admin-settings.php:103
+msgid "Preview"
+msgstr "Aperçu"
+
+#: includes/ccw-admin-settings.php:112
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/ccw-admin-settings.php:127
+msgid "Help"
+msgstr "Aide"
+
+#: includes/ccw-admin-settings.php:129
+msgid "Official website"
+msgstr "Site Officiel"
+
+#: includes/ccw-admin-settings.php:130
+msgid "Feel free, write if you will have any questions"
+msgstr "N'hésitez pas à nous écrire si vous avez des questions"
+
+#: includes/ccw-admin-settings.php:130
+msgid "Online support"
+msgstr "Soutien en ligne"
+
+#: includes/ccw-admin-settings.php:131
+msgid "Your might like it"
+msgstr "Vous pourriez l'aimer"
+
+#: includes/ccw-admin-settings.php:132
+msgid "Supported by"
+msgstr "Soutenu par"
+
+#: includes/ccw-admin-settings.php:133 widget_init.php:190
+msgid "Fiat money"
+msgstr "Le symbole Fiat"
+
+#: widget_init.php:33
+msgid "Rate"
+msgstr "Avis"
+
+#: widget_init.php:79
+msgid "Source:"
+msgstr "Source:"
+
+#. Plugin Name of the plugin/theme
+#: widget_init.php:180
+msgid "Crypto Converter ⚡ Widget"
+msgstr "Crypto Converter ⚡ Widget"
+
+#: widget_init.php:181
+msgid "A simple block for displaying Crypto Converter ⚡ Widget."
+msgstr "Un bloc simple pour afficher le Crypto Converter ⚡ Widget."
+
+#: widget_init.php:182
+msgid "Container"
+msgstr "Conteneur"
+
+#: widget_init.php:184
+msgid "Decimal Places"
+msgstr "Nbre de décimales"
+
+#: widget_init.php:185
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+#: widget_init.php:187
+msgid "Border Radius"
+msgstr "Rayon de la bordure"
+
+#: widget_init.php:189
+msgid "Display"
+msgstr "Affichage"
+
+#: widget_init.php:192
+msgid "Font Family"
+msgstr "Police"
+
+#: widget_init.php:193
+msgid "About"
+msgstr "A propos de"
+
+#: widget_init.php:194
+msgid "❤️ Rate plugin ★★★★★"
+msgstr "❤️ Plugin de tarification ★★★★★"
+
+#: widget_init.php:195
+msgid "Widget"
+msgstr "Widget"
+
+#: widget_init.php:196
+msgid "DEMO 👀"
+msgstr "DEMO 👀"
+
+#: widget_init.php:197
+msgid "None"
+msgstr "Aucun"
+
+#: widget_init.php:198
+msgid "Converter"
+msgstr "Convertisseur"
+
+#: widget_init.php:201
+msgid "Clear Colors"
+msgstr "Couleurs claires"
+
+#. Plugin URI of the plugin/theme
+msgid "https://co-w.io/"
+msgstr "https://co-w.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"The Crypto Converter Widget is a magical and easy-to-use web tool with a "
+"beautiful UI, providing real-time cryptocurrency conversion for any website, "
+"and it's free with Gutenberg block support. Users can choose from "
+"approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies."
+msgstr ""
+"Le Widget Crypto Converter - est un outil web magique et facile à utiliser "
+"avec une belle interface utilisateur en temps réel pour convertir les "
+"cryptocurrencies POUR N'IMPORTE QUEL SITE WEB GRATUIT. Les utilisateurs "
+"peuvent choisir parmi les ≈170 fiat money et ≈2 200 cryptocurrencies "
+"disponibles."
+
+#. Author of the plugin/theme
+msgid "CurrencyRate.today"
+msgstr "CurrencyRate.today"
+
+#. Author URI of the plugin/theme
+msgid "https://currencyrate.today/"
+msgstr "https://currencyrate.today/"
+
+#~ msgid "Please rate our free"
+#~ msgstr "Veuillez évaluer notre"
+
+#~ msgid "Your valuable feedback will help us improve."
+#~ msgstr "Vos précieux commentaires nous aideront à nous améliorer."
+
+#~ msgid "It will only take a few minutes"
+#~ msgstr "Cela ne prendra que quelques minutes"
+
+#~ msgid "Rate it now"
+#~ msgstr "Notez le maintenant"
+
+#~ msgid "Rating"
+#~ msgstr "Évaluation"
