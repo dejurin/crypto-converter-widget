@@ -75,7 +75,7 @@ You can find many uses for this widget, not just on the website. See how I did a
 ##### Latest
 
 ```html
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest t/dist/latest.min.js
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js
 ```
 
 ---
