@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 2.2.2
+ * @version 3.0.3
  */
 
 // Exit if accessed directly.
@@ -23,8 +23,10 @@ if (!class_exists('CCW_Admin_Notices')) {
             foreach (explode(',', self::TYPES) as $type) {
                 $this->admin_notices->{$type} = array();
             }
-            add_action('admin_notices', [ &$this, 'CCW_admin_notice']);
-            add_action('wp_ajax_CCW_admin_hide_notice', [ &$this, 'CCW_admin_hide_notice' ]);
+
+            add_action('admin_notices', [$this, 'CCW_admin_notice']);
+            add_action('wp_ajax_CCW_admin_hide_notice', [$this, 'CCW_admin_hide_notice']);
+            
         }
 
         public static function get_instance()
@@ -38,9 +40,8 @@ if (!class_exists('CCW_Admin_Notices')) {
         function CCW_admin_hide_notice() {
             check_ajax_referer('crypto-converter-widget-nonce', 'security');
             $user_id = get_current_user_id();
-            
+
             update_user_meta($user_id, 'CCW_admin_hide_notice', time());
-            
             wp_send_json_success();
         }
 
@@ -55,13 +56,18 @@ if (!class_exists('CCW_Admin_Notices')) {
             echo '<div class="notice notice-info is-dismissible" id="crypto-converter-widget-notice">
                 <div style="display:flex;padding:10px 0;">
                     <div style="margin-right:15px;">
-                        <img alt="'.esc_html(CCW_NAME).'" src="'.esc_url(CCW_URL.'assets/admin/img/icon.svg').'" style="width:96px" />
+                        <span class="ccw-icon" role="img" aria-label="'.esc_html(CCW_NAME).'"></span>
                     </div>
                     <div>
                         <h2>🥰 '.esc_html('Please rate our free', 'crypto-converter-widget').' &laquo;'.esc_html(CCW_NAME).'&raquo;</h2>
                         <hr>
                         <p>'.esc_html('Your valuable feedback will help us improve.', 'crypto-converter-widget').'<br>'.esc_html('It will only take a few minutes', 'crypto-converter-widget').': <a href="https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post" rel="noopener" target="_blank">'.esc_html('Rate it now', 'crypto-converter-widget').'</a> 👍</p>
-                        <p><a href="https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post" rel="noopener" target="_blank"><img src="'.esc_attr(CCW_URL.'assets/admin/img/stars.png').'" alt="'.esc_attr('Rating', 'crypto-converter-widget').'"></a></p>
+                        <p class="ccw-admin-notice">
+                            <a href="'.esc_url( 'https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post' ).'"
+                                target="_blank" rel="noopener">
+                                <span class="ccw-stars" role="img" aria-label="'.esc_attr_e( 'Rating', 'crypto-converter-widget' ).'"></span>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>';

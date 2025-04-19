@@ -5,16 +5,14 @@ Donate link: http://currencyrate.today/
 Tested up to: 6.8
 Requires at least: 3.1
 Requires PHP: 5.3
-Stable tag: 2.2.2
+Stable tag: 3.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Try magical widget for easy crypto conversions with live updates and a captivating flash effect. You'll love it! ❤️‍
+Effortless ❤️ crypto/fiat conversion: ⚡ live, secure, fast, customizable WP 📟 widget—no API keys needed, completely free!
 
 == 📌 Description ==
-The Crypto Converter Widget is a magical, easy-to-use web tool with a beautiful UI, providing real-time cryptocurrency conversion for any website, free of charge. Users can choose from approximately ≈170 fiat currencies and around ≈2,200 cryptocurrencies.
-We offer powerful and user-friendly solutions for you and your business, in the form of crypto instruments, without any compromises or trial periods. With our powerful and visually appealing widgets, you can attract more traffic to your website. Embedding our HTML widgets is incredibly simple—just one tag.
-Note: While the widget may resemble a simple stock ticker, it swiftly transforms into a responsive cryptocurrency converter that your users can utilize at any moment.
+The Crypto Converter Widget for WordPress is a secure, fast, and intuitive plugin that instantly turns your website into a real-time cryptocurrency and fiat currency converter. Offering seamless integration without API keys or complicated setup, this powerful tool supports over 3,313 cryptocurrencies, 170 fiat currencies, tokens, blockchains, and commodities—all with elegant styling, dark-theme compatibility, and built-in caching to keep your site lightning-fast. Enhance your user experience, boost engagement, and effortlessly deliver trusted, up-to-date financial information directly from your WordPress site, completely free of charge.
 
 [DEMO](https://co-w.io/) 👀 
 [DEMO](https://bitcoin-pulse.pages.dev/) 👀 
@@ -24,18 +22,29 @@ Note: While the widget may resemble a simple stock ticker, it swiftly transforms
 You can get more just go to official website: [CO-W.io](https://co-w.io/) | [Github](https://github.com/dejurin/crypto-converter-widget)
 
 = ⭐️ FEATURES ⭐️ =
-* No Cryptojacking!
-* Pure JavaScript ≈71.5 kBytes (gzip), no dependencies;
-* Flexible settings and customizable design;
-* Real-time ⚡ streaming price update;
-* Processed on a third-party server;
-* Best ≈2,200 cryptocurrencies and ≈170 fiat currencies;
-* Gutenberg block;
-* SSL support;
-* Mobile-friendly;
-* SEO-friendly.
+* 🔑 No API key needed;
+* 🥞 Four layers of API data providers;
+* 🪶 Pure JavaScript ≈80kB, no dependencies;
+* ⚙️ Flexible settings;
+* ⚡ Real-time price update;
+* 🌐 Processed on a third-party server;
+* 💅 Beautiful design;
+* 🌈 Supports background gradient;
+* 🌑 Supports dark theme;
+* 📟 Gutenberg block support;
+* 💵 Fiat, Tokens, Blockchains, Commodity;
+* ₿ ≈3,313 cryptocurrencies and ≈170 fiat currencies;
+* 💱 Can be used as Exchange Rates or Currency Converter;
+* 🦠 No Cryptojacking!
+* 🔐 SSL support;
+* 🩷 SEO-friendly;
+* 🆓 Free.
 
-== 📌 Installation ==
+== 🥞 Layers ==
+Rest assured that there are enough free limits for everyone.
+The price widget automatically cycles through multiple public data sources in priority order, so if one API fails or changes its response format it simply falls back to the next provider without missing a beat. Built‑in caching minimizes network requests and keeps your page fast and responsive. There’s no need for API keys or server‑side setup—just drop the widget into your page and you’re good to go. This lightweight, self‑configuring design delivers rock‑solid reliability and extreme flexibility with zero maintenance.
+
+== Installation ==
 
 📩 Feel free, write if you will have any questions: [Online support](https://t.me/converter_support)
 
@@ -63,7 +72,20 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 5. screenshot-5.png - Gutenberg Block
 6. screenshot-6.jpg - Preview Plugin
 
+== Upgrade Notice ==
+
+= 3.0.3 =
+🚀 Please update the widget as soon as possible to make it work properly;
+
 == Changelog ==
+= 3.0.3 =
+* Implement four‑layer API provider architecture  
+* Redesign user interface  
+* Revamp core engine  
+* Improve performance and stability  
+* Enhance flexibility with configurable options  
+* Introduce advanced feature set  
+* Resolve major bugs  
 = 2.2.2 =
 * ✅ Plugin Check: 🎉 No errors found.
 * Update POT file
@@ -127,4 +149,3 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 ❓ Feel free, write if you will have any questions: [Support](https://github.com/dejurin/crypto-converter-widget/issues)
 💰 Your might like it: [Cryptocurrency Price Widget](https://wordpress.org/plugins/cryptocurrency-price-widget/)
 💹 Source: [CurrencyRate.Today](https://currencyrate.today/)
-💵 Fiat money: [MoneyConvert.net](https://moneyconvert.net/)
