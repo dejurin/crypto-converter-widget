@@ -1,6 +1,6 @@
 ![ccw3](https://github.com/user-attachments/assets/1ed886bc-ea57-4e8e-857e-840fca0aa131)<h1 align="center">Crypto Converter ⚡ Widget</h1>
 
-* Latest version: 3.0.2;
+* Latest version: 3.0.3;
 * Size: ≈80.0 kB;
 * License: MIT
 
@@ -169,6 +169,10 @@ The price widget automatically cycles through multiple public data sources in pr
 ---
 
 ### Changelog ✳️
+
+#### [3.0.3] - 2025-04-19
+##### Fixed
+- Minor bug fixes.
 
 #### [3.0.2] - 2025-04-18
 ##### Fixed
