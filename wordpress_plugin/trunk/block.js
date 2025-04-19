@@ -41,6 +41,7 @@
     decimal = 2,
     rounded = true,
     stat = false,
+    border = true,
     theme = "auto",
     locale = "auto",
     backgroundColor = "",
@@ -52,6 +53,7 @@
       theme,
       locale,
       rounded: rounded ? "true" : "false",
+      border: border ? "true" : "false",
     };
 
     // simple string props
@@ -161,6 +163,10 @@
         type: "boolean",
         default: true,
       },
+      border: {
+        type: "boolean",
+        default: true,
+      },
       stat: {
         type: "boolean",
         default: false,
@@ -198,6 +204,10 @@
 
       function onChangeRounded(newValue) {
         props.setAttributes({ rounded: newValue });
+      }
+
+      function onChangeBorder(newValue) {
+        props.setAttributes({ border: newValue });
       }
 
       function onChangeStat(newValue) {
@@ -286,6 +296,13 @@
                 label: i18n["rounded"] || "Rounded",
                 checked: props.attributes.rounded,
                 onChange: onChangeRounded,
+                __nextHasNoMarginBottom: true,
+                __next40pxDefaultSize: true,
+              }),
+              el(ToggleControl, {
+                label: i18n["border"] || "Border",
+                checked: props.attributes.border,
+                onChange: onChangeBorder,
                 __nextHasNoMarginBottom: true,
                 __next40pxDefaultSize: true,
               }),

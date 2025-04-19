@@ -37,7 +37,7 @@ class CCW_crypto_converter_widget
     protected $allowed_attr = [
         'base', 'quote', 'amount', 'decimal', 'theme',
         'locale', 'tax', 'background', 'background-color', 
-        'rounded', 'shadow', 'symbol',
+        'rounded', 'shadow', 'symbol', 'stat', 'border'
     ];
 
     public static function get_instance()
@@ -147,7 +147,7 @@ class CCW_crypto_converter_widget
                 'backgroundColor' => esc_html__('Background Color', 'crypto-converter-widget'),
                 'style' => esc_html__('Style', 'crypto-converter-widget'),
                 'color' => esc_html__('Color', 'crypto-converter-widget'),
-                'borderRadius' => esc_html__('Border Radius', 'crypto-converter-widget'),
+                'border' => esc_html__('Border', 'crypto-converter-widget'),
                 'options' => esc_html__('Options', 'crypto-converter-widget'),
                 'display' => esc_html__('Display', 'crypto-converter-widget'),
                 'fiat' => esc_html__('Fiat money', 'crypto-converter-widget'),
@@ -164,7 +164,7 @@ class CCW_crypto_converter_widget
                 'clearColors' => esc_html__('Clear Colors', 'crypto-converter-widget'),
                 'locale' => esc_html__('Locale', 'crypto-converter-widget'),
                 'rounded' => esc_html__('Rounded', 'crypto-converter-widget'),
-                'stats' => esc_html__('Stat', 'crypto-converter-widget'),
+                'stat' => esc_html__('Stats', 'crypto-converter-widget'),
                 'base' => esc_html__('Base', 'crypto-converter-widget'),
                 'quote' => esc_html__('Quote', 'crypto-converter-widget'),
                 'tax' => esc_html__('Tax/Fee', 'crypto-converter-widget'),
