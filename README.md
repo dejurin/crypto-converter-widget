@@ -1,6 +1,6 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-* Latest version: 3.0.5;
+* Latest version: 3.0.7;
 * Size: ≈80.0 kB;
 * License: MIT
 
