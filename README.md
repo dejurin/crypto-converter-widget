@@ -205,6 +205,18 @@ The price widget automatically cycles through multiple public data sources in pr
 
 ### Changelog ✳️
 
+#### [3.0.6] - 2025-04-20
+##### Fixed
+- Minor bug fixes.
+
+#### [3.0.5] - 2025-04-19
+##### Fixed
+- Minor bug fixes.
+
+#### [3.0.4] - 2025-04-19
+##### Fixed
+- Minor bug fixes.
+- 
 #### [3.0.3] - 2025-04-19
 ##### Fixed
 - Minor bug fixes.
