@@ -3,7 +3,7 @@
  *
  */
 /**
- * @version 3.0.5
+ * @version 3.0.7
  */
 jQuery(document).ready(function () {
   var { gradients, assets, allowed_attr } = ccwData;

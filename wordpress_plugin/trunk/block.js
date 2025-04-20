@@ -1,5 +1,5 @@
 /**
- * @version 3.0.5
+ * @version 3.0.7
  * @since 2.0.0
  */
 (function (blocks, editor, element, components) {

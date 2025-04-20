@@ -5,7 +5,7 @@ Donate link: http://currencyrate.today/
 Tested up to: 6.8
 Requires at least: 3.1
 Requires PHP: 5.3
-Stable tag: 3.0.5
+Stable tag: 3.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ The Crypto Converter Widget for WordPress is a secure, fast, and intuitive plugi
 [DEMO](https://co-w.io/) 👀 
 [DEMO](https://bitcoin-pulse.pages.dev/) 👀 
 
-[youtube https://www.youtube.com/watch?v=n1cAaEaiyeg]
+[youtube https://www.youtube.com/watch?v=84HLvReF5VY]
 
 You can get more just go to official website: [CO-W.io](https://co-w.io/) | [Github](https://github.com/dejurin/crypto-converter-widget)
 
@@ -68,10 +68,11 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 1. screenshot-1.gif - Widget preview (animation)
 2. screenshot-2.jpg - Settings (admin)
 3. screenshot-3.png - Widget UI (custom)
-3. screenshot-4.png - Widget UI (dark)
-3. screenshot-5.png - Widget UI (light)
-4. screenshot-6.png - Gutenberg
-5. screenshot-7.png - Gutenberg Block
+4. screenshot-4.png - Widget UI (dark)
+5. screenshot-5.png - Widget UI (light)
+6. screenshot-6.png - Gutenberg
+7. screenshot-7.png - Gutenberg Block
+8. screenshot-8.jpg - Website 1
 
 == Upgrade Notice ==
 
@@ -79,6 +80,11 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 🚀 Please update the widget as soon as possible to make it work properly;
 
 == Changelog ==
+= 3.0.7 =
+* Minor fixed
+* Windows scroll fixed (thank you @toludavid1)
+= 3.0.6 =
+* Minor fixed  
 = 3.0.5 =
 * Minor fixed  
 = 3.0.4 =

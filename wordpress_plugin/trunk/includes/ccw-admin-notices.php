@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 3.0.5
+ * @version 3.0.7
  */
 
 // Exit if accessed directly.
@@ -65,7 +65,7 @@ if (!class_exists('CCW_Admin_Notices')) {
                         <p class="ccw-admin-notice">
                             <a href="'.esc_url( 'https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post' ).'"
                                 target="_blank" rel="noopener">
-                                <span class="ccw-stars" role="img" aria-label="'.esc_attr_e( 'Rating', 'crypto-converter-widget' ).'"></span>
+                                <span class="ccw-stars" role="img" aria-label="'.esc_attr__( 'Rating', 'crypto-converter-widget' ).'"></span>
                             </a>
                         </p>
                     </div>

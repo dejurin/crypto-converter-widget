@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 3.0.5
+ * @version 3.0.7
  */
 
 // Exit if accessed directly.
