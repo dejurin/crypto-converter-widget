@@ -26,6 +26,7 @@ The __[Crypto Converter Widget](https://co-w.io)__ is a secure, lightweight (≈
 - [Install](#install-%EF%B8%8F)
 - [Example](#example-html-code-)
 - [For Developers](#for-developers-)
+- [WordPress Plugin](#wordpress-plugin)
 - [Layers](#layers)
 - [Changelog](#changelog-%EF%B8%8F)
 - [Cryptocurrencies id list](https://github.com/dejurin/crypto-converter-widget/blob/master/list.md)
@@ -117,6 +118,14 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.m
 | amount            | float   | 1         | ☑️       | Amount of currency to convert.                                 |
 | locale            | string  | auto      | ☑️       | Locale setting for the widget.                                 |
 | theme             | string  | auto      | ☑️       | Theme of the widget (e.g., “light”, “dark” or “auto”).         |
+
+---
+
+### WordPress Plugin
+
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
+
+[![Watch the video](https://img.youtube.com/vi/84HLvReF5VY/0.jpg)](https://www.youtube.com/watch?v=84HLvReF5VY)
 
 ---
 
