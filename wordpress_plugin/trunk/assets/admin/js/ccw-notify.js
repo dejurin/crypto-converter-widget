@@ -3,9 +3,9 @@
  *
  */
 /**
- * @version 3.0.7
- * @since 1.0.0
+ * @version 3.1.0
  */
+
 (function ($) {
   "use strict";
   $(function () {
@@ -21,8 +21,8 @@
             security: cryptoConverterWidgetAjax.nonce,
           },
           success: function (response) {
-            //console.log(response);
-          },
+            // console.log(response);
+          }
         });
       }
     );

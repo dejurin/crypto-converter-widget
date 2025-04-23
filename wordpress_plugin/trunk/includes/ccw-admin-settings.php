@@ -1,13 +1,13 @@
 <?php
+
 /**
- * @version 3.0.7
+ * @version 3.1.0
  */
 
 // Exit if accessed directly.
 if (!defined('ABSPATH')) {
     exit;
 } // Exit if accessed directly
-
 ?>
 <div class="wrap" id="ccw-admin-settings">
    <h1 class="wp-heading-inline"><?php echo esc_html(CCW_NAME); ?></h1>
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
       <div class="col-12 col-lg-6">
          <h2><?php esc_html_e('Settings', 'crypto-converter-widget');?></h2>
          <form id="widget-settings">
-            <?php wp_nonce_field( 'crypto-converter-settings-nonce', 'crypto_converter_settings_nonce' ); ?>
+            <?php wp_nonce_field('crypto-converter-settings-nonce', 'crypto_converter_settings_nonce'); ?>
             <table class="form-table">
                 <tbody>
                 <tr>
@@ -70,7 +70,7 @@ if (!defined('ABSPATH')) {
                     <td>
                         <select name="locale" id="locale">
                             <option value="auto" selected><?php esc_html_e('Auto', 'crypto-converter-widget');?></option>
-                            <?php foreach ($locales as $key => $value) { ?>
+                            <?php foreach ($this->locales as $key => $value) { ?>
                                 <option value="<?php echo esc_attr($key); ?>"><?php echo esc_html($value); ?></option>
                             <?php } ?>
                         </select>
@@ -171,7 +171,8 @@ if (!defined('ABSPATH')) {
    </div>
       <div class="col-12 col-lg-auto">
         <h3><?php esc_html_e('Help', 'crypto-converter-widget');?></h3>
-            <ul>
+            <ul>   
+                <li>Crypto Converter ⚡ Widget: <b>v<?php echo CCW_VERSION ;?></b></li>
                 <li>ℹ️ <?php esc_html_e('Official website', 'crypto-converter-widget');?>: <a href="https://co-w.io/" target="_blank">CO-W.io</a> | <a href="https://github.com/dejurin/crypto-converter-widget" target="_blank">Github</a></li>
                 <li>❓ <?php esc_html_e('Feel free, write if you will have any questions', 'crypto-converter-widget');?>: <a href="https://t.me/converter_support" target="_blank"><?php esc_html_e('Online support', 'crypto-converter-widget');?></a></li>
                 <li>💰 <?php esc_html_e('Your might like it', 'crypto-converter-widget');?>: <a href="https://wordpress.org/plugins/cryptocurrency-price-widget/" target="_blank">Cryptocurrency Price Widget</a></li>

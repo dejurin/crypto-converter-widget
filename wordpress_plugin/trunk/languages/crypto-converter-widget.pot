@@ -2,21 +2,21 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Crypto Converter ⚡ Widget 3.0.7\n"
+"Project-Id-Version: Crypto Converter ⚡ Widget 3.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/crypto-converter-widget\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-20T16:52:54+00:00\n"
+"POT-Creation-Date: 2025-04-23T13:49:28+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: crypto-converter-widget\n"
 
 #. Plugin Name of the plugin
 #: widget_init.php
-#: widget_init.php:143
+#: widget_init.php:164
 msgid "Crypto Converter ⚡ Widget"
 msgstr ""
 
@@ -40,17 +40,17 @@ msgstr ""
 msgid "https://currencyrate.today/"
 msgstr ""
 
-#: includes/ccw-admin-notices.php:68
+#: includes/ccw-admin-notices.php:73
 msgid "Rating"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:16
-#: widget_init.php:234
+#: widget_init.php:386
 msgid "Settings"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:23
-#: widget_init.php:169
+#: widget_init.php:190
 msgid "Base"
 msgstr ""
 
@@ -59,17 +59,17 @@ msgid "Crypto ID list"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:32
-#: widget_init.php:170
+#: widget_init.php:191
 msgid "Quote"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:41
-#: widget_init.php:142
+#: widget_init.php:163
 msgid "Amount"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:49
-#: widget_init.php:171
+#: widget_init.php:192
 msgid "Tax/Fee"
 msgstr ""
 
@@ -78,7 +78,7 @@ msgid "Decimal places"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:68
-#: widget_init.php:166
+#: widget_init.php:187
 msgid "Locale"
 msgstr ""
 
@@ -88,7 +88,7 @@ msgid "Auto"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:81
-#: widget_init.php:172
+#: widget_init.php:193
 msgid "Theme"
 msgstr ""
 
@@ -101,7 +101,7 @@ msgid "Dark"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:93
-#: widget_init.php:173
+#: widget_init.php:194
 msgid "Gradient"
 msgstr ""
 
@@ -110,12 +110,12 @@ msgid "Random gradient"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:104
-#: widget_init.php:174
+#: widget_init.php:195
 msgid "Degrees"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:113
-#: widget_init.php:150
+#: widget_init.php:171
 msgid "Color"
 msgstr ""
 
@@ -124,17 +124,17 @@ msgid "Random color"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:122
-#: widget_init.php:152
+#: widget_init.php:173
 msgid "Options"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:125
-#: widget_init.php:167
+#: widget_init.php:188
 msgid "Rounded"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:126
-#: widget_init.php:146
+#: widget_init.php:167
 msgid "Shadow"
 msgstr ""
 
@@ -143,12 +143,12 @@ msgid "Symbol"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:128
-#: widget_init.php:168
+#: widget_init.php:189
 msgid "Stats"
 msgstr ""
 
 #: includes/ccw-admin-settings.php:129
-#: widget_init.php:151
+#: widget_init.php:172
 msgid "Border"
 msgstr ""
 
@@ -168,102 +168,106 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#: includes/ccw-admin-settings.php:175
+#: includes/ccw-admin-settings.php:176
 msgid "Official website"
 msgstr ""
 
-#: includes/ccw-admin-settings.php:176
+#: includes/ccw-admin-settings.php:177
 msgid "Feel free, write if you will have any questions"
 msgstr ""
 
-#: includes/ccw-admin-settings.php:176
+#: includes/ccw-admin-settings.php:177
 msgid "Online support"
 msgstr ""
 
-#: includes/ccw-admin-settings.php:177
+#: includes/ccw-admin-settings.php:178
 msgid "Your might like it"
 msgstr ""
 
-#: includes/ccw-admin-settings.php:178
+#: includes/ccw-admin-settings.php:179
 msgid "Supported by"
 msgstr ""
 
-#: widget_init.php:122
-msgid "Rate"
-msgstr ""
-
-#: widget_init.php:144
+#: widget_init.php:165
 msgid "A simple block for displaying Crypto Converter ⚡ Widget."
 msgstr ""
 
-#: widget_init.php:145
+#: widget_init.php:166
 msgid "Container"
 msgstr ""
 
-#: widget_init.php:147
+#: widget_init.php:168
 msgid "Decimal Places"
 msgstr ""
 
-#: widget_init.php:148
+#: widget_init.php:169
 msgid "Background Color"
 msgstr ""
 
-#: widget_init.php:149
+#: widget_init.php:170
 msgid "Style"
 msgstr ""
 
-#: widget_init.php:153
+#: widget_init.php:174
 msgid "Display"
 msgstr ""
 
-#: widget_init.php:154
+#: widget_init.php:175
 msgid "Fiat money"
 msgstr ""
 
-#: widget_init.php:155
+#: widget_init.php:176
 msgid "Fiat symbol"
 msgstr ""
 
-#: widget_init.php:156
+#: widget_init.php:177
 msgid "Font Family"
 msgstr ""
 
-#: widget_init.php:157
+#: widget_init.php:178
 msgid "About"
 msgstr ""
 
-#: widget_init.php:158
+#: widget_init.php:179
 msgid "❤️ Rate plugin ★★★★★"
 msgstr ""
 
-#: widget_init.php:159
+#: widget_init.php:180
 msgid "Widget"
 msgstr ""
 
-#: widget_init.php:160
+#: widget_init.php:181
 msgid "DEMO 👀"
 msgstr ""
 
-#: widget_init.php:161
+#: widget_init.php:182
 msgid "None"
 msgstr ""
 
-#: widget_init.php:162
+#: widget_init.php:183
 msgid "Converter"
 msgstr ""
 
-#: widget_init.php:163
+#: widget_init.php:184
 msgid "Crypto"
 msgstr ""
 
-#: widget_init.php:164
+#: widget_init.php:185
 msgid "Live"
 msgstr ""
 
-#: widget_init.php:165
+#: widget_init.php:186
 msgid "Clear Colors"
 msgstr ""
 
-#: widget_init.php:212
+#: widget_init.php:280
+msgid "Rate"
+msgstr ""
+
+#: widget_init.php:347
 msgid "Source:"
+msgstr ""
+
+#: widget_init.php:402
+msgid "Crypto Converter Settings"
 msgstr ""

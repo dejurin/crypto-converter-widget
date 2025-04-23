@@ -5,7 +5,7 @@ Donate link: http://currencyrate.today/
 Tested up to: 6.8
 Requires at least: 3.1
 Requires PHP: 5.3
-Stable tag: 3.0.7
+Stable tag: 3.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,6 +80,9 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 🚀 Please update the widget as soon as possible to make it work properly;
 
 == Changelog ==
+= 3.1.0 =
+* Major fixed
+* Fixed compatibility JS (thank you @homu9).
 = 3.0.7 =
 * Minor fixed
 * Windows scroll fixed (thank you @toludavid1)

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version 3.0.7
+ * @version 3.1.0
  */
 
 // Exit if accessed directly.

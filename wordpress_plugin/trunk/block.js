@@ -1,5 +1,5 @@
 /**
- * @version 3.0.7
+ * @version 3.1.0
  * @since 2.0.0
  */
 (function (blocks, editor, element, components) {
@@ -102,7 +102,7 @@
 
   blocks.registerBlockType("crypto-converter-widget/widget-block", {
     title: i18n["title"] || "Crypto Converter Widget",
-    description: i18n["description"] || "crypto-converter-widget",
+    description: i18n["description"] || "Crypto Converter Widget",
     icon: el(
       "svg",
       { width: 28, height: 28, viewBox: "0 0 14 14" },
