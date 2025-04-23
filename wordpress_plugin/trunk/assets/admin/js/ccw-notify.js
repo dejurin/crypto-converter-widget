@@ -3,7 +3,7 @@
  *
  */
 /**
- * @version 3.1.0
+ * @version 3.1.1
  */
 
 (function ($) {
@@ -21,8 +21,11 @@
             security: cryptoConverterWidgetAjax.nonce,
           },
           success: function (response) {
-            // console.log(response);
-          }
+            console.log(response);
+          },
+          error: function (response) {
+            console.log(response);
+          },
         });
       }
     );
