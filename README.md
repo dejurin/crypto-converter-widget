@@ -1,6 +1,6 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-* Latest version: 3.0.7;
+* Latest version: 3.1.0;
 * Size: ≈80.0 kB;
 * License: MIT
 
@@ -204,6 +204,11 @@ The price widget automatically cycles through multiple public data sources in pr
 ---
 
 ### Changelog ✳️
+
+#### [3.1.0] - 2025-04-23
+##### Fixed
+- Minor bug fixes.
+- Fixed compatibility.
 
 #### [3.0.6] - 2025-04-20
 ##### Fixed
