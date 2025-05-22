@@ -4,6 +4,7 @@
 
 | Logo | ID | Symbol | Name |
 |:----:|:--:|:------:|:-----|
+|<img src="https://tircacoin.com/wp-content/uploads/2025/05/Untitled-design-5-1-e1747949453992.png" width="32" height="32"> | 593   | TRC    | Tirca Coin |
 | <img src="./assets/7.png" width="32" height="32"> | 13557 | 7 | Lucky7 |
 | <img src="./assets/32.png" width="32" height="32"> | 18499 | 32 | Project 32 |
 | <img src="./assets/42.png" width="32" height="32"> | 3318 | 42 | 42 Coin |
