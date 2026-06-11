@@ -6,6 +6,7 @@
 |:----:|:--:|:------:|:-----|
 | <img src="../assets/ABL.png" width="32" height="32"> | 32910 | ABL | Airbloc |
 | <img src="../assets/SPELLFIRE.png" width="32" height="32"> | 62091 | SPELLFIRE | Spellfire |
+| <img src="../assets/YIELD.png" width="32" height="32"> | 65309 | YIELD | Yield Protocol |
 | <img src="../assets/AVAXAI.png" width="32" height="32"> | 150203 | AVAXAI | AIvalanche DeFAI Agents |
 | <img src="../assets/BTL.png" width="32" height="32"> | 65239 | BTL | Bitlocus |
 | <img src="../assets/DCK.png" width="32" height="32"> | 111567 | DCK | DexCheck |
@@ -52,8 +53,8 @@
 | <img src="../assets/APX.png" width="32" height="32"> | 77811 | APX | ApolloX |
 | <img src="../assets/MDF.png" width="32" height="32"> | 55913 | MDF | MatrixETF |
 | <img src="../assets/FEVR.png" width="32" height="32"> | 54047 | FEVR | RealFevr |
-| <img src="../assets/KIMCHI.png" width="32" height="32"> | 45610 | KIMCHI | KIMCHI.finance |
 |  | 165731 | ETAN | Etarn |
+| <img src="../assets/KIMCHI.png" width="32" height="32"> | 45610 | KIMCHI | KIMCHI.finance |
 | <img src="../assets/BTB.png" width="32" height="32"> | 47302 | BTB | Bitball |
 |  | 162049 | SIMON | Simon the Gator |
 | <img src="../assets/UDO.png" width="32" height="32"> | 48245 | UDO | Unido |
@@ -78,8 +79,8 @@
 | <img src="../assets/ZEE.png" width="32" height="32"> | 46330 | ZEE | ZeroSwap |
 |  | 65567 | $MANGA | Manga Token |
 | <img src="../assets/RBLS.png" width="32" height="32"> | 64953 | RBLS | Rebel Bots |
-| <img src="../assets/OIN.png" width="32" height="32"> | 45525 | OIN | OIN Finance |
 | <img src="../assets/EDC.png" width="32" height="32"> | 2956 | EDC | EDC Blockchain |
+| <img src="../assets/OIN.png" width="32" height="32"> | 45525 | OIN | OIN Finance |
 | <img src="../assets/DOP.png" width="32" height="32"> | 49049 | DOP | Drops Ownership Power |
 | <img src="../assets/NLC.png" width="32" height="32"> | 71273 | NLC | Nelore Coin |
 | <img src="../assets/ARGON.png" width="32" height="32"> | 48229 | ARGON | Argon |
@@ -87,7 +88,6 @@
 | <img src="../assets/LITH.png" width="32" height="32"> | 64967 | LITH | Lithium Finance |
 | <img src="../assets/DRA.png" width="32" height="32"> | 125445 | DRA | Dracarys Token |
 | <img src="../assets/GFLY.png" width="32" height="32"> | 111767 | GFLY | BattleFly |
-| <img src="../assets/ROPE.png" width="32" height="32"> | 65661 | ROPE | Rope Token |
 | <img src="../assets/BTRS.png" width="32" height="32"> | 42124 | BTRS | Bitball Treasure |
 | <img src="../assets/BOOST.png" width="32" height="32"> | 45528 | BOOST | Boosted Finance |
 | <img src="../assets/BLANK.png" width="32" height="32"> | 47785 | BLANK | Blank |
@@ -115,6 +115,7 @@
 | <img src="../assets/PBTC.png" width="32" height="32"> | 43068 | PBTC | pTokens BTC |
 | <img src="../assets/NSDX.png" width="32" height="32"> | 56677 | NSDX | NASDEX Token |
 | <img src="../assets/MCRN.png" width="32" height="32"> | 78239 | MCRN | MacaronSwap |
+| <img src="../assets/SOLX.png" width="32" height="32"> | 60203 | SOLX | Soldex |
 | <img src="../assets/DDIM.png" width="32" height="32"> | 45191 | DDIM | DuckDaoDime |
 | <img src="../assets/RACEFI.png" width="32" height="32"> | 60629 | RACEFI | RaceFi |
 | <img src="../assets/PTF.png" width="32" height="32"> | 45892 | PTF | PowerTrade Fuel |
@@ -122,12 +123,11 @@
 | <img src="../assets/EPK.png" width="32" height="32"> | 50783 | EPK | EpiK Protocol |
 | <img src="../assets/EGGP.png" width="32" height="32"> | 49061 | EGGP | Eggplant Finance |
 | <img src="../assets/BLS.png" width="32" height="32"> | 51979 | BLS | blocsport.one |
-| <img src="../assets/SOLX.png" width="32" height="32"> | 60203 | SOLX | Soldex |
 | <img src="../assets/MORE.png" width="32" height="32"> | 161617 | MORE | Moonveil |
 | <img src="../assets/BITE.png" width="32" height="32"> | 65483 | BITE | DragonBite |
 | <img src="../assets/FANX.png" width="32" height="32"> | 126887 | FANX | FrontFanz |
-| <img src="../assets/ZYN.png" width="32" height="32"> | 68755 | ZYN | Zynecoin |
 | <img src="../assets/CPR.png" width="32" height="32"> | 42935 | CPR | CIPHER |
+| <img src="../assets/ZYN.png" width="32" height="32"> | 68755 | ZYN | Zynecoin |
 | <img src="../assets/LOE.png" width="32" height="32"> | 127397 | LOE | Legends of Elysium |
 |  | 165105 | MRLN | Project Merlin |
 | <img src="../assets/GDDY.png" width="32" height="32"> | 69479 | GDDY | Giddy |
