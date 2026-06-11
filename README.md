@@ -12,7 +12,7 @@
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
 
-The **[Crypto Converter Widget](https://co-w.io)** is a secure, lightweight (≈80 kB), dependency‑free JavaScript widget—hosted via CDN with SSL—to deliver real‑time ⚡ streaming price updates for cryptocurrencies (≈3 313), fiat currencies (≈170), tokens, blockchains and commodities. It requires no API key and protects against cryptojacking by offloading data processing to a secure third‑party server. With four layers of public data providers and automatic fallback, built‑in caching minimizes network requests and keeps your page fast and responsive. Featuring flexible settings, background gradient and dark‑theme support, plus SEO‑friendly markup, it integrates instantly as an Exchange Rates tool or Currency Converter—completely free and maintenance‑free.
+The **[Crypto Converter Widget](https://co-w.io)** is a lightweight JavaScript Web Component for adding crypto, fiat and commodity conversion to any website through a single CDN script. It works with symbol-based settings such as `BTC`, `ETH`, `USD` and `EUR`, requires no API key for normal usage, and uses a resilient provider pipeline built around CoinLore, MoneyConvert, Coinbase and OKX. The widget includes local caching, reactive HTML attributes, theme controls and a public asset manifest with ≈14k crypto symbols plus fiat and commodity entries.
 
 ---
 
@@ -35,23 +35,21 @@ The **[Crypto Converter Widget](https://co-w.io)** is a secure, lightweight (≈
 
 ### Features 🤩
 
-- [x] 🔑 No API key needed;
-- [x] 🥞 Four layers of API data providers;
-- [x] 🪶 Pure JavaScript ≈80kB, no dependencies;
-- [x] ⚙️ Flexible settings;
-- [x] ⚡ Real-time price update;
-- [x] 🌐 Processed on a third-party server;
-- [x] 💅 Beautiful design;
-- [x] 🌈 Supports background gradient;
-- [x] 🌑 Supports dark theme;
-- [x] 💵 Fiat, Tokens, Blockchains, Commodity;
-- [x] ₿ ≈3,313 cryptocurrencies and ≈170 fiat currencies;
-- [x] 💱 Can be used as Exchange Rates or Currency Converter;
-- [x] 🦠 No Cryptojacking!
-- [x] ☁️ CDN Assets;
-- [x] 🔐 SSL support;
-- [x] 🩷 SEO-friendly;
-- [x] 🆓 Free.
+- [x] 🔑 No API key required for standard crypto, fiat and commodity conversion;
+- [x] 🧩 Drop-in Web Component: install with one CDN script and HTML attributes;
+- [x] ⚡ Reliable pricing pipeline with CoinLore + MoneyConvert as the primary source;
+- [x] 🛡️ Automatic fallback to Coinbase and OKX when the primary route is unavailable;
+- [x] ₿ Symbol-based configuration for `BTC`, `ETH`, `USD`, `EUR` and thousands of other assets;
+- [x] 💵 Supports crypto assets, fiat currencies, tokens, blockchains and commodities;
+- [x] 📚 Public asset manifest with ≈14k crypto symbols plus legacy fiat and commodity entries;
+- [x] 🎛️ Reactive settings for amount, base, quote, locale, tax, decimals, theme and display options;
+- [x] 🌈 Custom colors, CSS backgrounds and gradients for brand-friendly embeds;
+- [x] 🌗 Light, dark and auto themes;
+- [x] 🧠 Local caching for asset metadata and provider responses to reduce repeat requests;
+- [x] 💱 Works as a compact exchange-rate widget or an interactive currency converter;
+- [x] ☁️ Hosted on jsDelivr over HTTPS, with versioned and `latest` bundle paths;
+- [x] 🧾 SEO-friendly custom-element markup with no required build step;
+- [x] 🆓 Free to use.
 
 ---
 
@@ -122,22 +120,37 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.m
 
 ### For Developers 🧑‍💻
 
-| Attribute        | Type    | Default   | Reactive | Description                                             |
-| ---------------- | ------- | --------- | -------- | ------------------------------------------------------- |
-| base             | string  | BTC       | ☑️       | Base currency of the widget (currency to convert from). |
-| quote            | string  | USD       | ☑️       | Quote currency of the widget (currency to convert to).  |
-| symbol           | boolean | false     | ☑️       | Whether to display the currency symbol (e.g., “$”).     |
-| shadow           | boolean | false     | ☑️       | Whether to display a shadow around the widget.          |
-| rounded          | boolean | true      | ☑️       | Whether to use rounded corners for the widget.          |
-| border           | boolean | true      | ☑️       | Whether to display a border around the widget.          |
-| background-color | string  | undefined | ☑️       | Background color of the widget.                         |
-| background       | string  | undefined | ☑️       | Background of the widget (supports gradients).          |
-| stat             | boolean | false     | ☑️       | Whether to display the stats of asset.                  |
-| tax              | float   | 0         | ☑️       | Additional tax or fee applied to the quote currency.    |
-| decimal          | int     | 2         | ☑️       | Number of decimal places to display.                    |
-| amount           | float   | 1         | ☑️       | Amount of currency to convert.                          |
-| locale           | string  | auto      | ☑️       | Locale setting for the widget.                          |
-| theme            | string  | auto      | ☑️       | Theme of the widget (e.g., “light”, “dark” or “auto”).  |
+The widget is distributed as a browser-native custom element:
+`<crypto-converter-widget>`. It can be embedded in static HTML, CMS templates,
+WordPress themes, landing pages and no-build frontend projects. All public
+configuration is passed through HTML attributes, so webmasters can update the
+widget without changing JavaScript code.
+
+Boolean attributes accept `true` or `false`. Asset values remain symbol-based:
+use `BTC`, `ETH`, `USD`, `EUR`, `XAU` and similar symbols, not provider-specific
+asset ids.
+
+| Attribute        | Type / Values              | Default | Reactive | Description |
+| ---------------- | -------------------------- | ------- | -------- | ----------- |
+| base             | asset symbol               | BTC     | ☑️       | Source asset for conversion. Examples: `BTC`, `ETH`, `EUR`, `XAU`. |
+| quote            | asset symbol               | USD     | ☑️       | Target asset used to calculate and display the converted value. |
+| amount           | number                     | 1       | ☑️       | Amount of the base asset to convert. |
+| decimal          | integer                    | 2       | ☑️       | Number of decimal places used for formatted output. |
+| decimal-places   | integer                    | 2       | ☑️       | Deprecated compatibility alias for `decimal`. Use `decimal` for new embeds. |
+| locale           | BCP 47 locale or `auto`    | auto    | ☑️       | Controls number formatting and currency display rules. Examples: `en`, `de-DE`, `uk-UA`. |
+| symbol           | boolean                    | false   | ☑️       | Displays the localized currency symbol when available. |
+| stat             | boolean                    | false   | ☑️       | Shows supported 24h market movement data. Unsupported high, low or open values are not fabricated. |
+| indicator        | `high`, `low`, `open`      | -       | ☑️       | Selects a legacy stat indicator when the active provider can supply it. |
+| tax              | number                     | 0       | ☑️       | Applies an additional percentage adjustment to the quote value for fees, markup or tax scenarios. |
+| theme            | `auto`, `light`, `dark`    | auto    | ☑️       | Controls the visual theme. `auto` follows the visitor's preferred color scheme. |
+| rounded          | boolean                    | true    | ☑️       | Enables rounded widget corners. |
+| border           | boolean                    | true    | ☑️       | Controls the widget border. |
+| shadow           | boolean                    | false   | ☑️       | Adds a shadow around the widget container. |
+| background-color | CSS color                  | -       | ☑️       | Sets a custom background color. Examples: `#8E2DE2`, `rgb(20 20 20)`. |
+| background       | CSS background value       | -       | ☑️       | Sets a full CSS background, including gradients. Overrides simple color styling when provided. |
+| name             | string                     | -       | ☑️       | Optional display/integration label for site builders and generated embed flows. |
+| api-key          | string                     | -       | ☑️       | Optional key for legacy provider fallback paths. Standard 3.2.0 usage does not require it. |
+| apiKey           | JavaScript property string | -       | ☑️       | Property-based compatibility alias for integrations that set values from JavaScript. |
 
 ---
 
@@ -151,74 +164,72 @@ https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.m
 
 ### Layers
 
-The price widget automatically cycles through multiple public data sources in priority order, so if one API fails or changes its response format it simply falls back to the next provider without missing a beat. Built‑in caching minimizes network requests and keeps your page fast and responsive. There’s no need for API keys or server‑side setup—just drop the HTML snippet into your page and you’re good to go. This lightweight, self‑configuring design delivers rock‑solid reliability and extreme flexibility with zero maintenance.
+The widget uses a layered data pipeline rather than a single hardcoded API. The
+public contract stays simple and symbol-based, while the widget resolves the
+best available internal asset metadata and then calculates a quote through the
+most reliable provider path available.
+
+Primary pricing is handled by a composite provider:
+
+- 🟠 CoinLore supplies crypto market data and USD values for crypto assets.
+- 🟢 MoneyConvert supplies fiat and commodity rates against USD.
+- 🧮 Pair conversion is calculated as `base USD value / quote USD value`.
+
+If the primary route cannot price a pair, the widget falls back to simple
+price providers that still work without requiring a key. Legacy API-key
+providers are kept out of the hot path and are only useful for explicitly
+configured fallback scenarios.
+
+The widget displays only data that the active provider actually supplies. For
+example, 24h change can be shown when available, but high, low and open values
+are not invented when a provider does not return them.
 
 #### How it works
 
 ```plaintext
-┌──────────────────────────────────────┐
-│ 1. Provider 1 (Coindesk – full data) │
-└──────────────────────────────────────┘
-              ↓
-   [1.1] Is detailed price in cache?
-         ├─ Yes → return full price → END
-         └─ No  →
-              ↓
-   [1.2] Fetch from Provider 1
-         ├─ Success & status OK →
-         │     • parse detailed data
-         │     • cache full price
-         │     • return full price → END
-         └─ Failure → proceed to Provider 2
-
-┌───────────────────────────────────────┐
-│ 2. Provider 2 (CryptoCompare – price) │
-└───────────────────────────────────────┘
-              ↓
-   [2.1] Is simple price in cache?
-         ├─ Yes → return price → END
-         └─ No  →
-              ↓
-   [2.2] Fetch from Provider 2
-         ├─ Success →
-         │     • parse numeric price
-         │     • cache price
-         │     • return price → END
-         └─ Failure → proceed to Provider 3
-
-┌──────────────────────────────────────┐
-│ 3. Provider 3 (Coinbase – price)     │
-└──────────────────────────────────────┘
-              ↓
-   [3.1] Is simple price in cache?
-         ├─ Yes → return price → END
-         └─ No  →
-              ↓
-   [3.2] Fetch from Provider 3
-         ├─ Success →
-         │     • parse numeric price
-         │     • cache price
-         │     • return price → END
-         └─ Failure → proceed to Provider 4
-
-┌──────────────────────────────────────┐
-│ 4. Provider 4 (OKX – price)          │
-└──────────────────────────────────────┘
-              ↓
-   [4.1] Is simple price in cache?
-         ├─ Yes → return price → END
-         └─ No  →
-              ↓
-   [4.2] Fetch from Provider 4
-         ├─ Success →
-         │     • parse numeric price
-         │     • cache price
-         │     • return price → END
-         └─ Failure →
-              ↓
-┌────────────────────────────────────┐
-│ All providers failed → show error  │
-└────────────────────────────────────┘
+┌──────────────────────────────────────────┐
+│ <crypto-converter-widget> is mounted     │
+└──────────────────────────────────────────┘
+                    ↓
+┌──────────────────────────────────────────┐
+│ Normalize attributes and saved settings  │
+│ - base / quote remain symbols            │
+│ - decimal-places maps to decimal         │
+│ - background-color maps to CSS styling   │
+└──────────────────────────────────────────┘
+                    ↓
+┌──────────────────────────────────────────┐
+│ Resolve asset metadata                   │
+│ 1. Use current localStorage cache        │
+│ 2. Fetch CoinLore asset list             │
+│ 3. Merge public/assets.json for legacy   │
+│    fiat, commodity and fallback symbols  │
+│ 4. Deduplicate duplicate symbols by rank │
+└──────────────────────────────────────────┘
+                    ↓
+┌──────────────────────────────────────────┐
+│ Price pipeline                           │
+│ 1. CoinLore + MoneyConvert composite     │
+│    - crypto prices from CoinLore         │
+│    - fiat/commodity rates from USD table │
+│    - pair = base USD / quote USD         │
+│ 2. Coinbase fallback                     │
+│ 3. OKX fallback                          │
+│ 4. Legacy API-key fallback, if provided  │
+└──────────────────────────────────────────┘
+                    ↓
+┌──────────────────────────────────────────┐
+│ Render result                            │
+│ - converted amount                       │
+│ - optional localized symbol              │
+│ - supported 24h movement data            │
+│ - no fabricated unsupported stats        │
+└──────────────────────────────────────────┘
+                    ↓
+┌──────────────────────────────────────────┐
+│ If no provider can price the pair,       │
+│ show a controlled error state            │
+└──────────────────────────────────────────┘
 ```
 
 ---
