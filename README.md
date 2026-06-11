@@ -1,6 +1,6 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.2.1;
+- Latest version: 3.2.2;
 - Size: ≈68.5 kB gzip;
 - License: MIT
 
@@ -149,7 +149,7 @@ asset ids.
 | background-color | CSS color                  | -       | ☑️       | Sets a custom background color. Examples: `#8E2DE2`, `rgb(20 20 20)`. |
 | background       | CSS background value       | -       | ☑️       | Sets a full CSS background, including gradients. Overrides simple color styling when provided. |
 | name             | string                     | -       | ☑️       | Optional display/integration label for site builders and generated embed flows. |
-| api-key          | string                     | -       | ☑️       | Optional key for legacy provider fallback paths. Standard 3.2.0 usage does not require it. |
+| api-key          | string                     | -       | ☑️       | Optional key for legacy provider fallback paths. Standard v3 usage does not require it. |
 | apiKey           | JavaScript property string | -       | ☑️       | Property-based compatibility alias for integrations that set values from JavaScript. |
 
 ---
@@ -235,6 +235,13 @@ are not invented when a provider does not return them.
 ---
 
 ### Changelog ✳️
+
+#### [3.2.2] - 2026-06-11
+
+##### Changed
+
+- Rebuilt and prepared verified CDN artifacts for the `3.2.2` release.
+- Kept the public JSON asset manifest contract unchanged for the website and WordPress plugin.
 
 #### [3.2.1] - 2026-06-11
 
