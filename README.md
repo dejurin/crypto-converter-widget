@@ -1,6 +1,6 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.2.0;
+- Latest version: 3.2.1;
 - Size: ≈68.5 kB gzip;
 - License: MIT
 
@@ -235,6 +235,12 @@ are not invented when a provider does not return them.
 ---
 
 ### Changelog ✳️
+
+#### [3.2.1] - 2026-06-11
+
+##### Fixed
+
+- Updated the widget About dialog to remove outdated asset-count copy.
 
 #### [3.2.0] - 2026-06-11
 
