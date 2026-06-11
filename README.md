@@ -1,7 +1,7 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.1.1;
-- Size: ≈80.0 kB;
+- Latest version: 3.2.0;
+- Size: ≈68.5 kB gzip;
 - License: MIT
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
@@ -224,6 +224,15 @@ The price widget automatically cycles through multiple public data sources in pr
 ---
 
 ### Changelog ✳️
+
+#### [3.2.0] - 2026-06-11
+
+##### Fixed
+
+- Restored no-key pricing with CoinLore and MoneyConvert as the primary providers.
+- Kept Coinbase and OKX as working fallbacks.
+- Fixed asset picker scrolling and selection issues.
+- Preserved the public symbol-based widget contract.
 
 #### [3.1.1] - 2025-04-23
 
