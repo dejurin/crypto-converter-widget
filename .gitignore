@@ -3,3 +3,4 @@
 .cache
 assets/asset.cache
 /wordpress_plugin/.svn
+/scripts/__pycache__

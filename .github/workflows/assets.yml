@@ -3,37 +3,37 @@ name: Assets
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: "0 3 * * *" # Run every day at 03:00
   workflow_dispatch: # Run manually
+
+permissions:
+  contents: write
 
 jobs:
   parse:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Run asset parser
+      - name: Generate public asset manifest
         run: python scripts/assets.py
 
       - name: Commit and push updated assets.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Set Git config with your GitHub login
           git config --global user.email "dejurin@users.noreply.github.com"
           git config --global user.name "dejurin"
-          # Add and commit the updated file
           git add public/assets.json
+          if git diff --cached --quiet; then
+            echo "public/assets.json is already up to date"
+            exit 0
+          fi
           git commit -m "Update assets.json"
           git push
