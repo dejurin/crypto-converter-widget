@@ -22,6 +22,8 @@ from urllib.request import Request, urlopen
 COINLORE_ASSETS_URL = "https://api.coinlore.net/api/assets/"
 PAGE_SIZE = 1000
 OUTPUT_DIR = Path("list")
+MIN_COINLORE_RAW_ASSETS = 10_000
+MIN_COINLORE_UNIQUE_ASSETS = 10_000
 REQUEST_TIMEOUT = 20
 MAX_RETRIES = 3
 RETRY_DELAY = 5
@@ -125,6 +127,10 @@ def make_nav_links(page_num: int, total_pages: int) -> str:
     return " | ".join(links)
 
 
+def escape_cell(value: str) -> str:
+    return value.replace("|", "\\|")
+
+
 def get_img_md(symbol: str, page_num: int) -> str:
     prefix = "./" if page_num == 1 else "../"
     img_path = f"{prefix}assets/{symbol}.png"
@@ -155,8 +161,8 @@ def write_page(
         for asset in assets_slice:
             symbol = asset["SYMBOL"]
             file.write(
-                f"| {get_img_md(symbol, page_num)} | {asset['ID']} | "
-                f"{symbol} | {asset['NAME']} |\n"
+                f"| {get_img_md(symbol, page_num)} | {escape_cell(asset['ID'])} | "
+                f"{escape_cell(symbol)} | {escape_cell(asset['NAME'])} |\n"
             )
 
         if nav:
@@ -165,13 +171,37 @@ def write_page(
     print(f"Created {path}")
 
 
+def remove_stale_pages(total_pages: int) -> None:
+    if not OUTPUT_DIR.exists():
+        return
+
+    for path in OUTPUT_DIR.glob("list*.md"):
+        stem = path.stem.removeprefix("list")
+        if not stem.isdigit():
+            continue
+
+        page_num = int(stem)
+        if page_num > total_pages:
+            path.unlink()
+            print(f"Removed stale {path}")
+
+
 def main() -> int:
     payload = fetch_json(COINLORE_ASSETS_URL)
-    assets = normalize_assets(get_coinlore_items(payload))
+    items = get_coinlore_items(payload)
+    if len(items) < MIN_COINLORE_RAW_ASSETS:
+        raise ValueError(
+            f"CoinLore asset count is too low: {len(items)} "
+            f"(expected at least {MIN_COINLORE_RAW_ASSETS})"
+        )
 
-    if not assets:
-        print("Assets list is empty", file=sys.stderr)
-        return 1
+    assets = normalize_assets(items)
+
+    if len(assets) < MIN_COINLORE_UNIQUE_ASSETS:
+        raise ValueError(
+            f"CoinLore unique asset count is too low: {len(assets)} "
+            f"(expected at least {MIN_COINLORE_UNIQUE_ASSETS})"
+        )
 
     pages = math.ceil(len(assets) / PAGE_SIZE)
 
@@ -179,6 +209,8 @@ def main() -> int:
         start = index * PAGE_SIZE
         end = start + PAGE_SIZE
         write_page(assets[start:end], index + 1, pages)
+
+    remove_stale_pages(pages)
 
     print(f"Saved {len(assets)} assets across {pages} markdown pages")
     return 0
