@@ -8,6 +8,7 @@
  [![Fiat](https://img.shields.io/badge/dynamic/json?label=fiat%20assets&query=%24.fiat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdejurin%2Fcrypto-converter-widget%2Fmaster%2Fpublic%2Fassets-stats.json)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets-stats.json)
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
+[![WordPress Installs](https://img.shields.io/wordpress/plugin/installs/crypto-converter-widget?label=Installs&logo=wordpress&color=blue)](https://wordpress.org/plugins/crypto-converter-widget/)
 
 The **[Crypto Converter Widget](https://co-w.io)** is a lightweight JavaScript Web Component for adding crypto, fiat and commodity conversion to any website through a single CDN script. It works with symbol-based settings such as `BTC`, `ETH`, `USD` and `EUR`, requires no API key for normal usage, and uses a resilient provider pipeline built around CoinLore, MoneyConvert, Coinbase and OKX. The widget includes local caching, reactive HTML attributes, theme controls and a public asset manifest with ≈14k crypto symbols plus fiat and commodity entries.
 
