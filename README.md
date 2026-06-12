@@ -170,20 +170,22 @@ resolved internally from the CDN asset manifest.
 
 #### Asset manifest
 
-The v3 widget reads selectable assets from:
+The v3 widget uses a two-stage manifest flow:
 
 ```plaintext
-https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets_v3.json?v=YYYY-MM-DD
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets_runtime_V3.json?v=YYYY-MM-DD
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets_catalog_V3.json?v=YYYY-MM-DD
 ```
 
-Runtime does not call CoinLore `/api/assets/`. The CDN manifest is the single
-source of truth for the asset picker and includes CoinLore `ID` metadata for
-crypto pricing. The legacy `public/assets.json` remains available for older
-builds, the website and WordPress integrations.
+Runtime does not call CoinLore `/api/assets/`. The runtime manifest (`*_runtime_V3`)
+drives the picker list and fast startup path, while the catalog manifest (`*_catalog_V3`)
+keeps the full dataset for local fallback resolution. The legacy
+`public/assets.json` remains available for older builds, the website and WordPress
+integrations.
 
 Asset cache:
 
-- key: `co-w.io_ccw_assets_V3`
+- keys: `co-w.io_ccw_assets_runtime_V3`, `co-w.io_ccw_assets_catalog_V3`
 - schemaVersion: `3`
 - validity: `24h`
 
@@ -228,8 +230,9 @@ are not fabricated when a provider does not return them.
 ┌──────────────────────────────────────────┐
 │ Resolve asset metadata                   │
 │ 1. Use localStorage cache if schema = 3  │
-│ 2. Fetch public/assets_v3.json from CDN  │
-│ 3. Store manifest cache for 24h          │
+│ 2. Fetch public/assets_runtime_V3.json │
+│    and public/assets_catalog_V3.json       │
+│ 3. Store runtime/catalog manifest cache for 24h │
 │ 4. Keep public API symbol-based          │
 └──────────────────────────────────────────┘
                     ↓
@@ -261,6 +264,19 @@ are not fabricated when a provider does not return them.
 ---
 
 ### Changelog ✳️
+
+#### [3.3.0] - 2026-06-12
+
+##### Changed
+
+- Added two-stage V3 asset loading with `assets_runtime_V3.json` and `assets_catalog_V3.json`.
+- Updated runtime contract to load primary assets from CDN runtime manifest and use catalog manifest as authoritative reference for fallback symbols.
+- Kept legacy `public/assets.json` and old `@latest` behavior for older integrations.
+
+##### Verified
+
+- Confirmed provider pipeline now uses CoinLore + MoneyConvert as primary and preserves fallback paths.
+- Confirmed runtime localStorage contract includes `co-w.io_ccw_assets_runtime_V3` / `co-w.io_ccw_assets_catalog_V3`.
 
 #### [3.2.5] - 2026-06-12
 

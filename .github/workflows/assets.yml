@@ -3,7 +3,7 @@ name: Assets
 on:
   push:
     branches:
-      - master
+    - master
   schedule:
     - cron: "0 3 * * *" # Run every day at 03:00
   workflow_dispatch: # Run manually
@@ -18,6 +18,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -28,12 +33,13 @@ jobs:
           python scripts/assets.py
           python scripts/assets_v3.py
           python scripts/assets_stats.py
+          node scripts/generate-assets-manifests.mjs --coinlore public/assets_v3.json --legacy public/assets.json --out public
 
       - name: Commit and push updated asset manifests
         run: |
           git config --global user.email "dejurin@users.noreply.github.com"
           git config --global user.name "dejurin"
-          git add public/assets.json public/assets_v3.json public/assets-stats.json
+          git add public/assets.json public/assets_v3.json public/assets-stats.json public/assets_runtime_V3.json public/assets_catalog_V3.json
           if git diff --cached --quiet; then
             echo "public asset manifests are already up to date"
             exit 0
