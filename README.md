@@ -1,14 +1,10 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.3.0;
-- Size: ≈70.6 kB gzip;
-- License: MIT
-
-> ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
->
-> 📟 Fortunately, we found an even better alternative, so the widget will live on!
->
-> 🚀 We have completely updated the widget, now it works even better and faster. For the new widget to work correctly, you need to update the HTML code of the widget. How to do it, see below.
+[![Latest version](https://img.shields.io/github/v/release/dejurin/crypto-converter-widget?label=Latest%20version)](https://github.com/dejurin/crypto-converter-widget/releases)
+[![License](https://img.shields.io/github/license/dejurin/crypto-converter-widget?label=License)](./LICENSE)
+[![Bundle size (gzip)](https://img.shields.io/badge/gzip%20bundle-70.57%20kB-0A66C2)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js)
+[![Assets](https://img.shields.io/badge/dynamic/json?label=assets%20total&query=%24.total&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdejurin%2Fcrypto-converter-widget%2Fmaster%2Fpublic%2Fassets-stats.json)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets-stats.json)
+[![Fiat](https://img.shields.io/badge/dynamic/json?label=fiat%20assets&query=%24.fiat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdejurin%2Fcrypto-converter-widget%2Fmaster%2Fpublic%2Fassets-stats.json)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets-stats.json)
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
 
@@ -130,27 +126,27 @@ Boolean attributes accept `true` or `false`. Asset values remain symbol-based:
 use `BTC`, `ETH`, `USD`, `EUR`, `XAU` and similar symbols, not provider-specific
 asset ids.
 
-| Attribute        | Type / Values              | Default | Reactive | Description |
-| ---------------- | -------------------------- | ------- | -------- | ----------- |
-| base             | asset symbol               | BTC     | ☑️       | Source asset for conversion. Examples: `BTC`, `ETH`, `EUR`, `XAU`. |
-| quote            | asset symbol               | USD     | ☑️       | Target asset used to calculate and display the converted value. |
-| amount           | number                     | 1       | ☑️       | Amount of the base asset to convert. |
-| decimal          | integer                    | 2       | ☑️       | Number of decimal places used for formatted output. |
-| decimal-places   | integer                    | 2       | ☑️       | Deprecated compatibility alias for `decimal`. Use `decimal` for new embeds. |
-| locale           | BCP 47 locale or `auto`    | auto    | ☑️       | Controls number formatting and currency display rules. Examples: `en`, `de-DE`, `uk-UA`. |
-| symbol           | boolean                    | false   | ☑️       | Displays the localized currency symbol when available. |
+| Attribute        | Type / Values              | Default | Reactive | Description                                                                                        |
+| ---------------- | -------------------------- | ------- | -------- | -------------------------------------------------------------------------------------------------- |
+| base             | asset symbol               | BTC     | ☑️       | Source asset for conversion. Examples: `BTC`, `ETH`, `EUR`, `XAU`.                                 |
+| quote            | asset symbol               | USD     | ☑️       | Target asset used to calculate and display the converted value.                                    |
+| amount           | number                     | 1       | ☑️       | Amount of the base asset to convert.                                                               |
+| decimal          | integer                    | 2       | ☑️       | Number of decimal places used for formatted output.                                                |
+| decimal-places   | integer                    | 2       | ☑️       | Deprecated compatibility alias for `decimal`. Use `decimal` for new embeds.                        |
+| locale           | BCP 47 locale or `auto`    | auto    | ☑️       | Controls number formatting and currency display rules. Examples: `en`, `de-DE`, `uk-UA`.           |
+| symbol           | boolean                    | false   | ☑️       | Displays the localized currency symbol when available.                                             |
 | stat             | boolean                    | false   | ☑️       | Shows supported 24h market movement data. Unsupported high, low or open values are not fabricated. |
-| indicator        | `high`, `low`, `open`      | -       | ☑️       | Selects a legacy stat indicator when the active provider can supply it. |
-| tax              | number                     | 0       | ☑️       | Applies an additional percentage adjustment to the quote value for fees, markup or tax scenarios. |
-| theme            | `auto`, `light`, `dark`    | auto    | ☑️       | Controls the visual theme. `auto` follows the visitor's preferred color scheme. |
-| rounded          | boolean                    | true    | ☑️       | Enables rounded widget corners. |
-| border           | boolean                    | true    | ☑️       | Controls the widget border. |
-| shadow           | boolean                    | false   | ☑️       | Adds a shadow around the widget container. |
-| background-color | CSS color                  | -       | ☑️       | Sets a custom background color. Examples: `#8E2DE2`, `rgb(20 20 20)`. |
-| background       | CSS background value       | -       | ☑️       | Sets a full CSS background, including gradients. Overrides simple color styling when provided. |
-| name             | string                     | -       | ☑️       | Optional display/integration label for site builders and generated embed flows. |
-| api-key          | string                     | -       | ☑️       | Optional key for legacy provider fallback paths. Standard v3 usage does not require it. |
-| apiKey           | JavaScript property string | -       | ☑️       | Property-based compatibility alias for integrations that set values from JavaScript. |
+| indicator        | `high`, `low`, `open`      | -       | ☑️       | Selects a legacy stat indicator when the active provider can supply it.                            |
+| tax              | number                     | 0       | ☑️       | Applies an additional percentage adjustment to the quote value for fees, markup or tax scenarios.  |
+| theme            | `auto`, `light`, `dark`    | auto    | ☑️       | Controls the visual theme. `auto` follows the visitor's preferred color scheme.                    |
+| rounded          | boolean                    | true    | ☑️       | Enables rounded widget corners.                                                                    |
+| border           | boolean                    | true    | ☑️       | Controls the widget border.                                                                        |
+| shadow           | boolean                    | false   | ☑️       | Adds a shadow around the widget container.                                                         |
+| background-color | CSS color                  | -       | ☑️       | Sets a custom background color. Examples: `#8E2DE2`, `rgb(20 20 20)`.                              |
+| background       | CSS background value       | -       | ☑️       | Sets a full CSS background, including gradients. Overrides simple color styling when provided.     |
+| name             | string                     | -       | ☑️       | Optional display/integration label for site builders and generated embed flows.                    |
+| api-key          | string                     | -       | ☑️       | Optional key for legacy provider fallback paths. Standard v3 usage does not require it.            |
+| apiKey           | JavaScript property string | -       | ☑️       | Property-based compatibility alias for integrations that set values from JavaScript.               |
 
 ---
 
