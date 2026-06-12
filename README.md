@@ -1,10 +1,11 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
 [![Latest version](https://img.shields.io/github/v/release/dejurin/crypto-converter-widget?label=Latest%20version)](https://github.com/dejurin/crypto-converter-widget/releases)
-[![License](https://img.shields.io/github/license/dejurin/crypto-converter-widget?label=License)](./LICENSE)
-[![Bundle size (gzip)](https://img.shields.io/badge/gzip%20bundle-70.57%20kB-0A66C2)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js)
-[![Assets](https://img.shields.io/badge/dynamic/json?label=assets%20total&query=%24.total&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdejurin%2Fcrypto-converter-widget%2Fmaster%2Fpublic%2Fassets-stats.json)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets-stats.json)
-[![Fiat](https://img.shields.io/badge/dynamic/json?label=fiat%20assets&query=%24.fiat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdejurin%2Fcrypto-converter-widget%2Fmaster%2Fpublic%2Fassets-stats.json)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets-stats.json)
+ [![License](https://img.shields.io/github/license/dejurin/crypto-converter-widget?label=License)](./LICENSE)
+ [![Bundle size (gzip)](https://img.shields.io/badge/gzip%20bundle-70.57%20kB-0A66C2)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js)
+ [![JS CDN](https://img.shields.io/badge/jsDelivr%20CDN-up-brightgreen?logo=jsdelivr&logoColor=white)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js)
+ [![Assets](https://img.shields.io/badge/dynamic/json?label=assets%20total&query=%24.total&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdejurin%2Fcrypto-converter-widget%2Fmaster%2Fpublic%2Fassets-stats.json)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets-stats.json)
+ [![Fiat](https://img.shields.io/badge/dynamic/json?label=fiat%20assets&query=%24.fiat&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdejurin%2Fcrypto-converter-widget%2Fmaster%2Fpublic%2Fassets-stats.json)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets-stats.json)
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/crypto-converter-widget?label=WordPress&logo=wordpress)](https://wordpress.org/plugins/crypto-converter-widget/)
 
