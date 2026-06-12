@@ -11,6 +11,7 @@ Output:
 
 from __future__ import annotations
 
+import gzip
 import json
 from collections import Counter
 from datetime import UTC, datetime
@@ -50,6 +51,8 @@ def build_stats(assets: list[dict[str, Any]]) -> dict[str, int | str]:
 
     tokens = counts["TOKEN"]
     blockchains = counts["BLOCKCHAIN"]
+    raw_payload = ASSETS_FILE.read_bytes()
+    minified_payload = json.dumps(assets, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
 
     return {
         "total": len(assets),
@@ -58,6 +61,9 @@ def build_stats(assets: list[dict[str, Any]]) -> dict[str, int | str]:
         "commodities": counts["COMMODITY"],
         "tokens": tokens,
         "blockchains": blockchains,
+        "rawSize": len(raw_payload),
+        "minifiedSize": len(minified_payload),
+        "gzipSize": len(gzip.compress(minified_payload)),
         "updatedAt": datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
     }
 
