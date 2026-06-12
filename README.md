@@ -1,7 +1,7 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.2.3;
-- Size: ≈67.98 kB gzip;
+- Latest version: 3.2.4;
+- Size: ≈68.83 kB gzip;
 - License: MIT
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
@@ -262,15 +262,21 @@ are not fabricated when a provider does not return them.
 
 ### Changelog ✳️
 
-#### [3.2.3] - 2026-06-12
+#### [3.2.4] - 2026-06-12
 
 ##### Changed
 
 - Added the v3 CDN asset manifest `public/assets_v3.json` with CoinLore metadata for crypto assets.
+- Published the verified `3.2.4` CDN bundle and refreshed `dist/latest.min.js`.
+- Kept the production asset manifest contract on `public/assets_v3.json` with `@latest`.
 - Kept `public/assets.json` as the legacy compatibility manifest.
 - Updated the widget runtime contract to use `co-w.io_ccw_assets_V3` with `schemaVersion: 3`.
 - Removed runtime dependency on CoinLore `/api/assets/`; the widget now reads the asset picker manifest from CDN.
-- Kept crypto pricing on CoinLore ticker polling every `5s` and fiat/commodity rates on MoneyConvert with `60s` cache.
+
+##### Verified
+
+- Confirmed live provider behavior: CoinLore crypto polling every `5s`, MoneyConvert fiat cache for `60s`, and Coinbase/OKX fallback paths.
+- Confirmed the production bundle does not include development-only provider smoke helpers.
 
 #### [3.2.2] - 2026-06-11
 
