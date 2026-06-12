@@ -1,7 +1,7 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.2.2;
-- Size: ≈68.5 kB gzip;
+- Latest version: 3.2.3;
+- Size: ≈67.98 kB gzip;
 - License: MIT
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
@@ -41,11 +41,11 @@ The **[Crypto Converter Widget](https://co-w.io)** is a lightweight JavaScript W
 - [x] 🛡️ Automatic fallback to Coinbase and OKX when the primary route is unavailable;
 - [x] ₿ Symbol-based configuration for `BTC`, `ETH`, `USD`, `EUR` and thousands of other assets;
 - [x] 💵 Supports crypto assets, fiat currencies, tokens, blockchains and commodities;
-- [x] 📚 Public asset manifest with ≈14k crypto symbols plus legacy fiat and commodity entries;
+- [x] 📚 CDN asset manifest with CoinLore IDs for crypto plus legacy fiat and commodity entries;
 - [x] 🎛️ Reactive settings for amount, base, quote, locale, tax, decimals, theme and display options;
 - [x] 🌈 Custom colors, CSS backgrounds and gradients for brand-friendly embeds;
 - [x] 🌗 Light, dark and auto themes;
-- [x] 🧠 Local caching for asset metadata and provider responses to reduce repeat requests;
+- [x] 🧠 Local asset metadata cache with live crypto polling and short-lived fiat rate cache;
 - [x] 💱 Works as a compact exchange-rate widget or an interactive currency converter;
 - [x] ☁️ Hosted on jsDelivr over HTTPS, with versioned and `latest` bundle paths;
 - [x] 🧾 SEO-friendly custom-element markup with no required build step;
@@ -164,27 +164,54 @@ asset ids.
 
 ### Layers
 
-The widget uses a layered data pipeline rather than a single hardcoded API. The
-public contract stays simple and symbol-based, while the widget resolves the
-best available internal asset metadata and then calculates a quote through the
-most reliable provider path available.
+The widget keeps the public API symbol-based: webmasters configure `BTC`,
+`ETH`, `USD`, `EUR`, `XAU` and similar symbols. Provider-specific metadata is
+resolved internally from the CDN asset manifest.
 
-Primary pricing is handled by a composite provider:
+#### Asset manifest
 
-- 🟠 CoinLore supplies crypto market data and USD values for crypto assets.
-- 🟢 MoneyConvert supplies fiat and commodity rates against USD.
+The v3 widget reads selectable assets from:
+
+```plaintext
+https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/public/assets_v3.json?v=YYYY-MM-DD
+```
+
+Runtime does not call CoinLore `/api/assets/`. The CDN manifest is the single
+source of truth for the asset picker and includes CoinLore `ID` metadata for
+crypto pricing. The legacy `public/assets.json` remains available for older
+builds, the website and WordPress integrations.
+
+Asset cache:
+
+- key: `co-w.io_ccw_assets_V3`
+- schemaVersion: `3`
+- validity: `24h`
+
+#### Pricing
+
+- 🟠 Crypto assets use CoinLore ticker: `https://api.coinlore.net/api/ticker/?id=...`
+- ⏱️ Crypto prices are polled every `5s` and are not cached between polling ticks.
+- 🟢 Fiat and commodity rates use MoneyConvert: `https://cdn.moneyconvert.net/api/latest.json`
+- 🧠 MoneyConvert rates are cached for `60s`; `USD` is treated as `1`.
 - 🧮 Pair conversion is calculated as `base USD value / quote USD value`.
 
-If the primary route cannot price a pair, the widget falls back to simple
-price providers that still work without requiring a key. Legacy API-key
-providers are kept out of the hot path and are only useful for explicitly
-configured fallback scenarios.
+#### Fallback order
 
-The widget displays only data that the active provider actually supplies. For
+1. CoinLore + MoneyConvert primary path.
+2. Coinbase fallback.
+3. OKX fallback.
+4. CoinDesk fallback only when an API key is provided.
+5. CryptoCompare fallback only when an API key is provided.
+
+CoinDesk and CryptoCompare are not part of the no-key hot path. The widget also
+ignores stale in-flight responses, so an older provider response cannot overwrite
+a newer selected pair.
+
+The UI displays only data that the active provider actually supplies. For
 example, 24h change can be shown when available, but high, low and open values
-are not invented when a provider does not return them.
+are not fabricated when a provider does not return them.
 
-#### How it works
+#### Runtime flow
 
 ```plaintext
 ┌──────────────────────────────────────────┐
@@ -200,17 +227,16 @@ are not invented when a provider does not return them.
                     ↓
 ┌──────────────────────────────────────────┐
 │ Resolve asset metadata                   │
-│ 1. Use current localStorage cache        │
-│ 2. Fetch CoinLore asset list             │
-│ 3. Merge public/assets.json for legacy   │
-│    fiat, commodity and fallback symbols  │
-│ 4. Deduplicate duplicate symbols by rank │
+│ 1. Use localStorage cache if schema = 3  │
+│ 2. Fetch public/assets_v3.json from CDN  │
+│ 3. Store manifest cache for 24h          │
+│ 4. Keep public API symbol-based          │
 └──────────────────────────────────────────┘
                     ↓
 ┌──────────────────────────────────────────┐
 │ Price pipeline                           │
 │ 1. CoinLore + MoneyConvert composite     │
-│    - crypto prices from CoinLore         │
+│    - crypto ticker by CoinLore ID        │
 │    - fiat/commodity rates from USD table │
 │    - pair = base USD / quote USD         │
 │ 2. Coinbase fallback                     │
@@ -235,6 +261,16 @@ are not invented when a provider does not return them.
 ---
 
 ### Changelog ✳️
+
+#### [3.2.3] - 2026-06-12
+
+##### Changed
+
+- Added the v3 CDN asset manifest `public/assets_v3.json` with CoinLore metadata for crypto assets.
+- Kept `public/assets.json` as the legacy compatibility manifest.
+- Updated the widget runtime contract to use `co-w.io_ccw_assets_V3` with `schemaVersion: 3`.
+- Removed runtime dependency on CoinLore `/api/assets/`; the widget now reads the asset picker manifest from CDN.
+- Kept crypto pricing on CoinLore ticker polling every `5s` and fiat/commodity rates on MoneyConvert with `60s` cache.
 
 #### [3.2.2] - 2026-06-11
 
