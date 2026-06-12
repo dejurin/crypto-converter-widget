@@ -30,16 +30,36 @@ jobs:
 
       - name: Generate public asset manifests
         run: |
-          python scripts/assets.py
-          python scripts/assets_v3.py
-          python scripts/assets_stats.py
+          set -euo pipefail
+          python3 scripts/assets_stats.py
           node scripts/generate-assets-manifests.mjs --coinlore public/assets_v3.json --legacy public/assets.json --out public
+          python3 - <<'PY'
+          import json
+
+          with open("public/assets_runtime_V3.json", "r", encoding="utf-8") as file:
+            runtime = json.load(file)
+          with open("public/assets_catalog_V3.json", "r", encoding="utf-8") as file:
+            catalog = json.load(file)
+
+          required = ["BTC", "ETH"]
+          for symbol in required:
+            if not any(item[0] == symbol for item in runtime["crypto"]):
+              raise SystemExit(f"Missing required crypto in runtime manifest: {symbol}")
+            if not any(item[0] == symbol for item in catalog["crypto"]):
+              raise SystemExit(f"Missing required crypto in catalog manifest: {symbol}")
+
+          for symbol in ["USD", "EUR", "UAH", "XAU", "XAG", "XPD", "XPT"]:
+            if not any(item[0] == symbol for item in runtime["money"]):
+              raise SystemExit(f"Missing required money in runtime manifest: {symbol}")
+            if not any(item[0] == symbol for item in catalog["money"]):
+              raise SystemExit(f"Missing required money in catalog manifest: {symbol}")
+          PY
 
       - name: Commit and push updated asset manifests
         run: |
           git config --global user.email "dejurin@users.noreply.github.com"
           git config --global user.name "dejurin"
-          git add public/assets.json public/assets_v3.json public/assets-stats.json public/assets_runtime_V3.json public/assets_catalog_V3.json
+          git add public/assets-stats.json public/assets_runtime_V3.json public/assets_catalog_V3.json
           if git diff --cached --quiet; then
             echo "public asset manifests are already up to date"
             exit 0
