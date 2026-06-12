@@ -1,7 +1,7 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.2.4;
-- Size: ≈68.83 kB gzip;
+- Latest version: 3.2.5;
+- Size: ≈69.39 kB gzip;
 - License: MIT
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
@@ -261,6 +261,22 @@ are not fabricated when a provider does not return them.
 ---
 
 ### Changelog ✳️
+
+#### [3.2.5] - 2026-06-12
+
+##### Fixed
+
+- Fixed asset picker loading when `localStorage` cache writes fail, including Safari/private-storage style failures.
+- Made asset manifest cache writes best-effort while keeping fetched assets in widget state.
+- Fixed mobile asset dropdown width so it aligns with the two select controls without horizontal overflow.
+- Fixed mobile touch scrolling inside the asset list so scrolling no longer selects an option.
+
+##### Verified
+
+- Confirmed the production asset manifest contract remains `public/assets_v3.json` via `@latest`.
+- Confirmed runtime assets still come from the CDN manifest, not CoinLore `/api/assets/`.
+- Confirmed crypto pricing still polls every `5s`, MoneyConvert fiat rates use a `60s` cache, and Coinbase/OKX fallback paths remain available.
+- Confirmed public attributes remain symbol-based and backward compatible.
 
 #### [3.2.4] - 2026-06-12
 
