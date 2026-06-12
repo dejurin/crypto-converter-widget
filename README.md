@@ -1,6 +1,5 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-[![Latest release](https://img.shields.io/github/v/release/dejurin/crypto-converter-widget?label=Latest%20release)](https://github.com/dejurin/crypto-converter-widget/releases)
 [![License](https://img.shields.io/github/license/dejurin/crypto-converter-widget?label=License)](./LICENSE)
 [![Bundle size (gzip)](https://img.shields.io/badge/gzip%20bundle-70.57%20kB-0A66C2)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js)
 [![JS CDN](https://img.shields.io/badge/jsDelivr%20CDN-up-brightgreen?logo=jsdelivr&logoColor=white)](https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js)
