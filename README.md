@@ -263,6 +263,18 @@ are not fabricated when a provider does not return them.
 
 ### Changelog ✳️
 
+#### [3.3.1] - 2026-06-12
+
+##### Changed
+
+- Added the `3.3.1` runtime bundle and synced `dist/3.3.1.min.js`/`dist/latest.min.js` artifacts.
+- Refreshed `public/assets-stats.json` after regenerated manifests for the next release.
+
+##### Verified
+
+- Verified artifact checksums and file sizes against source build output.
+- Verified CDN asset contracts and generated manifest artifacts are present in `public/` for release consumption.
+
 #### [3.3.0] - 2026-06-12
 
 ##### Changed
