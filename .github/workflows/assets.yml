@@ -23,17 +23,19 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate public asset manifest
-        run: python scripts/assets.py
+      - name: Generate public asset manifests
+        run: |
+          python scripts/assets.py
+          python scripts/assets_v3.py
 
-      - name: Commit and push updated assets.json
+      - name: Commit and push updated asset manifests
         run: |
           git config --global user.email "dejurin@users.noreply.github.com"
           git config --global user.name "dejurin"
-          git add public/assets.json
+          git add public/assets.json public/assets_v3.json
           if git diff --cached --quiet; then
-            echo "public/assets.json is already up to date"
+            echo "public asset manifests are already up to date"
             exit 0
           fi
-          git commit -m "Update assets.json"
+          git commit -m "Update asset manifests"
           git push
