@@ -1,7 +1,7 @@
 <h1 align="center">Crypto Converter ⚡ Widget 📟</h1>
 
-- Latest version: 3.2.5;
-- Size: ≈69.39 kB gzip;
+- Latest version: 3.3.0;
+- Size: ≈70.6 kB gzip;
 - License: MIT
 
 > ❗ As of April 1, the widget stopped working due to the closure of the api we used for 5 years.
