@@ -262,17 +262,18 @@ are not fabricated when a provider does not return them.
 
 ### Changelog ✳️
 
-#### [3.3.3] - 2026-08-19
+#### [3.3.4] - 2026-08-19
 
 ##### Changed
 
-- Added WordPress 7.1 block editor compatibility improvements.
+- Updated the standalone widget bundle to version 3.3.4.
 - Synchronized the standalone widget version with the WordPress plugin release.
+- Improved WordPress 7.1 block editor compatibility.
 
 ##### Verified
 
-- Standalone runtime bundle remains unchanged from 3.3.2.
-- Verified WordPress compatibility on WordPress 7.1 RC4.
+- Tested with WordPress 7.1 RC4.
+- `dist/3.3.4.min.js` and `dist/latest.min.js` use the 3.3.4 runtime.
 
 #### [3.3.1] - 2026-06-12
 
