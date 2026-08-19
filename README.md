@@ -262,6 +262,18 @@ are not fabricated when a provider does not return them.
 
 ### Changelog ✳️
 
+#### [3.3.3] - 2026-08-19
+
+##### Changed
+
+- Added WordPress 7.1 block editor compatibility improvements.
+- Synchronized the standalone widget version with the WordPress plugin release.
+
+##### Verified
+
+- Standalone runtime bundle remains unchanged from 3.3.2.
+- Verified WordPress compatibility on WordPress 7.1 RC4.
+
 #### [3.3.1] - 2026-06-12
 
 ##### Changed
